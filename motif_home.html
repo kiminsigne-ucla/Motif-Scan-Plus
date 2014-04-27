@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	<meta charset="utf-8">
+		<title>Motif Scan Plus</title>
+		<link rel="stylesheet" type="text/css" href="./bootstrap/css/cerulean.css">
+    
+        <script type="text/javascript">
+            window.onload = function() {
+
+                // $('#dna_motif').hide()
+                // $('#protein_motif').hide()
+                $('#motif_options').hide()
+
+                var knownMotif = document.getElementById('known_motif')
+                var denovo = document.getElementById('de_novo')
+                var dna = document.getElementById('dna');
+                var protein = document.getElementById('protein');
+
+                knownMotif.onclick = known_handler;
+                denovo.onclick = denovo_handler;
+                dna.onclick = knownMotifOptions;
+                protein.onclick = knownMotifOptions;
+
+            }
+
+            function known_handler() {
+                if($(this).attr('id') == 'known_motif') {
+                    $('#motif_options').show();
+                }
+            }
+
+            function denovo_handler() {
+                if($(this).attr('id') == 'de_novo') {
+                    $('#motif_options').hide();
+                }
+            }
+
+            function knownMotifOptions() {
+                if($(this).attr('id') == 'dna') {
+                    $('#dna_motif').show();
+                }
+                else {
+                    $('#dna_motif').hide();
+                }
+                if($(this).attr('id') == 'protein') {
+                    $('#protein_motif').show();
+                }
+                else {
+                    $('#protein_motif').hide();
+                }
+
+
+            }
+
+        </script>
+    </head>
+
+    <body>
+
+    	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    	<script src="./bootstrap/js/bootstrap.js"></script>
+
+    	<div class="container">
+
+    		<h3><i><img src="http://i59.tinypic.com/2e53wd0.jpg" 
+    			width="200", height="100">
+    			&nbsp; &nbsp; &nbsp;
+    			Your one stop for motif analysis!</i></a></h3>
+			
+			<hr>
+
+			<form class="form-horizontal" action="process_form.py" method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend>How would you like to get started?</legend>
+					<div class="form-group">
+						<h4>Step 1. Submit sequences</h4>
+                        <div id="sequences">
+                            <textarea name="seq" cols="90" rows="10" placeholder="Enter UniProtKB accessions or identifiers or PDB identifiers or sequences in FASTA format (DNA or protein)" autofocus required></textarea>
+                            <br />
+                            Supported input:
+                            <ul>
+                            <li><a href="http://www.uniprot.org/" target="_blank">UniProtKB</a> accessions e.g. <span class="example">P98073</span> or identifiers e.g. <span class="example">ENTK_HUMAN</span></li>
+                            <li><a href="http://www.rcsb.org/pdb/home/home.do" target="_blank">PDB</a> identifiers e.g. <span class="example">4DGJ</span></li>
+                            <li>Sequences in <a href="http://en.wikipedia.org/wiki/FASTA_format" target="_blank">FASTA format</a> (DNA or protein)</li>
+                            </ul>
+                            <br />
+                        </div>
+                    </div>
+			
+						
+					<div class="form-group">
+      					<h4>OR Search against a database</h4>
+      					<div class="col-lg-10">
+        					<div class="radio">
+        						<label>
+        							<input type="radio" name="database" id="uniprot" value="uniprot" checked="">
+        							UniProtKB
+        						</label>
+        						<span id="uniprot_options">
+        							<br>
+        							&nbsp; &nbsp; &nbsp;
+        							<input type="checkbox" name="db" value="sp" checked/>
+        							Swiss-Prot
+        							<input type="checkbox" name="varsplic" checked />
+        							Include splice variants
+        							<br>
+        							&nbsp; &nbsp; &nbsp;
+        							<input type="checkbox" name="db" value="tr" />
+        							TrEMBL
+        						</span>
+        						<br>
+        						<label>
+        							<input type="radio" name="database" id="pdb" value="pdb">
+        							PDB
+        						</label>
+        			        </div>
+                        </div>
+                    </div>
+        			<br>
+        			<div class="form-group">
+        				<h4>Step 2. Search for?</h4>
+      					<div class="col-lg-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="search_type" id="known_motif" value="known_motif">
+                                    Known motifs
+                                </label>
+                                    <div id="motif_options" class="radio">
+                                        <label>DNA<input type="radio" id="dna" name="seq_type" value="dna"></label>
+                                
+                                        <br>
+
+                                        <div id="dna_motif">
+                                            Your motif file:<input class="maininput" name="motif_file" type="file" /><br />
+                                            <a href="http://meme.nbcr.net/meme/examples/sample-dna-motif.meme-io"><b>Sample</b></a> DNA minimal motif format file.<br />
+                                        </div>
+                                        <br>
+
+                                        <label>protein<input type="radio" id="protein" name="seq_type" value="protein"></label>
+                                        
+                                        <br>
+                                        <div id="protein_motif">
+                                            <span id="protein_motif_entry">
+                                                <textarea name="sig" cols="90" rows="3" placeholder="Enter a PROSITE accession or identifier or your own pattern or a combination" autofocus required></textarea>
+                                                <br />
+                                                Supported input:
+                                                <ul>
+                                                    <li>A PROSITE accession e.g. <span class="example">PS50240</span> or identifier e.g. <span class="example">TRYPSIN_DOM</span></li>
+                                                    <li>Your own pattern e.g. <span class="example">P-x(2)-G-E-S-G(2)-[AS]</span></li>
+                                                </u1>
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
+        					<div class="radio">
+        						<label>
+        							<input type="radio" name="search_type" id="de_novo" value="de_novo">
+        							<i>de novo</i> motifs
+        						</label>
+        					</div>
+                        </div>
+                    </div>
+        			<br>
+        			<div class="form-group">
+        				<h4>Step 3. Further analysis</h4>
+      					<div class="col-lg-10">
+        					<div class="radio">
+        						<label>
+        							<input type="checkbox" name="analysis_options" id="analysis_options" value="go">
+        							GO terms
+        						</label>
+        					</div>
+        					<div class="radio">
+        						<label>
+        							<input type="checkbox" name="analysis_options" id="analysis_options" value="kegg">
+        							KEGG pathways
+        						</label>
+        					</div>
+        					<div class="radio">
+        						<label>
+        							<input type="checkbox" name="analysis_options" id="analysis_options" value="biocarta">
+        							BioCarta pathways
+        						</label>
+        					</div>
+        					<div class="radio">
+        						<label>
+        							<input type="checkbox" name="analysis_options" id="analysis_options" value="omim">
+        							OMIM disease associations
+        						</label>
+        					</div>
+        					<div class="radio">
+        						<label>
+        							<input type="checkbox" name="analysis_options" id="analysis_options" value="meth">
+        							DNA methylation
+        						</label>
+        					</div>
+                        </div>
+                    </div>
+
+        			<br>
+
+        			<div class="form-group">
+      					<div class="col-lg-10 col-lg-offset-2">
+        					<button class="btn btn-default">Cancel</button>
+        					<button type="submit" class="btn btn-primary">Start the scan!</button>
+     					 </div>
+   					</div>
+
+        		</fieldset>
+        	</form>
+
+
+
+
+
+
+
+
+
+		
+
+
+    </body>
+</html>
