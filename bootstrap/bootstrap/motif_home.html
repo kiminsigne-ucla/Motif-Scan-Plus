@@ -5,6 +5,56 @@
     	<meta charset="utf-8">
 		<title>Motif Scan Plus</title>
 		<link rel="stylesheet" type="text/css" href="css/cerulean.css">
+    
+        <script type="text/javascript">
+            window.onload = function() {
+
+                // $('#dna_motif').hide()
+                // $('#protein_motif').hide()
+                $('#motif_options').hide()
+
+                var knownMotif = document.getElementById('known_motif')
+                var denovo = document.getElementById('de_novo')
+                var dna = document.getElementById('dna');
+                var protein = document.getElementById('protein');
+
+                knownMotif.onclick = known_handler;
+                denovo.onclick = denovo_handler;
+                dna.onclick = knownMotifOptions;
+                protein.onclick = knownMotifOptions;
+
+            }
+
+            function known_handler() {
+                if($(this).attr('id') == 'known_motif') {
+                    $('#motif_options').show();
+                }
+            }
+
+            function denovo_handler() {
+                if($(this).attr('id') == 'de_novo') {
+                    $('#motif_options').hide();
+                }
+            }
+
+            function knownMotifOptions() {
+                if($(this).attr('id') == 'dna') {
+                    $('#dna_motif').show();
+                }
+                else {
+                    $('#dna_motif').hide();
+                }
+                if($(this).attr('id') == 'protein') {
+                    $('#protein_motif').show();
+                }
+                else {
+                    $('#protein_motif').hide();
+                }
+
+
+            }
+
+        </script>
     </head>
 
     <body>
@@ -23,28 +73,25 @@
 
 			<form class="form-horizontal" action="process_form.py" method="post" enctype="multipart/form-data">
 				<fieldset>
-					<legend>How would you liked to get started?</legend>
+					<legend>How would you like to get started?</legend>
 					<div class="form-group">
-						<label class="col-lg-2 control-label">Submit sequences</label>
-						<div class="col-lg-10">
-							<div class="radio">
-								<label>
-									<input type="radio" name="sequenceType" id="dna" value="dna" checked="">
-									DNA
-								</label>
-							</div>
-							<div class="radio">
-								<label>
-									<input type="radio" name="sequenceType" id="protein" value="protein">
-									protein
-								</label>
-							</div>
-							<br>
-							<input type="file" name="sequences" size="40">
-						</div>
-					</div> 
+						<h4>Step 1. Submit sequences</h4>
+                        <div id="sequences">
+                            <textarea name="seq" cols="90" rows="10" placeholder="Enter UniProtKB accessions or identifiers or PDB identifiers or sequences in FASTA format (DNA or protein)" autofocus required></textarea>
+                            <br />
+                            Supported input:
+                            <ul>
+                            <li><a href="http://www.uniprot.org/" target="_blank">UniProtKB</a> accessions e.g. <span class="example">P98073</span> or identifiers e.g. <span class="example">ENTK_HUMAN</span></li>
+                            <li><a href="http://www.rcsb.org/pdb/home/home.do" target="_blank">PDB</a> identifiers e.g. <span class="example">4DGJ</span></li>
+                            <li>Sequences in <a href="http://en.wikipedia.org/wiki/FASTA_format" target="_blank">FASTA format</a> (DNA or protein)</li>
+                            </ul>
+                            <br />
+                        </div>
+                    </div>
+			
+						
 					<div class="form-group">
-      					<label class="col-lg-2 control-label">Search against a database</label>
+      					<h4>OR Search against a database</h4>
       					<div class="col-lg-10">
         					<div class="radio">
         						<label>
@@ -68,28 +115,56 @@
         							<input type="radio" name="database" id="pdb" value="pdb">
         							PDB
         						</label>
-        			     </div>
+        			        </div>
+                        </div>
                     </div>
         			<br>
         			<div class="form-group">
-        				<label class="col-lg-2 control-label">Search for?</label>
+        				<h4>Step 2. Search for?</h4>
       					<div class="col-lg-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="search_type" id="known_motif" value="known_motif">
+                                    Known motifs
+                                </label>
+                                    <div id="motif_options" class="radio">
+                                        <label>DNA<input type="radio" id="dna" name="seq_type" value="dna"></label>
+                                
+                                        <br>
+
+                                        <div id="dna_motif">
+                                            Your motif file:<input class="maininput" name="motif_file" type="file" /><br />
+                                            <a href="http://meme.nbcr.net/meme/examples/sample-dna-motif.meme-io"><b>Sample</b></a> DNA minimal motif format file.<br />
+                                        </div>
+                                        <br>
+
+                                        <label>protein<input type="radio" id="protein" name="seq_type" value="protein"></label>
+                                        
+                                        <br>
+                                        <div id="protein_motif">
+                                            <span id="protein_motif_entry">
+                                                <textarea name="sig" cols="90" rows="3" placeholder="Enter a PROSITE accession or identifier or your own pattern or a combination" autofocus required></textarea>
+                                                <br />
+                                                Supported input:
+                                                <ul>
+                                                    <li>A PROSITE accession e.g. <span class="example">PS50240</span> or identifier e.g. <span class="example">TRYPSIN_DOM</span></li>
+                                                    <li>Your own pattern e.g. <span class="example">P-x(2)-G-E-S-G(2)-[AS]</span></li>
+                                                </u1>
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
         					<div class="radio">
         						<label>
-        							<input type="radio" name="search_type" id="search_type" value="known_motif" checked="">
-        							Known motifs
-        						</label>
-        					</div>
-        					<div class="radio">
-        						<label>
-        							<input type="radio" name="search_type" id="search_type" value="de_novo">
+        							<input type="radio" name="search_type" id="de_novo" value="de_novo">
         							<i>de novo</i> motifs
         						</label>
         					</div>
+                        </div>
                     </div>
         			<br>
         			<div class="form-group">
-        				<label for="select" class="col-lg-2 control-label">Further analysis</label>
+        				<h4>Step 3. Further analysis</h4>
       					<div class="col-lg-10">
         					<div class="radio">
         						<label>
@@ -123,13 +198,16 @@
         					</div>
                         </div>
                     </div>
+
         			<br>
+
         			<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
         					<button class="btn btn-default">Cancel</button>
-        					<button type="submit" class="btn btn-primary">Analyze!</button>
+        					<button type="submit" class="btn btn-primary">Start the scan!</button>
      					 </div>
    					</div>
+
         		</fieldset>
         	</form>
 
