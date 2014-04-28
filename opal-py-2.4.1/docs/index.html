@@ -1,0 +1,378 @@
+<html>
+<head>
+<title>Python Opal Web Service Client</title>
+<link href="./rocks.css" rel="stylesheet" type="text/css"/>
+</head>
+<!-- <body text="black" link="darkblue" vlink="black" link="black" -->
+<!-- bgcolor="white"> -->
+<body>
+<h1>Python Opal Web Service Client: Version 2.4</h1>
+
+<hr/>
+
+<h2>1. Overview</h2>
+
+<p>This distribution contains the WSDL for the Opal Web service toolkit,
+and a generic Python client that can call any Opal2 service that is already
+deployed. If you would like to install your own Opal services, you should
+follow the documentation for the server-side installation of Opal <a
+href="http://nbcr.net/software/opal/documentation.html">here</a>.
+
+<h2>2. Prerequisites</h2>
+
+<p>The Python client should work on both Unix and Windows platforms as long
+as you have the following packages installed.
+
+<ol TYPE="1">
+   <li><p>Python 2.3 or higher: Download and install Python from <a
+   href="http://www.python.org/">http://www.python.org/</a>, if you don't
+   have a Python installation on your local machine. Add the Python bin
+   directory to your environment variable PATH.</li>   
+</ol>
+
+<h2>3. Installation</h2>
+
+<ol TYPE="1">
+<li><p>Download the Python source distribution for installation from <a
+href="http://sourceforge.net/project/showfiles.php?group_id=211778">here</a>,
+if you don't have the appropriate version already.
+
+<p>Expand the tarball that you have downloaded using the GNU tar utility,
+as follows:</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+    tar zxvf opal-py-$VERSION.tar.gz</pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>This should create a new directory called opal-py-$VERSION/ where all
+the sources are expanded. Henceforth, we will call this directory
+<i>OPAL_PY_HOME</i>. 
+</li>
+
+<li><p>For your convenience, we are including ZSI version 2.1_a2 as part of
+   this distribution. ZSI is a SOAP and Web services toolkit for Python.
+   The ZSI version included with this distribution can also be obtained
+   from the SourceForge SVN using <i>svn co --revision 1490
+   https://pywebsvcs.svn.sourceforge.net/svnroot/pywebsvcs/trunk/zsi</i>.
+   To use the Opal clients, you only need the <i>egg</i> version of the ZSI
+   installation from the <i>prereqs</i> directory. However, if you need a
+   full installation of ZSI (which is useful for features such as code
+   regeneration from WSDL), you may install it from the tarball provided in
+   the same directory.
+
+   <p>To access the client-side functionality of ZSI, you may simply add
+   the ZSI-2.1_a2-py2.6.egg file to your PYTHONPATH. If you are using a
+   bash shell on Unix, you can execute:</p>
+
+    <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+    <TR><TD><FONT COLOR="#000000">
+    <pre class="SCREEN">
+    export PYTHONPATH=$OPAL_PY_HOME/prereqs/ZSI-2.1_a2-py2.6.egg:$PYTHONPATH</pre>
+    </FONT></TD></TR>
+    </TABLE>
+
+    <p>If you are using a tcsh shell, you can execute:</p>
+
+    <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+    <TR><TD><FONT COLOR="#000000">
+    <pre class="SCREEN">
+    setenv PYTHONPATH $OPAL_PY_HOME/prereqs/ZSI-2.1_a2-py2.6.egg:${PYTHONPATH}</pre>
+    </FONT></TD></TR>
+    </TABLE>
+
+    <p><b>OPTIONAL</b>: If you wish to install the full version of ZSI, you would
+    need to use a sudo or root shell on Unix. Expand the
+    prereqs/zsi-2.1_a2.tar.gz tarball, change to the directory that is
+    extracted from it, and execute the following command:</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+   python setup.py install</pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+   <p>Note the location where the ZSI package is installed. In particular,
+   note the location of the <i>wsdl2py</i> script that we may need to use
+   in the future for code generation. Typically, the packages are installed
+   inside the Python installation. On Windows, wsdl2py typically resides
+   inside $PYTHON_HOME/scripts, where PYTHON_HOME represents the location
+   of the Python installation. On Unix, it is usually inside
+   $PYTHON_HOME/bin.
+
+   <p><i>Opal will not work with any other version of ZSI. Please ensure
+   that you are using the versions shipped with this installation of Opal.</i>
+</li>
+
+<li><p><b>OPTIONAL</b>: If you wish to regenerate the client-side stubs, you can
+do so by using the Opal WSDL. However, you must have a full ZSI
+installation done manually as described above. Most users can use the
+pre-shipped stubs, and skip this step.
+
+<p>To generate the stubs from the WSDL file, run the following command inside
+	 the $OPAL_PY_HOME directory:</p>
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000"
+   <pre class="SCREEN">
+    $WSDL2PY_HOME/wsdl2py wsdl/opal.wsdl</pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>This generates two relevant files - AppService_client.py and
+AppService_types.py. The former contains the stubs required to
+communicate with the remote Web service, while the latter contains the
+types defined in the WSDL for the service.
+</li>
+</ol>
+
+<h2>4. Running the Generic Client</h2>
+
+<p>A generic Opal client is implemented by
+$OPAL_PY_HOME/GenericServiceClient.py. It allows the user to launch Opal
+jobs, query status and retrieve job outputs.<P>
+
+To get the complete usage of the generic Opal client, you can execute:
+
+    <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+    <TR><TD><FONT COLOR="#000000">
+    <pre class="SCREEN">
+      python GenericServiceClient.py</pre>
+    </FONT></TD></TR>
+    </TABLE>
+
+<P>The Opal python client supports the following arguments:<P>
+
+<TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+<TR>
+  <TD><tt>-l &lt;url&gt;</tt></TD>
+  <TD>service url</TD>
+</TR>
+<TR>
+  <TD><tt>-a &lt;args&gt;</tt></TD>
+  <TD>command line arguments</TD>
+</TR>
+<TR>
+  <TD><tt>-b/-f &lt;attch1,attch2,..&gt;</tt></TD>
+  <TD>local input files as binary attachments</TD>
+</TR>
+<TR>
+  <TD><tt>-j &lt;job_id&gt;</tt></TD>
+  <TD>job ID</TD>
+</TR>
+<TR>
+  <TD><tt>-n &lt;num_procs&gt;</tt></TD>
+  <TD>number of processors (parallel jobs only)</TD>
+</TR>
+<TR>
+  <TD><tt>-r &lt;operation&gt;</tt></TD>
+  <TD>remote operation to invoke: [getAppMetadata|launchJob|queryStatus|getOutputs]</TD>
+</TR>
+<TR>
+  <TD><tt>-u &lt;url1,url2,..&gt;</tt></TD>
+  <TD>input file urls</TD>
+</TR> 
+</TABLE>
+
+<P>
+For example, to launch the remote PDB2PQR Opal Serivce on 
+<A HREF="http://ws.nbcr.net">http://ws.nbcr.net</A>, you may use the 
+following command (assuming you have the input file
+<A HREF="http://www.nbcr.net/ws_help/PDB2PQR/sample_inputs/1hpx.pdb"><tt>1hpx.pdb</tt></A> in your directory):<P>
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+   python GenericServiceClient.py -l http://ws.nbcr.net/opal2/services/Pdb2pqrOpalService \
+   -r launchJob -a "--ff=amber 1hpx.pdb output.pqr" -f 1hpx.pdb </pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<P>
+The above command will
+return a <tt>jobID</tt> that can be later used to query status and 
+retrieve locations of the output files.  Alternatively, the service
+can also be invoked in a <em>blocking</em> fashion with 
+<tt>-r launchJobBlocking</tt>, where the client
+blocks until the remote execution is complete, and the outputs are
+returned as a response to the same invocation.
+<P>
+
+<h2>5. Developers Guide</h2>
+
+<p>To use Opal with the python libraries you have to make sure that the ZSI
+is installed properly (as indicated above) and the stubs and the client
+(AppService_client.py AppService_types.py and OpalClient.py) are in your Python path. In this
+section we provide some code snippets showing the main steps for invoking an
+Opal service. The <i>url</i> should point to the
+Opal application you want to invoke. argList is the command line as you would like to to invoke 
+your application and inputFile is a list of string containing the relative path to the local file
+you want to upload. If you get an error regarding 
+importing "AppService_client" then it is probably because the Python interpreter 
+can not find the stubs and the client (AppService_client.py and AppService_types.py).</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+import OpalClient
+
+# Service URL
+apbsURL = "http://kryptonite.nbcr.net/opal2/services/apbs_1.3"
+client = OpalClient.OpalService(apbsURL)
+
+# command-line arguments
+argList = "apbs.in"
+inputFile = ["etc/apbs.in", "etc/ion.xml"]
+
+print "Launching remote Apbs job"
+jobStatus = client.launchJobNB(argList, inputFile) </pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>Once you get the pointer to the jobStatus you should pool the server 
+to check the exectution of your job with the following code.</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+while jobStatus.isRunning() :
+    time.sleep(3)
+    print "Polling job status"
+    jobStatus.updateStatus()
+
+if jobStatus.isSuccessful():
+    print "Job execution finished sucessfully."
+else:
+    print "Job execution failed."
+    print "Check the stdout.txt and the stderr.txt for errors...." </pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>Finally you can read the <a href="OpalClient.html">pydoc</a> to see a full description of the APIs.</p>
+
+
+<h3>5.2 Old Opal Python Client</h3>
+
+<p>If you still want to use the old Opal Python Client, which access directly 
+python classes produced by the stubs you can read this section to see some 
+example of coding.</p>
+
+<p>First it is necessary to retrieve a reference to an
+AppServicePort type, as shown below. The <i>url</i> should point to the
+Opal application you want to invoke and you shold make sure you have the 
+stubs in your Python path (AppService_client.py and AppService_types.py).</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+import AppService_client
+from AppService_types import ns0
+
+appLocator = AppService_client.AppServiceLocator()
+appServicePort = appLocator.getAppServicePort(url)</pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>The second step to launch a job via Opal is to create the request message 
+as follows.</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+#creating the input request
+req = AppService_client.launchJobRequest()
+req._argList = "put the command line here"
+req._numProcs = numberOfProcessors
+
+#loading two files
+# first file
+inputFile1 = ns0.InputFileType_Def(&#8217;inputFile&#8217;)
+inputFile1._name = "fileName1"
+inputFile1._attachment = open("/some/path/fileName1", "r")
+#second file
+inputFile2 = ns0.InputFileType_Def(&#8217;inputFile&#8217;)
+inputFile2._name = "fileName2"
+inputFile1._attachment = open("/some/path/fileName2", "r")
+inputFiles = [inputFile1, inputFile2]
+req._inputFile = inputFile</pre>
+   </FONT></TD></TR>
+   </TABLE>
+
+<p>Finally the client can invoke the remote application and wait for it's
+termination. In this example, we present a polling approach to determine
+when the execution of the application is finished. Alternatively, t is also
+possible to use the <i>req.launchJobBlocking(req)</i> which blocks until
+the end of the application.
+</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+#launch a remote job
+resp = appServicePort.launchJob(req)
+jobID = resp._jobID
+code = resp._status._code
+
+#wait till error (code 4) or completion (code 8)
+while(code!=4 and code!=8):
+    #sleep or wait
+    code = appServicePort.queryStatus(AppService_client.queryStatusRequest(jobID))._code
+
+#check job status for successful execution
+if(status==8):
+    #Job completed successfully
+        resp = appServicePort.getOutputs(AppService_client.getOutputsRequest(jobID))
+	#resp._stdOut  contains URL to stdout
+	#resp._stdErr  contains URL to stderr 
+	#resp._outputFile   contains a list of URL with all the other output
+else:
+    #Job died or something else went wrong</pre>
+   </FONT></TD></TR>
+   </TABLE>
+</p>
+
+<h3>5.3 Security</h3>
+
+<p>The new OpalClient does not support yet security. So if you want to 
+use GSI you must use the old interface. The following
+snippet of code shows how to access a secure Opal
+service from Python.</p>
+
+   <TABLE BORDER="0" BGCOLOR="#E0E0E0" WIDTH="100%">
+   <TR><TD><FONT COLOR="#000000">
+   <pre class="SCREEN">
+# set the locations for the X509 certificate and key
+cert = "location of X509 certificate"
+key = "location of unencrypted private key"
+...
+    # example of ssl invocation
+    appServicePort = appLocator.getAppServicePortType(
+        baseURL + "opal/services/Pdb2pqrServicePort",
+        ssl=1,
+        transdict=dict(cert_file=cert, key_file=key),
+        transport=httplib.HTTPSConnection)
+...</pre>
+  </FONT></TD></TR>
+  </TABLE>
+
+<p>Note that if you are using proxy certificates, they have to be RFC 3820
+compliant. This can be done by creating a Grid proxy using
+<tt>grid-proxy-init -rfc</tt> (only works for Globus Toolkit 4.0.x). This
+has only been tested with OpenSSL version 0.9.7g, and may not work with
+older versions.
+
+<h2>6. Related Links</h2>
+
+<UL>
+<LI><P>More examples of client usage can be found at: <A HREF="http://nbcr.sdsc.edu/pub/wiki/index.php?title=Opal_Client">NBCR Opal Client Wiki</A>
+</UL>
+
+<h2>7. Feedback</h2>
+
+<p>Please use the Opal Toolkit <a
+href="http://sourceforge.net/tracker/?group_id=211778">Tracker</a> on
+Sourceforge to report bugs and feature requests.
+<hr/>
+</body>
+</html>
