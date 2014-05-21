@@ -22,9 +22,7 @@
 			<hr>
 		</div>
 
-		<form enctype="multipart/form-data" method="post" action="/scan/">
-
-
+		<form enctype="multipart/form-data" method="post" action="/scan/">{% csrf_token %}
 
 			<div class="form-group">
 				<div class="col-lg-10 col-lg-offset-2">
