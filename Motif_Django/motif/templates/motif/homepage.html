@@ -5,8 +5,8 @@
     	<meta charset="utf-8">
 		<title>Motif Scan Plus</title>
 		<link rel="stylesheet" type="text/css" href="./bootstrap/css/cerulean.css">
-
-		<script type="text/javascript">
+    
+        <script type="text/javascript">
             window.onload = function() {
 
                 $('#dna_motif').hide()
@@ -55,9 +55,9 @@
             }
 
         </script>
-	</head>
+    </head>
 
-	<body>
+    <body>
 
     	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     	<script src="./bootstrap/js/bootstrap.js"></script>
@@ -70,11 +70,9 @@
     			Your one stop for motif analysis!</i></a></h3>
 			
 			<hr>
-		</div>
 
-		<form enctype="multipart/form-data" method="post" action="/scan/">
-			{% crsf_token %}
-			<fieldset>
+			<form class="form-horizontal" action="/scan/" method="post" enctype="multipart/form-data">
+				<fieldset>
 					<legend>How would you like to get started?</legend>
 					<div class="form-group">
 						<h4>Step 1. Submit sequences</h4>
@@ -204,13 +202,25 @@
         			<br>
 
         			<div class="form-group">
-						<div class="col-lg-10 col-lg-offset-2">
-						<button class="btn btn-default">Reset</button>
-						<button type="submit" class="btn btn-primary">Start the scan!</button>
-					</div>
-			</div>
+      					<div class="col-lg-10 col-lg-offset-2">
+        					<button class="btn btn-default">Cancel</button>
+        					<button type="submit" class="btn btn-primary">Start the scan!</button>
+     					 </div>
+   					</div>
 
-		</form>
+        		</fieldset>
+        	</form>
 
-	</body>
+
+
+
+
+
+
+
+
+		
+
+
+    </body>
 </html>
