@@ -63,6 +63,9 @@ DATABASES = {
     }
 }
 
+MEDIA_ROOT = '../file_uploads/'
+MEDIA_URL = '/files/'
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
