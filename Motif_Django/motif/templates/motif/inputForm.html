@@ -1,0 +1,78 @@
+<html>
+    <head>
+    	<meta charset="utf-8">
+		<title>Motif Scan Plus</title>
+		<link rel="stylesheet" type="text/css" href="./bootstrap/css/cerulean.css">
+
+		<script type="text/javascript">
+            window.onload = function() {
+
+            	$('#motifOptions').hide()
+
+            	var motifType = document.getElementById('id_motifType')
+                // var dna = document.getElementById('dnaMotifUpload');
+                // var protein = document.getElementById('proteinMotifUpload');
+
+         		motifType.onclick = expandOptions
+
+         		function expandOptions() {
+         			if(form.motifType.value == 'known motif') {
+                    $('#motif_options').show();
+                }
+
+         	}
+
+
+        </script>
+    </head>
+
+     <body>
+      	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    	<script src="./bootstrap/js/bootstrap.js"></script>
+
+    	<div class="container">
+
+    		<h3><i><img src="http://i59.tinypic.com/2e53wd0.jpg" 
+    			width="200", height="100">
+    			&nbsp; &nbsp; &nbsp;
+    			Your one stop for motif analysis!</i></a></h3>
+			
+			<hr>
+
+			<form class="form-horizontal" action="/scan/" method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				<!-- {{ form.as_p}} -->
+				<h4>Step 1. Please upload your sequence in FASTA format. Protein or DNA accepted</h4>
+				<div class="fieldWrapper">
+					{{form.inputFile}}
+				</div>
+
+				<br>
+
+				<h4> Step 2. Please select a motif type to scan for </h4>
+				<div class="fieldWrapper">
+					{{form.motifType}}
+				</div>
+
+				<div id = "motifOptions">
+
+					<label for="id_dnaMotifUpload">Your motif file:</label>
+					{{form.dnaMotifUpload}}
+					<br>
+					<a href="http://meme.nbcr.net/meme/examples/sample-dna-motif.meme-io"><b>Sample</b></a> DNA minimal motif format file.<br />
+					<br>
+					{{form.proteinMotifUpload}}
+				</div>
+
+				<br>
+				
+				<div class="form-group">
+      					<div class="col-lg-10 col-lg-offset-2">
+        					<button class="btn btn-default">Cancel</button>
+        					<button type="submit" class="btn btn-primary">Start the scan!</button>
+     					</div>
+   				</div>
+   			</form>
+   		</div>
+   	</body>
+</html>
