@@ -10,15 +10,13 @@
             	$('#motifOptions').hide()
 
             	var motifType = document.getElementById('id_motifType')
-                // var dna = document.getElementById('dnaMotifUpload');
-                // var protein = document.getElementById('proteinMotifUpload');
 
-         		motifType.onclick = expandOptions
+         		// motifType.onclick = expandOptions
 
-         		function expandOptions() {
-         			if(form.motifType.value == 'known motif') {
-                    $('#motif_options').show();
-                }
+         		// function expandOptions() {
+         		// 	if( {{form.motifType.value}} == 'false') {
+           //          	$('#motif_options').show();
+           //      }
 
          	}
 
@@ -65,12 +63,16 @@
 				</div>
 
 				<br>
-				
+
 				<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
         					<button class="btn btn-default">Cancel</button>
         					<button type="submit" class="btn btn-primary">Start the scan!</button>
      					</div>
+   				</div>
+
+   				<div class="fieldWrapper">
+   					{{form.analysisOptions}}
    				</div>
    			</form>
    		</div>
