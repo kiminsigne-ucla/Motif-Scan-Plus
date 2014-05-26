@@ -13,5 +13,6 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include('motif.urls')),
     url(r'^scan/', views.scan),
+    url(r'^fail/$', views.fail, name='fail')
     )
 

@@ -7,16 +7,16 @@
 		<script type="text/javascript">
             window.onload = function() {
 
-            	$('#motifOptions').hide()
+            	// $('#motifOptions').hide()
 
             	var motifType = document.getElementById('id_motifType')
 
-         		// motifType.onclick = expandOptions
+         		motifType.onclick = expandOptions
 
-         		// function expandOptions() {
-         		// 	if( {{form.motifType.value}} == 'false') {
-           //          	$('#motif_options').show();
-           //      }
+         		function expandOptions() {
+         			if( {{motifType.value}} == 'known') {
+                    	$('#motif_options').hide();
+                }
 
          	}
 
@@ -37,7 +37,7 @@
 			
 			<hr>
 
-			<form class="form-horizontal" action="/scan/" method="POST" enctype="multipart/form-data">
+			<form class="form-horizontal" method="POST" enctype="multipart/form-data">
 				{% csrf_token %}
 				<!-- {{ form.as_p}} -->
 				<h4>Step 1. Please upload your sequence in FASTA format. Protein or DNA accepted</h4>
@@ -54,15 +54,22 @@
 
 				<div id = "motifOptions">
 
-					<label for="id_dnaMotifUpload">Your motif file:</label>
+					<label for="id_dnaMotifUpload">Your DNA motif file:</label>
+					<br>
 					{{form.dnaMotifUpload}}
 					<br>
 					<a href="http://meme.nbcr.net/meme/examples/sample-dna-motif.meme-io"><b>Sample</b></a> DNA minimal motif format file.<br />
+					<br>
+					<label for="id_proteinMotifUpload">Protein motif:</label>
 					<br>
 					{{form.proteinMotifUpload}}
 				</div>
 
 				<br>
+
+				<div class="fieldWrapper">
+   					{{form.analysisOptions}}
+   				</div>
 
 				<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
@@ -71,9 +78,7 @@
      					</div>
    				</div>
 
-   				<div class="fieldWrapper">
-   					{{form.analysisOptions}}
-   				</div>
+   				
    			</form>
    		</div>
    	</body>
