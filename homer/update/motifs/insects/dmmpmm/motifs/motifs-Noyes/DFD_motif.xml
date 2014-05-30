@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Dfd' id='DFD.MTF'>
+  <comment name='discrete information content by position'>[-0.317201292933582, -0.511116307523534, 0.0, 0.0, 0.0, 0.0, -0.782835730255061]</comment>
+  <comment name='discrete information content'>-1.61115333071218</comment>
+  <comment name='number of sequences in the corresponding alignment'>24</comment>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0.0</a>
+    <c>0.125</c>
+    <g>0.0</g>
+    <t>0.875</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.166666666666667</a>
+    <c>0.791666666666667</c>
+    <g>0.0</g>
+    <t>0.0416666666666667</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.677083333333333</a>
+    <c>0.09375</c>
+    <g>0.177083333333333</g>
+    <t>0.0520833333333333</t>
+   </pm-column>
+  </PPM>
+  <PWM length='7'>
+   <pm-column position='1'>
+    <a>-3.2188758248682</a>
+    <c>-0.653926467406664</c>
+    <g>-3.2188758248682</g>
+    <t>1.22377543162212</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-0.385662480811985</a>
+    <c>1.12492959698548</c>
+    <g>-3.2188758248682</g>
+    <t>-1.6094379124341</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.35583515363518</a>
+    <c>-3.2188758248682</c>
+    <g>-3.2188758248682</g>
+    <t>-3.2188758248682</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-3.2188758248682</a>
+    <c>-3.2188758248682</c>
+    <g>-3.2188758248682</g>
+    <t>1.35583515363518</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-3.2188758248682</a>
+    <c>-3.2188758248682</c>
+    <g>-3.2188758248682</g>
+    <t>1.35583515363518</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.35583515363518</a>
+    <c>-3.2188758248682</c>
+    <g>-3.2188758248682</g>
+    <t>-3.2188758248682</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.970778917158225</a>
+    <c>-0.916290731874155</c>
+    <g>-0.328504066972036</g>
+    <t>-1.42711635564015</t>
+   </pm-column>
+  </PWM>
+  <word-list size='24'>
+   <word score='6.85575491127417'>TCATTAC</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='4.13075515185819'>CTATTAA</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='7.23223248250908'>TAATTAA</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='7.44354157617629'>TCATTAG</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='7.44354157617629'>TCATTAG</word>
+   <word score='7.23223248250908'>TAATTAA</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='6.85575491127417'>TCATTAC</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='7.44354157617629'>TCATTAG</word>
+   <word score='7.23223248250908'>TAATTAA</word>
+   <word score='6.86512266127777'>CCATTAA</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='6.34492928750818'>TCATTAT</word>
+   <word score='6.86512266127777'>CCATTAA</word>
+   <word score='6.26145356535086'>TAATTAN</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+   <word score='7.44354157617629'>TCATTAG</word>
+   <word score='8.74282456030655'>TCATTAA</word>
+  </word-list>
+ </motif>
+</smallbismark>

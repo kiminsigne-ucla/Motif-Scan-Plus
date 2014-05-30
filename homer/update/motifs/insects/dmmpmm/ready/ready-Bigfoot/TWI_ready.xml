@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='twi' id='TWI.MTF'>
+  <comment name='discrete information content by position'>[-0.567879512783288, -0.408019827929971, 0.0, 0.0, -0.852990587384359, -0.687330144061153, -0.481260647170692, -0.310264023339923]</comment>
+  <comment name='discrete information content'>-3.30774474266939</comment>
+  <comment name='number of sequences in the corresponding alignment'>15</comment>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.6</a>
+    <c>0.4</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.8</a>
+    <c>0.2</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0</a>
+    <c>1.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0666666666666667</a>
+    <c>0.466666666666667</c>
+    <g>0.0666666666666667</g>
+    <t>0.4</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.666666666666667</a>
+    <c>0.2</c>
+    <g>0.133333333333333</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0</a>
+    <c>0.133333333333333</c>
+    <g>0.0666666666666667</g>
+    <t>0.8</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.866666666666667</g>
+    <t>0.133333333333333</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='4.52785123734556' length='8'>
+   <pm-column position='1'>
+    <a>0.701978999899212</a>
+    <c>0.603643672246004</c>
+    <g>-2.77258872223978</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.981887128189231</a>
+    <c>-0.0558985590234133</c>
+    <g>-2.77258872223978</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-2.77258872223978</a>
+    <c>1.49921566118987</c>
+    <g>-2.77258872223978</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.20033713821887</a>
+    <c>-2.77258872223978</c>
+    <g>-2.77258872223978</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-1.27386216092862</a>
+    <c>0.752900112789982</c>
+    <g>-1.03036030487977</g>
+    <t>0.311882793278173</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.804237186222727</a>
+    <c>-0.0558985590234133</c>
+    <g>-0.428851390721149</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-2.77258872223978</a>
+    <c>-0.428851390721149</c>
+    <g>-1.03036030487977</g>
+    <t>0.981887128189231</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>-2.77258872223978</a>
+    <c>-2.77258872223978</c>
+    <g>1.35825968143748</g>
+    <t>-0.69916888810355</t>
+   </pm-column>
+  </PWM>
+  <word-list size='16'>
+   <word score='5.21615507520536'>ACCAAATG</word>
+   <word score='6.94927913153952'>CACACGTG</word>
+   <word score='7.83968571662479'>AACATATG</word>
+   <word score='6.60659713968091'>AACATGTG</word>
+   <word score='7.83968571662479'>AACATATG</word>
+   <word score='6.28444627602461'>CCCACCTG</word>
+   <word score='6.86996451722622'>AACACACG</word>
+   <word score='6.12493913894236'>CACACATT</word>
+   <word score='3.92951685109701'>ACCATCGG</word>
+   <word score='8.2807030361366'>AACACATG</word>
+   <word score='6.12493913894236'>CACACATT</word>
+   <word score='4.22656835431033'>AACAGCCG</word>
+   <word score='7.74135038897158'>CACATATG</word>
+   <word score='8.18236770848339'>CACACATG</word>
+   <word score='8.18236770848339'>CACACATG</word>
+   <word score='7.83968571662479'>AACATATG</word>
+  </word-list>
+ </motif>
+</smallbismark>

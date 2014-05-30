@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/TWI/TWI_ready.xml on ../BE_DMEL-footprint-Bigfoot/TWI/TWI_footprints.xml (flank_length=3)' size='15'>
+  <segment type='site' id='PMSIT.BE_DMEL.006283.0' length='8' chromosome='2L' location='15474251' strand='revcomp'>
+   <sequence>ACCAAATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006284.1' length='8' chromosome='2L' location='15474291' strand='revcomp'>
+   <sequence>CACACGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000906.2' length='8' chromosome='3L' location='1445546' strand='revcomp'>
+   <sequence>AACATATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000907.3' length='8' chromosome='3L' location='1445557' strand='revcomp'>
+   <sequence>AACATGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004502.4' length='8' chromosome='3R' location='8895842' strand='revcomp'>
+   <sequence>AACATATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004504.5' length='8' chromosome='3R' location='8895906' strand='direct'>
+   <sequence>CCCACCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002445.6' length='8' chromosome='3R' location='12526737' strand='revcomp'>
+   <sequence>AACACACG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002450.7' length='8' chromosome='3R' location='12526900' strand='direct'>
+   <sequence>CACACATT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002453.8' length='8' chromosome='3R' location='12526989' strand='direct'>
+   <sequence>ACCATCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002457.9' length='8' chromosome='3R' location='12527023' strand='revcomp'>
+   <sequence>AACACATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005372.10' length='8' chromosome='3R' location='12599113' strand='revcomp'>
+   <sequence>AACACACA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005375.11' length='8' chromosome='3R' location='12599156' strand='direct'>
+   <sequence>AACAGCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000300.12' length='8' chromosome='3R' location='17203864' strand='revcomp'>
+   <sequence>CACATATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002342.13' length='8' chromosome='3R' location='17205824' strand='revcomp'>
+   <sequence>CACACATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002342.14' length='8' chromosome='3R' location='17205837' strand='revcomp'>
+   <sequence>CACACATG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002344.15' length='8' chromosome='3R' location='17205976' strand='direct'>
+   <sequence>AACATATG</sequence>
+  </segment>
+ </group>
+</smallbismark>

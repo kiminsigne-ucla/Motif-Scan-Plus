@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='prd-PD' id='PRD_PD.MTF' length='17'>
+  <PPM length='17'>
+   <pm-column position='1'>
+    <a>0.181818181818182</a>
+    <c>0.0909090909090909</c>
+    <g>0.318181818181818</g>
+    <t>0.409090909090909</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.136363636363636</a>
+    <c>0.318181818181818</c>
+    <g>0.318181818181818</g>
+    <t>0.227272727272727</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0909090909090909</a>
+    <c>0.272727272727273</c>
+    <g>0</g>
+    <t>0.636363636363636</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0</a>
+    <c>0.904761904761905</c>
+    <g>0.0952380952380952</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0</a>
+    <c>0.333333333333333</c>
+    <g>0.666666666666667</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='13'>
+    <a>0</a>
+    <c>0.181818181818182</c>
+    <g>0</g>
+    <t>0.818181818181818</t>
+   </pm-column>
+   <pm-column position='14'>
+    <a>0</a>
+    <c>0.333333333333333</c>
+    <g>0.666666666666667</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='15'>
+    <a>0.761904761904762</a>
+    <c>0</c>
+    <g>0.238095238095238</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='16'>
+    <a>0.0909090909090909</a>
+    <c>0.545454545454545</c>
+    <g>0.181818181818182</g>
+    <t>0.181818181818182</t>
+   </pm-column>
+   <pm-column position='17'>
+    <a>0.409090909090909</a>
+    <c>0.272727272727273</c>
+    <g>0.227272727272727</g>
+    <t>0.0909090909090909</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

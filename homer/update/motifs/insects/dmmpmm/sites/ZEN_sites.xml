@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/ZEN/ZEN_ready.xml on ../BE_DMEL-footprint-Bigfoot/ZEN/ZEN_footprints.xml (flank_length=1)' size='12'>
+  <segment type='site' id='PMSIT.BE_DMEL.004210.0' length='6' chromosome='2L' location='13905043' strand='revcomp'>
+   <sequence>AACTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004211.1' length='6' chromosome='2L' location='13905148' strand='revcomp'>
+   <sequence>CATTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004212.2' length='6' chromosome='2L' location='13905249' strand='direct'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006374.3' length='6' chromosome='2R' location='7044532' strand='revcomp'>
+   <sequence>AATTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006379.4' length='6' chromosome='2R' location='7044646' strand='direct'>
+   <sequence>AATTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006383.5' length='6' chromosome='2R' location='7044713' strand='revcomp'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006352.6' length='6' chromosome='2R' location='15777862' strand='direct'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006353.7' length='6' chromosome='2R' location='15777958' strand='revcomp'>
+   <sequence>ATTAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006356.8' length='6' chromosome='2R' location='15777997' strand='direct'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006148.9' length='6' chromosome='3R' location='12559864' strand='revcomp'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006152.10' length='6' chromosome='3R' location='12560097' strand='direct'>
+   <sequence>AATAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006000.11' length='6' chromosome='3R' location='17497614' strand='revcomp'>
+   <sequence>AATAAA</sequence>
+  </segment>
+ </group>
+</smallbismark>

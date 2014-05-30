@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/MAD/MAD_ready.xml on ../BE_DMEL-footprint-Bigfoot/MAD/MAD_footprints.xml (flank_length=6)' size='19'>
+  <segment type='site' id='PMSIT.BE_DMEL.006302.0' length='11' chromosome='2R' location='8412622' strand='direct'>
+   <sequence>CAACGTGCCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006303.1' length='11' chromosome='2R' location='8412648' strand='direct'>
+   <sequence>CGCGACGGCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006258.2' length='11' chromosome='3R' location='2579965' strand='direct'>
+   <sequence>CGACATAACAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006259.3' length='11' chromosome='3R' location='2579986' strand='revcomp'>
+   <sequence>CGATGCGTCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006260.4' length='11' chromosome='3R' location='2580056' strand='revcomp'>
+   <sequence>CGAGGTGCCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006263.5' length='11' chromosome='3R' location='2580148' strand='revcomp'>
+   <sequence>CGCAACGCCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006265.6' length='11' chromosome='3R' location='2580194' strand='revcomp'>
+   <sequence>CGAGACTCCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006267.7' length='11' chromosome='3R' location='2580282' strand='revcomp'>
+   <sequence>CGCCGCCACCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006268.8' length='11' chromosome='3R' location='2580311' strand='revcomp'>
+   <sequence>CGCGACAACAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006269.9' length='11' chromosome='3R' location='2580333' strand='direct'>
+   <sequence>CTCGCCGTCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006270.10' length='11' chromosome='3R' location='2580463' strand='revcomp'>
+   <sequence>CGCCGCGTCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006281.11' length='11' chromosome='3R' location='2581267' strand='revcomp'>
+   <sequence>GGCGCCGCCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000747.12' length='11' chromosome='3R' location='17209398' strand='direct'>
+   <sequence>CGCGAAGGCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000749.13' length='11' chromosome='3R' location='17209438' strand='revcomp'>
+   <sequence>AGACGAGACAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000750.14' length='11' chromosome='3R' location='17209465' strand='revcomp'>
+   <sequence>CGCCGCAACAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000751.15' length='11' chromosome='3R' location='17209524' strand='revcomp'>
+   <sequence>AGCTGCGCCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000754.16' length='11' chromosome='3R' location='17209613' strand='revcomp'>
+   <sequence>CGGCGCTCCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000755.17' length='11' chromosome='3R' location='17209666' strand='revcomp'>
+   <sequence>AGCTGCGACAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000756.18' length='11' chromosome='3R' location='17209678' strand='direct'>
+   <sequence>CGAGCCTCCCA</sequence>
+  </segment>
+ </group>
+</smallbismark>

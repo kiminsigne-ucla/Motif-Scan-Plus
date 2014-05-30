@@ -1,0 +1,1 @@
+wget wget http://autosome.ru/DMMPMM/pack/dmmpmm_motifs.zip

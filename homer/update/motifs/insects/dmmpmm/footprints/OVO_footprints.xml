@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=ovo</comment>
+ <group name='bismark extracted sequences' size='12'>
+  <segment id='BE_DMEL.001594' length='19' chromosome='X' location='4908876'>
+   <sequence>AACAACTTACAGTAACAGT</sequence>
+  </segment>
+  <segment id='BE_DMEL.001595' length='29' chromosome='X' location='4909155'>
+   <sequence>GAAAAATAAAGCCGTTAAAATTGAATTTA</sequence>
+  </segment>
+  <segment id='BE_DMEL.001596' length='23' chromosome='X' location='4909224'>
+   <sequence>ATTTTAAATGTAACTGTTAATAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.001597' length='25' chromosome='X' location='4909379'>
+   <sequence>ACGACTACAGTTAGAATTAGAATGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.001598' length='23' chromosome='X' location='4909463'>
+   <sequence>CCTTTTTACAGTTACATAGCAAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.001599' length='19' chromosome='X' location='4909550'>
+   <sequence>GATTTTCCGTTGCTTTTTT</sequence>
+  </segment>
+  <segment id='BE_DMEL.006349' length='20' chromosome='X' location='6937188'>
+   <sequence>GTTTTCCTGTTACTTCTCTT</sequence>
+  </segment>
+  <segment id='BE_DMEL.006350' length='21' chromosome='X' location='6937587'>
+   <sequence>AGAAGTTCCGTTAATCGTACC</sequence>
+  </segment>
+  <segment id='BE_DMEL.006363' length='25' chromosome='X' location='8334701'>
+   <sequence>GCACCTAGCACCGTTACACGAAGAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006364' length='25' chromosome='X' location='8334977'>
+   <sequence>TAAAAAACTCCTGTTATCGCCGTCT</sequence>
+  </segment>
+  <segment id='BE_DMEL.006365' length='25' chromosome='X' location='8335007'>
+   <sequence>TGACACCGATAGCGGCATCATCTGT</sequence>
+  </segment>
+  <segment id='BE_DMEL.006366' length='19' chromosome='3R' location='19106286'>
+   <sequence>CAGGAACCGTTACTTCTGC</sequence>
+  </segment>
+ </group>
+</smallbismark>

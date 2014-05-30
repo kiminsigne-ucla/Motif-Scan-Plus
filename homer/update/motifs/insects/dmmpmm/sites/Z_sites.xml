@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/Z/Z_ready.xml on ../BE_DMEL-footprint-Bigfoot/Z/Z_footprints.xml (flank_length=1)' size='41'>
+  <segment type='site' id='PMSIT.BE_DMEL.002916.0' length='6' chromosome='X' location='2304147' strand='direct'>
+   <sequence>CGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002917.1' length='6' chromosome='X' location='2304183' strand='direct'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006461.2' length='6' chromosome='X' location='2651309' strand='revcomp'>
+   <sequence>TGAGTC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006462.3' length='6' chromosome='X' location='2651357' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006462.4' length='6' chromosome='X' location='2651363' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006452.5' length='6' chromosome='X' location='2652760' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006453.6' length='6' chromosome='X' location='2652777' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006454.7' length='6' chromosome='X' location='2653050' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006455.8' length='6' chromosome='X' location='2653080' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006456.9' length='6' chromosome='X' location='2653816' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006457.10' length='6' chromosome='X' location='2653846' strand='revcomp'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006458.11' length='6' chromosome='X' location='2653883' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006459.12' length='6' chromosome='X' location='2653952' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006460.13' length='6' chromosome='X' location='2653994' strand='revcomp'>
+   <sequence>CGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002910.14' length='6' chromosome='2L' location='2450874' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002911.15' length='6' chromosome='2L' location='2450912' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002912.16' length='6' chromosome='2L' location='2450934' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005968.17' length='6' chromosome='3L' location='17584619' strand='revcomp'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005970.18' length='6' chromosome='3L' location='17584670' strand='revcomp'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002906.19' length='6' chromosome='3R' location='12481458' strand='direct'>
+   <sequence>GGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002907.20' length='6' chromosome='3R' location='12481495' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002908.21' length='6' chromosome='3R' location='12481511' strand='revcomp'>
+   <sequence>TGAGAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006156.22' length='6' chromosome='3R' location='12560200' strand='revcomp'>
+   <sequence>CGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006157.23' length='6' chromosome='3R' location='12560220' strand='direct'>
+   <sequence>CGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006159.24' length='6' chromosome='3R' location='12560253' strand='revcomp'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006162.25' length='6' chromosome='3R' location='12560274' strand='direct'>
+   <sequence>TGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006164.26' length='6' chromosome='3R' location='12560296' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006200.27' length='6' chromosome='3R' location='12589456' strand='revcomp'>
+   <sequence>CGAGAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006206.28' length='6' chromosome='3R' location='12589609' strand='direct'>
+   <sequence>CGAGAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006210.29' length='6' chromosome='3R' location='12589730' strand='direct'>
+   <sequence>AGAGAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006212.30' length='6' chromosome='3R' location='12589747' strand='direct'>
+   <sequence>TGAGAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006215.31' length='6' chromosome='3R' location='12589877' strand='direct'>
+   <sequence>GGAGAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006219.32' length='6' chromosome='3R' location='12589961' strand='revcomp'>
+   <sequence>AGAGCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006222.33' length='6' chromosome='3R' location='12590003' strand='direct'>
+   <sequence>TGAGTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006228.34' length='6' chromosome='3R' location='12590094' strand='revcomp'>
+   <sequence>TGAGCC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006229.35' length='6' chromosome='3R' location='12590111' strand='direct'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006232.36' length='6' chromosome='3R' location='12590317' strand='revcomp'>
+   <sequence>GGAGCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006234.37' length='6' chromosome='3R' location='12590383' strand='revcomp'>
+   <sequence>TGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006236.38' length='6' chromosome='3R' location='12590413' strand='revcomp'>
+   <sequence>TGAGCC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006241.39' length='6' chromosome='3R' location='12590587' strand='direct'>
+   <sequence>TGAGTC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006244.40' length='6' chromosome='3R' location='12590722' strand='direct'>
+   <sequence>CGAGTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006246.41' length='6' chromosome='3R' location='12590735' strand='direct'>
+   <sequence>TGAGAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

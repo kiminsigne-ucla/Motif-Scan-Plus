@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/EIP74EF/EIP74EF_ready.xml on ../BE_DMEL-footprint-Bigfoot/EIP74EF/EIP74EF_footprints.xml (flank_length=3)' size='8'>
+  <segment type='site' id='PMSIT.BE_DMEL.004525.0' length='8' chromosome='3L' location='15622650' strand='revcomp'>
+   <sequence>AAGGAAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004526.1' length='8' chromosome='3L' location='15622701' strand='direct'>
+   <sequence>AAGGAAGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004529.2' length='8' chromosome='3L' location='15622832' strand='revcomp'>
+   <sequence>AAGGAAGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004530.3' length='8' chromosome='3L' location='15622932' strand='revcomp'>
+   <sequence>CCAGAAGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004533.4' length='8' chromosome='3L' location='15623037' strand='direct'>
+   <sequence>CAGGAAGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001167.5' length='8' chromosome='3L' location='17552797' strand='revcomp'>
+   <sequence>CAGCAATT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001168.6' length='8' chromosome='3L' location='17552914' strand='direct'>
+   <sequence>CAGGAATT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001169.7' length='8' chromosome='3L' location='17553006' strand='revcomp'>
+   <sequence>CCGGAAGT</sequence>
+  </segment>
+ </group>
+</smallbismark>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/VVL/VVL_ready.xml on ../BE_DMEL-footprint-Bigfoot/VVL/VVL_footprints.xml (flank_length=1)' size='11'>
+  <segment type='site' id='PMSIT.BE_DMEL.006301.0' length='6' chromosome='2R' location='8412597' strand='direct'>
+   <sequence>TCATCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000948.1' length='6' chromosome='3L' location='6758923' strand='direct'>
+   <sequence>TATGCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000949.2' length='6' chromosome='3L' location='6759144' strand='direct'>
+   <sequence>TATGCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002486.3' length='6' chromosome='3L' location='14043357' strand='revcomp'>
+   <sequence>TATTCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002487.4' length='6' chromosome='3L' location='14043384' strand='revcomp'>
+   <sequence>TATGCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002488.5' length='6' chromosome='3L' location='14043855' strand='direct'>
+   <sequence>TAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002489.6' length='6' chromosome='3L' location='14043911' strand='revcomp'>
+   <sequence>TAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002490.7' length='6' chromosome='3L' location='14043934' strand='revcomp'>
+   <sequence>TAATCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002491.8' length='6' chromosome='3L' location='14043977' strand='direct'>
+   <sequence>TAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002492.9' length='6' chromosome='3L' location='14044318' strand='revcomp'>
+   <sequence>TAATGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002494.10' length='6' chromosome='3L' location='14044378' strand='revcomp'>
+   <sequence>TATGCA</sequence>
+  </segment>
+ </group>
+</smallbismark>

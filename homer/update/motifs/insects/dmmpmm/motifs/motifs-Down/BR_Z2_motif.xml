@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='br-Z2' id='BR_Z2.MTF' length='7'>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0.2257550298339083</a>
+    <c>0.0012633496311287747</c>
+    <g>0.003800451014820223</g>
+    <t>0.7691811695201427</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.8665338459058665</a>
+    <c>0.01504235548665675</c>
+    <g>0.02481778709521775</g>
+    <t>0.09360601151225917</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.024732809550704456</a>
+    <c>0.035390744850762636</c>
+    <g>0.25173618067722686</g>
+    <t>0.6881402649213053</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.04119164636445825</a>
+    <c>0.008733337934400742</c>
+    <g>0.14322821822404608</g>
+    <t>0.8068467974770951</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.4427109715530566</a>
+    <c>0.019030886976163286</c>
+    <g>0.10501373376228951</g>
+    <t>0.4332444077084904</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.5060830354351359</a>
+    <c>0.026588101213086975</c>
+    <g>0.030771161432537327</g>
+    <t>0.43655770191923976</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.012040654833823957</a>
+    <c>9.790309900223136E-4</c>
+    <g>0.0029194934344207155</g>
+    <t>0.9840608207417327</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

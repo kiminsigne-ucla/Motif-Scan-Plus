@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/ANTP/ANTP_ready.xml on ../BE_DMEL-footprint-Bigfoot/ANTP/ANTP_footprints.xml (flank_length=1)' size='12'>
+  <segment id='BE_DMEL.006339' length='19' chromosome='X' location='4134580'>
+   <sequence>acaatttaattgTTTATTa</sequence>
+  </segment>
+  <segment id='BE_DMEL.002348' length='18' chromosome='2L' location='21840625'>
+   <sequence>taatGATAATtacaaaca</sequence>
+  </segment>
+  <segment id='BE_DMEL.002349' length='15' chromosome='2L' location='21840735'>
+   <sequence>tGATAATtgactttc</sequence>
+  </segment>
+  <segment id='BE_DMEL.002353' length='23' chromosome='2L' location='21840807'>
+   <sequence>tgaaacaCATAAAtcttaagtga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002355' length='22' chromosome='2L' location='21840883'>
+   <sequence>acatCATAAAaatattaaaaat</sequence>
+  </segment>
+  <segment id='BE_DMEL.006193' length='39' chromosome='2R' location='1216997'>
+   <sequence>atttctttggcattaatcaaAATAATtggcgcatttcac</sequence>
+  </segment>
+  <segment id='BE_DMEL.006194' length='19' chromosome='2R' location='1217373'>
+   <sequence>acccataAATAATattaaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006195' length='12' chromosome='2R' location='1217427'>
+   <sequence>ccaactCATAAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006196' length='17' chromosome='2R' location='1217466'>
+   <sequence>gttaagTTCATTtcaag</sequence>
+  </segment>
+  <segment id='BE_DMEL.006197' length='35' chromosome='2R' location='1217539'>
+   <sequence>aaaaatgaattatgATTATTgccatgtaaaagagc</sequence>
+  </segment>
+  <segment id='BE_DMEL.004112' length='44' chromosome='3R' location='2830985'>
+   <sequence>tataatatAATAATaaaAATAATAATAATAATAATAATataata</sequence>
+  </segment>
+  <segment id='BE_DMEL.004113' length='43' chromosome='3R' location='2831031'>
+   <sequence>tactaatagtatatAATAATtttaatagtatgttatataaatc</sequence>
+  </segment>
+ </group>
+</smallbismark>

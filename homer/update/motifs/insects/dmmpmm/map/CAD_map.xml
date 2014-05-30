@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/CAD/CAD_ready.xml on ../BE_DMEL-footprint-Bigfoot/CAD/CAD_footprints.xml (flank_length=4)' size='13'>
+  <segment id='BE_DMEL.006004' length='16' chromosome='2L' location='11455646'>
+   <sequence>agggATTATAATTcca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006005' length='24' chromosome='2L' location='11455699'>
+   <sequence>cttgcTTTGCGACAattaaggcaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006006' length='18' chromosome='2L' location='11455728'>
+   <sequence>TTGCGTACTaattaagca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006014' length='35' chromosome='2L' location='11455954'>
+   <sequence>ttgacacccatcatTTTTCAATAtttgagcgtgaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006056' length='20' chromosome='3L' location='20631231'>
+   <sequence>ggTAACGAAATcgctggctt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006060' length='20' chromosome='3L' location='20631262'>
+   <sequence>agaatTGGCCTAAAaaactc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006061' length='20' chromosome='3L' location='20631293'>
+   <sequence>gggccacgTTTGCACGTtgt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006062' length='19' chromosome='3L' location='20631321'>
+   <sequence>cgAGTCATAAAgtcaggcc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006063' length='22' chromosome='3L' location='20631345'>
+   <sequence>gtcgtAACCATAAAaattgtcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006064' length='19' chromosome='3L' location='20631384'>
+   <sequence>acccgAGCCAAACAagagc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006066' length='17' chromosome='3L' location='20631441'>
+   <sequence>tttAAGCGGAAAaggga</sequence>
+  </segment>
+  <segment id='BE_DMEL.004966' length='30' chromosome='3R' location='2689564'>
+   <sequence>agaaatttttagggAACCATAAAcgggccg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004968' length='28' chromosome='3R' location='2689637'>
+   <sequence>tacagtttttatgtcTTTATGATTattg</sequence>
+  </segment>
+ </group>
+</smallbismark>

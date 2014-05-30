@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=Deaf1</comment>
+ <group name='bismark extracted sequences' size='10'>
+  <segment id='BE_DMEL.000186' length='10' chromosome='2R' location='2013613'>
+   <sequence>GCTCGTCGGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.000187' length='53' chromosome='2R' location='2013635'>
+   <sequence>AAACGAACGGCAGTTCGTTGCCTTCGTTCTTGCTTCGCGTGCTTCGTATCTTG</sequence>
+  </segment>
+  <segment id='BE_DMEL.000188' length='10' chromosome='2R' location='2013718'>
+   <sequence>TTCGGCTGGC</sequence>
+  </segment>
+  <segment id='BE_DMEL.000189' length='25' chromosome='2R' location='2013751'>
+   <sequence>CGTCGGCTACCTCTTCGGGTGGGGC</sequence>
+  </segment>
+  <segment id='BE_DMEL.000190' length='13' chromosome='2R' location='2013779'>
+   <sequence>AGCGCTCGGTCCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.000191' length='17' chromosome='2R' location='2013811'>
+   <sequence>CACTCGTCAGTCAGTCG</sequence>
+  </segment>
+  <segment id='BE_DMEL.000192' length='12' chromosome='2R' location='2013856'>
+   <sequence>TTTTCGTGGGGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.000193' length='12' chromosome='2R' location='2013899'>
+   <sequence>GTTTCGGAATTC</sequence>
+  </segment>
+  <segment id='BE_DMEL.000981' length='51' chromosome='3R' location='2613192'>
+   <sequence>AACCGACTGGCGGCAAAAAGCGATCGATGGTTCGCTTTTAGCCCGAAGCTT</sequence>
+  </segment>
+  <segment id='BE_DMEL.000986' length='44' chromosome='3R' location='2613407'>
+   <sequence>GCGATCGACTTCGACTCATTTAAGTGATTCGTGTAATTATTTTA</sequence>
+  </segment>
+ </group>
+</smallbismark>

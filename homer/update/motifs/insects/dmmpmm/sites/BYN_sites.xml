@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/BYN/BYN_ready.xml on ../BE_DMEL-footprint-Bigfoot/BYN/BYN_footprints.xml (flank_length=3)' size='9'>
+  <segment type='site' id='PMSIT.BE_DMEL.006137.0' length='8' chromosome='2R' location='16406266' strand='revcomp'>
+   <sequence>TAGCACTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006138.1' length='8' chromosome='2R' location='16406576' strand='revcomp'>
+   <sequence>TCGCACCT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006139.2' length='8' chromosome='2R' location='16406729' strand='revcomp'>
+   <sequence>TCGCACTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006140.3' length='8' chromosome='2R' location='16406895' strand='direct'>
+   <sequence>TCGCACTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006141.4' length='8' chromosome='2R' location='16406972' strand='direct'>
+   <sequence>TTTCACCT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006142.5' length='8' chromosome='2R' location='16406995' strand='direct'>
+   <sequence>TAACACAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006143.6' length='8' chromosome='2R' location='16407665' strand='direct'>
+   <sequence>TTGCACAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006144.7' length='8' chromosome='2R' location='16407700' strand='revcomp'>
+   <sequence>TCGCTCCC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006145.8' length='8' chromosome='2R' location='16407819' strand='revcomp'>
+   <sequence>ATGCACAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006145.9' length='8' chromosome='2R' location='16407833' strand='revcomp'>
+   <sequence>ATGCACAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

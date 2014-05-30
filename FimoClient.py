@@ -18,6 +18,7 @@ from ZSI.TC import String
 # A list of NBCR services can be found at http://ws.nbcr.net/opal2/dashboard?command=serviceList
 serviceURL = "http://ws.nbcr.net/opal2/services/FIMO_4.4.0"
 
+
 # Instantiate a new service object to interact with.  Pass it the service location
 appLocator = AppServiceLocator()
 appServicePort = appLocator.getAppServicePort(serviceURL)

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='slbo' id='SLBO.MTF'>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.00326635135055399</a>
+    <c>0.363673763874795</c>
+    <g>0.00169109549858947</g>
+    <t>0.631368789276062</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.00268619125698374</a>
+    <c>0.00714568405592655</c>
+    <g>0.000418491871202617</g>
+    <t>0.989749632815887</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.1392311679721</a>
+    <c>0.0383557591892915</c>
+    <g>0.618409772382631</g>
+    <t>0.204003300455977</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.673084617339085</a>
+    <c>0.0110266630989447</c>
+    <g>0.00782555298249005</g>
+    <t>0.30806316657948</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.303623676034046</a>
+    <c>0.00604467953749605</c>
+    <g>0.189681153612881</g>
+    <t>0.500650490815576</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.015671024003385</a>
+    <c>0.0216087305428143</c>
+    <g>0.105448039509333</g>
+    <t>0.857272205944468</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.244902268908369</a>
+    <c>0.0013076193812467</c>
+    <g>0.655210538644157</g>
+    <t>0.0985795730662277</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.171804064758987</a>
+    <c>0.600666355755589</c>
+    <g>0.00817441453867817</g>
+    <t>0.219355164946746</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

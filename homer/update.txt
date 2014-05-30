@@ -1,0 +1,92 @@
+# Homer Update File
+#
+# This file is updated from the Homer website and contains information about data available for
+# use with the program.
+#
+# This file has been further modified by the local update script
+#
+# Each section has the same format, which is <tab> separated values specifying:
+# package name <tab> version <tab> description <tab> url <tab> optional parameters (, separated)
+#
+
+SOFTWARE
+homer	v4.6	Code/Executables, ontologies, motifs for HOMER	http://homer.salk.edu/homer/data/software/homer.v4.6.zip	./	
+
+ORGANISMS
+arabidopsis	v1.2	Arabidopsis thaliana (arabidopsis) accession and ontology information	http://homer.salk.edu/homer/data/organisms/arabidopsis.v1.2.zip	data/accession/	3702,NCBI Gene
+chicken	v1.2	Gallus gallus (chicken) accession and ontology information	http://homer.salk.edu/homer/data/organisms/chicken.v1.2.zip	data/accession/	9031,NCBI Gene
+human	v1.2	Homo sapiens (human) accession and ontology information	http://homer.salk.edu/homer/data/organisms/human.v1.2.zip	data/accession/	9606,NCBI Gene
+rice	v1.2	Oryza sativa (rice) accession and ontology information	http://homer.salk.edu/homer/data/organisms/rice.v1.2.zip	data/accession/	39947,NCBI Gene
+pombe	v1.2	Schizosaccharomyces pombe (pombe) accession and ontology information	http://homer.salk.edu/homer/data/organisms/pombe.v1.2.zip	data/accession/	284812,NCBI Gene
+rat	v1.2	Rattus norvegicus (rat) accession and ontology information	http://homer.salk.edu/homer/data/organisms/rat.v1.2.zip	data/accession/	10116,NCBI Gene
+fly	v1.2	Drosophila melanogaster (fly) accession and ontology information	http://homer.salk.edu/homer/data/organisms/fly.v1.2.zip	data/accession/	7227,NCBI Gene
+zebrafish	v1.2	Danio rerio (zebrafish) accession and ontology information	http://homer.salk.edu/homer/data/organisms/zebrafish.v1.2.zip	data/accession/	7955,NCBI Gene
+mouse	v1.2	Mus musculus (mouse) accession and ontology information	http://homer.salk.edu/homer/data/organisms/mouse.v1.2.zip	data/accession/	10090,NCBI Gene
+yeast	v1.2	Saccharomyces cerevisiae (yeast) accession and ontology information	http://homer.salk.edu/homer/data/organisms/yeast.v1.2.zip	data/accession/	559292,NCBI Gene
+frog	v1.2	Xenopus tropicalis (frog) accession and ontology information	http://homer.salk.edu/homer/data/organisms/frog.v1.2.zip	data/accession/	8364,NCBI Gene
+worm	v1.2	Caenorhabditis elegans (worm) accession and ontology information	http://homer.salk.edu/homer/data/organisms/worm.v1.2.zip	data/accession/	6239,NCBI Gene
+
+PROMOTERS
+mouse-mRNA-5UTR	v5.2	mouse refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/mouse-mRNA-5UTR.v5.2.zip	data/promoters/	mouse,mm9,refseq,0,0
+chicken-mRNA	v5.2	chicken refseq RNA	http://homer.salk.edu/homer/data/promoters/chicken-mRNA.v5.2.zip	data/promoters/	chicken,galGal4,refseq,0,0
+arabidopsis	v5.0	Arabidopsis Ensembl Promoters (tair10)	http://homer.salk.edu/homer/data/promoters/arabidopsis.v5.0.zip	data/promoters/	arabidopsis,tair10,orf,-2000,2000
+human	v5.1	human promoters (human)	http://homer.salk.edu/homer/data/promoters/human.v5.1.zip	data/promoters/	human,hg19,refseq,-2000,2000
+yeast-mRNA-3UTR	v5.2	yeast refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/yeast-mRNA-3UTR.v5.2.zip	data/promoters/	yeast,sacCer3,orf,0,0
+rat-mRNA-5UTR	v4.1	Rat RefSeq mRNA 5'-UTRs (rn4)	http://biowhat.ucsd.edu/homer/data/promoters/rat-mRNA-5UTR.v4.1.zip	data/promoters/	rat,rn4,refseq,-2000,2000
+fly	v5.0	Fly RefSeq Promoters (dm3)	http://homer.salk.edu/homer/data/promoters/fly.v5.0.zip	data/promoters/	fly,dm3,refseq,-2000,2000
+zebrafish-mRNA-3UTR	v5.2	zebrafish refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/zebrafish-mRNA-3UTR.v5.2.zip	data/promoters/	zebrafish,danRer7,refseq,0,0
+frog-mRNA-5UTR	v5.2	frog refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/frog-mRNA-5UTR.v5.2.zip	data/promoters/	frog,xenTro2,refseq,0,0
+zebrafish-mRNA-5UTR	v5.2	zebrafish refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/zebrafish-mRNA-5UTR.v5.2.zip	data/promoters/	zebrafish,danRer7,refseq,0,0
+mouse	v5.0	Mouse RefSeq Promoters (mm9)	http://homer.salk.edu/homer/data/promoters/mouse.v5.0.zip	data/promoters/	mouse,mm9,refseq,-2000,2000
+frog-mRNA	v5.2	frog refseq RNA	http://homer.salk.edu/homer/data/promoters/frog-mRNA.v5.2.zip	data/promoters/	frog,xenTro2,refseq,0,0
+frog	v5.0	Frog RefSeq Promoters (xenTro2)	http://biowhat.ucsd.edu/homer/data/promoters/frog.v5.0.zip	data/promoters/	frog,xenTro2,refseq,-2000,2000
+human-mRNA	v5.2	human refseq RNA	http://homer.salk.edu/homer/data/promoters/human-mRNA.v5.2.zip	data/promoters/	human,hg19,refseq,0,0
+chicken	v5.0	Chicken RefSeq Promoters (galGal4)	http://biowhat.ucsd.edu/homer/data/promoters/chicken.v5.0.zip	data/promoters/	chicken,galGal4,refseq,-2000,2000
+mouse-mRNA-3UTR	v5.2	mouse refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/mouse-mRNA-3UTR.v5.2.zip	data/promoters/	mouse,mm9,refseq,0,0
+rat	v5.0	Rat RefSeq Promoters (rn4)	http://homer.salk.edu/homer/data/promoters/rat.v5.0.zip	data/promoters/	rat,rn4,refseq,-2000,2000
+fly-mRNA-3UTR	v5.2	fly refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/fly-mRNA-3UTR.v5.2.zip	data/promoters/	fly,dm3,refseq,0,0
+mouse-mRNA	v5.2	mouse refseq RNA	http://homer.salk.edu/homer/data/promoters/mouse-mRNA.v5.2.zip	data/promoters/	mouse,mm9,refseq,0,0
+yeast-mRNA	v5.2	yeast refseq RNA	http://homer.salk.edu/homer/data/promoters/yeast-mRNA.v5.2.zip	data/promoters/	yeast,sacCer3,orf,0,0
+chicken-mRNA-5UTR	v5.2	chicken refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/chicken-mRNA-5UTR.v5.2.zip	data/promoters/	chicken,galGal4,refseq,0,0
+worm-mRNA-5UTR	v5.2	worm refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/worm-mRNA-5UTR.v5.2.zip	data/promoters/	worm,ce10,refseq,0,0
+frogTest	v?	Custom Promoter Set	http://homer.salk.edu/homer/data/promoters/frogTest.v?.zip	data/promoters/	frog,LAEVIS_7.1_2013may.fa,custom,-2000,2000
+yeast	v5.0	Yeast RefSeq Promoters (sacCer3)	http://homer.salk.edu/homer/data/promoters/yeast.v5.0.zip	data/promoters/	yeast,sacCer3,orf,-2000,2000
+fly-mRNA	v5.2	fly refseq RNA	http://homer.salk.edu/homer/data/promoters/fly-mRNA.v5.2.zip	data/promoters/	fly,dm3,refseq,0,0
+rat-mRNA-3UTR	v4.1	Rat RefSeq mRNA 3'-UTRs (rn4)	http://biowhat.ucsd.edu/homer/data/promoters/rat-mRNA-3UTR.v4.1.zip	data/promoters/	rat,rn4,refseq,-2000,2000
+pombe	v5.0	Pombe Ensembl Promoters (sacCer2)	http://biowhat.ucsd.edu/homer/data/promoters/pombe.v5.0.zip	data/promoters/	pombe,ASM294v1,orf,-2000,2000
+chicken-mRNA-3UTR	v5.2	chicken refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/chicken-mRNA-3UTR.v5.2.zip	data/promoters/	chicken,galGal4,refseq,0,0
+human-mRNA-3UTR	v5.2	human refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/human-mRNA-3UTR.v5.2.zip	data/promoters/	human,hg19,refseq,0,0
+zebrafish	v5.0	Zebrafish RefSeq Promoters (danRer7)	http://biowhat.ucsd.edu/homer/data/promoters/zebrafish.v5.0.zip	data/promoters/	zebrafish,danRer7,refseq,-2000,2000
+worm-mRNA	v5.2	worm refseq RNA	http://homer.salk.edu/homer/data/promoters/worm-mRNA.v5.2.zip	data/promoters/	worm,ce10,refseq,0,0
+yeast-mRNA-5UTR	v5.2	yeast refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/yeast-mRNA-5UTR.v5.2.zip	data/promoters/	yeast,sacCer3,orf,0,0
+fly-mRNA-5UTR	v5.2	fly refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/fly-mRNA-5UTR.v5.2.zip	data/promoters/	fly,dm3,refseq,0,0
+worm-mRNA-3UTR	v5.2	worm refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/worm-mRNA-3UTR.v5.2.zip	data/promoters/	worm,ce10,refseq,0,0
+rat-mRNA	v4.1	Rat RefSeq mRNA (rn4)	http://homer.salk.edu/homer/data/promoters/rat-mRNA.v4.1.zip	data/promoters/	rat,rn4,refseq,-2000,2000
+rice	v5.0	Rice Ensembl Promoters (msu6)	http://biowhat.ucsd.edu/homer/data/promoters/rice.v5.0.zip	data/promoters/	rice,msu6,orf,-2000,2000
+human-mRNA-5UTR	v5.2	human refseq RNA 5'UTR	http://homer.salk.edu/homer/data/promoters/human-mRNA-5UTR.v5.2.zip	data/promoters/	human,hg19,refseq,0,0
+worm	v5.0	Worm RefSeq Promoters (ce10)	http://homer.salk.edu/homer/data/promoters/worm.v5.0.zip	data/promoters/	worm,ce10,refseq,-2000,2000
+frog-mRNA-3UTR	v5.2	frog refseq RNA 3'UTR	http://homer.salk.edu/homer/data/promoters/frog-mRNA-3UTR.v5.2.zip	data/promoters/	frog,xenTro2,refseq,0,0
+zebrafish-mRNA	v5.2	zebrafish refseq RNA	http://homer.salk.edu/homer/data/promoters/zebrafish-mRNA.v5.2.zip	data/promoters/	zebrafish,danRer7,refseq,0,0
+
+GENOMES
+sacCer3	v5.2	yeast genome and annotation for UCSC sacCer3	http://homer.salk.edu/homer/data/genomes/sacCer3.v5.2.zip	data/genomes/sacCer3/	yeast,default
+galGal4	v5.2	chicken genome and annotation for UCSC galGal4	http://homer.salk.edu/homer/data/genomes/galGal4.v5.2.zip	data/genomes/galGal4/	chicken,default
+hg17	v5.2	human genome and annotation for UCSC hg17	http://homer.salk.edu/homer/data/genomes/hg17.v5.2.zip	data/genomes/hg17/	human,default
+sacCer2	v5.2	yeast genome and annotation for UCSC sacCer2	http://homer.salk.edu/homer/data/genomes/sacCer2.v5.2.zip	data/genomes/sacCer2/	yeast,default
+xenTro3	v5.2	frog genome and annotation for UCSC xenTro3	http://homer.salk.edu/homer/data/genomes/xenTro3.v5.2.zip	data/genomes/xenTro3/	frog,default
+dm3	v5.2	fly genome and annotation for UCSC dm3	http://homer.salk.edu/homer/data/genomes/dm3.v5.2.zip	data/genomes/dm3/	fly,default
+panTro3	v5.2	human genome and annotation for UCSC panTro3	http://homer.salk.edu/homer/data/genomes/panTro3.v5.2.zip	data/genomes/panTro3/	human,default
+mm9	v5.2	mouse genome and annotation for UCSC mm9	http://homer.salk.edu/homer/data/genomes/mm9.v5.2.zip	data/genomes/mm9/	mouse,default
+hg19	v5.2	human genome and annotation for UCSC hg19	http://homer.salk.edu/homer/data/genomes/hg19.v5.2.zip	data/genomes/hg19/	human,default
+danRer7	v5.2	zebrafish genome and annotation for UCSC danRer7	http://homer.salk.edu/homer/data/genomes/danRer7.v5.2.zip	data/genomes/danRer7/	zebrafish,default
+ce6	v5.2	worm genome and annotation for UCSC ce6	http://homer.salk.edu/homer/data/genomes/ce6.v5.2.zip	data/genomes/ce6/	worm,default
+mm10	v5.2	mouse genome and annotation for UCSC mm10	http://homer.salk.edu/homer/data/genomes/mm10.v5.2.zip	data/genomes/mm10/	mouse,default
+rn4	v5.2	rat genome and annotation for UCSC rn4	http://homer.salk.edu/homer/data/genomes/rn4.v5.2.zip	data/genomes/rn4/	rat,default
+hg18	v5.2	human genome and annotation for UCSC hg18	http://homer.salk.edu/homer/data/genomes/hg18.v5.2.zip	data/genomes/hg18/	human,default
+tair10	v5.0	Arabidopsis genome tair10	http://homer.salk.edu/homer/data/genomes/tair10.v5.0.zip	data/genomes/tair10/	arabidopsis,default
+mm8	v5.2	mouse genome and annotation for UCSC mm8	http://homer.salk.edu/homer/data/genomes/mm8.v5.2.zip	data/genomes/mm8/	mouse,default
+ASM294v1	v5.0	Pombe genome ASM294v1	http://biowhat.ucsd.edu/homer/data/genomes/ASM294v1.v5.0.zip	data/genomes/ASM294v1/	pombe,default
+ce10	v5.2	worm genome and annotation for UCSC ce10	http://homer.salk.edu/homer/data/genomes/ce10.v5.2.zip	data/genomes/ce10/	worm,default
+rn5	v5.2	rat genome and annotation for UCSC rn5	http://homer.salk.edu/homer/data/genomes/rn5.v5.2.zip	data/genomes/rn5/	rat,default
+xenTro2	v5.2	frog genome and annotation for UCSC xenTro2	http://homer.salk.edu/homer/data/genomes/xenTro2.v5.2.zip	data/genomes/xenTro2/	frog,default
+msu6	v5.0	Rice (Oryza sativa) genome msu6	http://biowhat.ucsd.edu/homer/data/genomes/msu6.v5.0.zip	data/genomes/msu6/	rice,default

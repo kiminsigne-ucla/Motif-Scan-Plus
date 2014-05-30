@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='esg' id='ESG.MTF' length='12'>
+  <PPM length='12'>
+   <pm-column position='1'>
+    <a>0.262626262626263</a>
+    <c>0.262626262626263</c>
+    <g>0.212121212121212</g>
+    <t>0.262626262626263</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.35</a>
+    <c>0.15</c>
+    <g>0.35</g>
+    <t>0.15</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.47</a>
+    <c>0.08</c>
+    <g>0.34</g>
+    <t>0.11</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0202020202020202</a>
+    <c>0.95959595959596</c>
+    <g>0</g>
+    <t>0.0202020202020202</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.07</a>
+    <c>0</c>
+    <g>0.91</g>
+    <t>0.02</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.03</a>
+    <c>0.05</c>
+    <g>0.92</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.09</a>
+    <c>0.44</c>
+    <g>0.22</g>
+    <t>0.25</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0.333333333333333</a>
+    <c>0.202020202020202</c>
+    <g>0.232323232323232</g>
+    <t>0.232323232323232</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.2</a>
+    <c>0.28</c>
+    <g>0.32</g>
+    <t>0.2</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

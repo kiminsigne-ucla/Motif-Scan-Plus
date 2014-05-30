@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/GT/GT_ready.xml on ../BE_DMEL-footprint-Bigfoot/GT/GT_footprints.xml (flank_length=2)' size='8'>
+  <segment type='site' id='PMSIT.BE_DMEL.004119.0' length='7' chromosome='2R' location='5489687' strand='revcomp'>
+   <sequence>CTAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004121.1' length='7' chromosome='2R' location='5489749' strand='revcomp'>
+   <sequence>GCAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004130.2' length='7' chromosome='2R' location='5490018' strand='direct'>
+   <sequence>GTCATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003700.3' length='7' chromosome='2R' location='20730914' strand='direct'>
+   <sequence>GTCATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001066.4' length='7' chromosome='2R' location='20732896' strand='revcomp'>
+   <sequence>GTAAAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006044.5' length='7' chromosome='3L' location='20630774' strand='direct'>
+   <sequence>GAAAAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006046.6' length='7' chromosome='3L' location='20630803' strand='direct'>
+   <sequence>GTCAAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000267.7' length='7' chromosome='3R' location='12636943' strand='direct'>
+   <sequence>GTAATAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

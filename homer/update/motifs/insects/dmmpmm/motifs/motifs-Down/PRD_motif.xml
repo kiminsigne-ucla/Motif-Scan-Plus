@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='prd' id='PRD.MTF' length='6'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.7849932001132132</a>
+    <c>0.0649290120082836</c>
+    <g>0.1270018391949288</g>
+    <t>0.023075948683574432</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.8524086238465013</a>
+    <c>0.12565875520231087</c>
+    <g>0.005535205162668989</g>
+    <t>0.016397415788518846</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.9807149849441734</a>
+    <c>0.00825279115892114</c>
+    <g>0.0023179406052452724</g>
+    <t>0.008714283291660107</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.009202449836594153</a>
+    <c>0.7323310460257244</c>
+    <g>0.08511607153051999</g>
+    <t>0.17335043260716143</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.010098666913412057</a>
+    <c>0.4544138911658676</c>
+    <g>0.031311640037495155</g>
+    <t>0.5041758018832252</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.06074428865476132</a>
+    <c>0.02640532044547197</c>
+    <g>0.9116373611555522</g>
+    <t>0.001213029744214164</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

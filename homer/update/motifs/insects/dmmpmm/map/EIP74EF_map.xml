@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/EIP74EF/EIP74EF_ready.xml on ../BE_DMEL-footprint-Bigfoot/EIP74EF/EIP74EF_footprints.xml (flank_length=3)' size='8'>
+  <segment id='BE_DMEL.004525' length='23' chromosome='3L' location='15622645'>
+   <sequence>tagagATTTCCTTttggcttaaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.004526' length='21' chromosome='3L' location='15622696'>
+   <sequence>gaaacAAGGAAGTgttatgtt</sequence>
+  </segment>
+  <segment id='BE_DMEL.004529' length='23' chromosome='3L' location='15622828'>
+   <sequence>gtatTCTTCCTTgatcgatgttt</sequence>
+  </segment>
+  <segment id='BE_DMEL.004530' length='24' chromosome='3L' location='15622925'>
+   <sequence>tgtcaaaACTTCTGGtatttttgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004533' length='23' chromosome='3L' location='15623025'>
+   <sequence>caggtcctaactCAGGAAGCttc</sequence>
+  </segment>
+  <segment id='BE_DMEL.001167' length='29' chromosome='3L' location='17552794'>
+   <sequence>gccAATTGCTGttgttcctactgtgttag</sequence>
+  </segment>
+  <segment id='BE_DMEL.001168' length='26' chromosome='3L' location='17552904'>
+   <sequence>aatgattgatCAGGAATTatggttat</sequence>
+  </segment>
+  <segment id='BE_DMEL.001169' length='27' chromosome='3L' location='17552997'>
+   <sequence>ggatgagttACTTCCGGttattcagct</sequence>
+  </segment>
+ </group>
+</smallbismark>

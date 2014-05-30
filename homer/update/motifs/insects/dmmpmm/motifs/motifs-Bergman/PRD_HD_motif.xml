@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='prd-HD' id='PRD_HD.MTF' length='14'>
+  <PPM length='14'>
+   <pm-column position='1'>
+    <a>0</a>
+    <c>0.241379310344828</c>
+    <g>0.689655172413793</g>
+    <t>0.0689655172413793</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.448275862068966</a>
+    <c>0.241379310344828</c>
+    <g>0.172413793103448</g>
+    <t>0.137931034482759</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.931034482758621</a>
+    <c>0</c>
+    <g>0.0689655172413793</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>0.517241379310345</c>
+    <g>0</g>
+    <t>0.482758620689655</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0</a>
+    <c>0.0344827586206897</c>
+    <g>0</g>
+    <t>0.96551724137931</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.931034482758621</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0.0689655172413793</t>
+   </pm-column>
+   <pm-column position='13'>
+    <a>0.172413793103448</a>
+    <c>0.172413793103448</c>
+    <g>0.275862068965517</g>
+    <t>0.379310344827586</t>
+   </pm-column>
+   <pm-column position='14'>
+    <a>0.103448275862069</a>
+    <c>0.448275862068966</c>
+    <g>0.310344827586207</g>
+    <t>0.137931034482759</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

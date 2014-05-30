@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/SLBO/SLBO_ready.xml on ../BE_DMEL-footprint-Bigfoot/SLBO/SLBO_footprints.xml (flank_length=5)' size='12'>
+  <segment id='BE_DMEL.005541' length='29' chromosome='X' location='9898774'>
+   <sequence>caactacaatGTTGCAATCAgcggagcct</sequence>
+  </segment>
+  <segment id='BE_DMEL.005544' length='30' chromosome='X' location='9898802'>
+   <sequence>tacaaagTGATTACAAAttaaaataatcag</sequence>
+  </segment>
+  <segment id='BE_DMEL.005547' length='21' chromosome='X' location='9898849'>
+   <sequence>TAAGTCATCAgtggggtcagc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006136' length='32' chromosome='2R' location='19841705'>
+   <sequence>cgcggcagTGATGCAACAgattttatacgaga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002483' length='23' chromosome='3L' location='14042325'>
+   <sequence>tcagtTGTTTGCGCAcattcaag</sequence>
+  </segment>
+  <segment id='BE_DMEL.002484' length='22' chromosome='3L' location='14042357'>
+   <sequence>tggcTCCTTCCACAaactttac</sequence>
+  </segment>
+  <segment id='BE_DMEL.002485' length='22' chromosome='3L' location='14042594'>
+   <sequence>caatgtttTTTGCAATCTtatt</sequence>
+  </segment>
+  <segment id='BE_DMEL.002493' length='29' chromosome='3L' location='14044311'>
+   <sequence>ttccagcTCATTACGAAggcagggcacac</sequence>
+  </segment>
+  <segment id='BE_DMEL.002495' length='44' chromosome='3L' location='14044409'>
+   <sequence>tgtgtgccgTGTTGGCAATaaaatattaaacaataataataaat</sequence>
+  </segment>
+  <segment id='BE_DMEL.002496' length='24' chromosome='3L' location='14044453'>
+   <sequence>aaataAAATGACACAgatcgggaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.002497' length='40' chromosome='3L' location='14044498'>
+   <sequence>aagcggagaTTTGGCAATAtttattgatccacttatacag</sequence>
+  </segment>
+  <segment id='BE_DMEL.002498' length='30' chromosome='3L' location='14044542'>
+   <sequence>ggtcaaaagaaTAGTGGCACAatagtggta</sequence>
+  </segment>
+ </group>
+</smallbismark>

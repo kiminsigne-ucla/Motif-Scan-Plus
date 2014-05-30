@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='dif/Rel' id='DIF_REL.MTF' length='11'>
+  <PPM length='11'>
+   <pm-column position='1'>
+    <a>0.09</a>
+    <c>0</c>
+    <g>0.88</g>
+    <t>0.03</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.56</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0.44</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>0.03</c>
+    <g>0</g>
+    <t>0.97</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.16</a>
+    <c>0.84</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.03</a>
+    <c>0.94</c>
+    <g>0</g>
+    <t>0.03</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0.16</a>
+    <c>0.5</c>
+    <g>0.09</g>
+    <t>0.25</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/PRD/PRD_ready.xml on ../BE_DMEL-footprint-Bigfoot/PRD/PRD_footprints.xml (flank_length=3)' size='11'>
+  <segment id='BE_DMEL.002760' length='39' chromosome='2R' location='5490915'>
+   <sequence>ggtcctgctcctccgctttgtcccgcctcGTTATCGCcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.002765' length='33' chromosome='2R' location='5490988'>
+   <sequence>cagcaccgcacgATTAGCACcgttccgctcagg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003447' length='25' chromosome='2R' location='20564210'>
+   <sequence>tcGTTATAATttatttaatggctcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003448' length='24' chromosome='2R' location='20564264'>
+   <sequence>gttgagtaatTTGCTAAAcatgca</sequence>
+  </segment>
+  <segment id='BE_DMEL.003451' length='34' chromosome='2R' location='20564462'>
+   <sequence>tgtcaatttccgGCGAAAATcgcatgaagtcctg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003452' length='25' chromosome='2R' location='20564496'>
+   <sequence>gaagataactaaATTACCGCaaact</sequence>
+  </segment>
+  <segment id='BE_DMEL.003453' length='19' chromosome='2R' location='20564535'>
+   <sequence>GTCATAATtgcggtgtgtc</sequence>
+  </segment>
+  <segment id='BE_DMEL.003456' length='25' chromosome='2R' location='20564629'>
+   <sequence>taacaaaccATTAACACccgaaccg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003459' length='42' chromosome='2R' location='20564733'>
+   <sequence>tcttccacttTTTGTCGCatgattaggggccattacaaattg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003462' length='22' chromosome='2R' location='20564843'>
+   <sequence>gGTGGTCGCtgcgacacggttt</sequence>
+  </segment>
+  <segment id='BE_DMEL.003463' length='31' chromosome='2R' location='20564924'>
+   <sequence>tgccaatgatcgaTTTGACACgccaacgcag</sequence>
+  </segment>
+ </group>
+</smallbismark>

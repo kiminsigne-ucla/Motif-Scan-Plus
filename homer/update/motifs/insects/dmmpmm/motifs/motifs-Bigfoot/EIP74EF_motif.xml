@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Eip74EF' id='EIP74EF.MTF'>
+  <comment name='discrete information content by position'>[-0.503168961341719, -0.416525563764566, -0.25993019270998, -0.25993019270998, 0.0, 0.0, -0.640495497418073, -0.503168961341894]</comment>
+  <comment name='discrete information content'>-2.58321936928621</comment>
+  <comment name='number of sequences in the corresponding alignment'>8</comment>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.375</a>
+    <c>0.625</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.75</a>
+    <c>0.25</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.125</a>
+    <c>0.0</c>
+    <g>0.875</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.125</c>
+    <g>0.875</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.125</a>
+    <c>0.0</c>
+    <g>0.625</g>
+    <t>0.25</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.125</a>
+    <c>0.125</c>
+    <g>0.0</g>
+    <t>0.75</t>
+   </pm-column>
+  </PPM>
+  <PWM length='8'>
+   <pm-column position='1'>
+    <a>0.367724780125317</a>
+    <c>0.847297860387204</c>
+    <g>-2.19722457733622</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>1.02165124753198</a>
+    <c>0.0</c>
+    <g>-2.19722457733622</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-0.587786664902119</a>
+    <c>-2.19722457733622</c>
+    <g>1.17007125265025</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-2.19722457733622</a>
+    <c>-0.587786664902119</c>
+    <g>1.17007125265025</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.29928298413026</a>
+    <c>-2.19722457733622</c>
+    <g>-2.19722457733622</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.29928298413026</a>
+    <c>-2.19722457733622</c>
+    <g>-2.19722457733622</g>
+    <t>-2.19722457733622</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-0.587786664902119</a>
+    <c>-2.19722457733622</c>
+    <g>0.847297860387204</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>-0.587786664902119</a>
+    <c>-0.587786664902119</c>
+    <g>-2.19722457733622</g>
+    <t>1.02165124753198</t>
+   </pm-column>
+  </PWM>
+  <word-list size='8'>
+   <word score='6.76194908384819'>AAGGAAAT</word>
+   <word score='8.19703360913751'>AAGGAAGT</word>
+   <word score='6.58759569670341'>AAGGAAGA</word>
+   <word score='5.89709752431505'>CCAGAAGT</word>
+   <word score='7.0671687769653'>CAGGAAGC</word>
+   <word score='6.07145091145982'>CAGCAATT</word>
+   <word score='7.8293088290122'>CAGGAATT</word>
+   <word score='7.65495544186742'>CCGGAAGT</word>
+  </word-list>
+ </motif>
+</smallbismark>

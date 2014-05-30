@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Gsc' id='GSC.MTF'>
+  <comment name='discrete information content by position'>[-0.7276164443849, 0.0, 0.0, 0.0, 0.0, 0.0]</comment>
+  <comment name='discrete information content'>-0.7276164443849</comment>
+  <comment name='number of sequences in the corresponding alignment'>22</comment>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.272727272727273</a>
+    <c>0.0909090909090909</c>
+    <g>0.636363636363636</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>1.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM length='6'>
+   <pm-column position='1'>
+    <a>0.083381608939051</a>
+    <c>-0.93826963859293</c>
+    <g>0.9075570519054</g>
+    <t>-3.13549421592915</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-3.13549421592915</a>
+    <c>-3.13549421592915</c>
+    <g>1.35314215380299</g>
+    <t>-3.13549421592915</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.35314215380299</a>
+    <c>-3.13549421592915</c>
+    <g>-3.13549421592915</g>
+    <t>-3.13549421592915</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-3.13549421592915</a>
+    <c>-3.13549421592915</c>
+    <g>-3.13549421592915</g>
+    <t>1.35314215380299</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-3.13549421592915</a>
+    <c>-3.13549421592915</c>
+    <g>-3.13549421592915</g>
+    <t>1.35314215380299</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.35314215380299</a>
+    <c>-3.13549421592915</c>
+    <g>-3.13549421592915</g>
+    <t>-3.13549421592915</t>
+   </pm-column>
+  </PWM>
+  <word-list size='22'>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='5.82744113042202'>CGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='5.82744113042202'>CGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='7.67326782092035'>GGATTA</word>
+   <word score='6.849092377954'>AGATTA</word>
+  </word-list>
+ </motif>
+</smallbismark>

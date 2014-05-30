@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='tll' id='TLL.MTF'>
+  <PPM length='10'>
+   <pm-column position='1'>
+    <a>0.116911212163063</a>
+    <c>0.12634080224658</c>
+    <g>0.0250922646903654</g>
+    <t>0.731655720899991</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.00208048212460826</a>
+    <c>0.0528685199426272</c>
+    <g>0.0607196520229995</g>
+    <t>0.884331345909765</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.395726988063275</a>
+    <c>0.00211987939781888</c>
+    <g>0.39231984979694</g>
+    <t>0.209833282741966</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.706859587665765</a>
+    <c>0.0200880524597471</c>
+    <g>0.00574998929809997</g>
+    <t>0.267302370576388</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.103119140480056</a>
+    <c>0.842880937578902</c>
+    <g>0.00158560246516073</g>
+    <t>0.052414319475881</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0983435948093068</a>
+    <c>0.195542246334916</c>
+    <g>0.0115015261961574</g>
+    <t>0.69461263265962</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0149685737858193</a>
+    <c>0.350857429149217</c>
+    <g>0.00547460904278796</g>
+    <t>0.628699388022176</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0203220851137316</a>
+    <c>0.118150706271537</c>
+    <g>0.00825597350600595</g>
+    <t>0.853271235108726</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.108536903803512</a>
+    <c>0.0382813522306014</c>
+    <g>0.0758967901245717</g>
+    <t>0.777284953841315</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.12114005435308</a>
+    <c>0.00863995545961607</c>
+    <g>0.171921872776574</g>
+    <t>0.69829811741073</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='vnd' id='VND.MTF' length='14'>
+  <PPM length='14'>
+   <pm-column position='1'>
+    <a>0.257425742574257</a>
+    <c>0.227722772277228</c>
+    <g>0.257425742574257</g>
+    <t>0.257425742574257</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.28</a>
+    <c>0.16</c>
+    <g>0.16</g>
+    <t>0.4</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.17</a>
+    <c>0.16</c>
+    <g>0.4</g>
+    <t>0.27</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.17</a>
+    <c>0.02</c>
+    <g>0.1</g>
+    <t>0.71</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0776699029126214</a>
+    <c>0.359223300970874</c>
+    <g>0.184466019417476</g>
+    <t>0.378640776699029</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.861386138613861</a>
+    <c>0.0148514851485149</c>
+    <g>0.108910891089109</g>
+    <t>0.0148514851485149</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0</a>
+    <c>0.025</c>
+    <g>0.96</g>
+    <t>0.015</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.025</a>
+    <c>0.04</c>
+    <g>0.025</g>
+    <t>0.91</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.18</a>
+    <c>0.02</c>
+    <g>0.7</g>
+    <t>0.1</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0</a>
+    <c>0.262626262626263</c>
+    <g>0.595959595959596</g>
+    <t>0.141414141414141</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.11</a>
+    <c>0.33</c>
+    <g>0.23</g>
+    <t>0.33</t>
+   </pm-column>
+   <pm-column position='13'>
+    <a>0.198019801980198</a>
+    <c>0.198019801980198</c>
+    <g>0.257425742574257</g>
+    <t>0.346534653465347</t>
+   </pm-column>
+   <pm-column position='14'>
+    <a>0.158415841584158</a>
+    <c>0.198019801980198</c>
+    <g>0.376237623762376</g>
+    <t>0.267326732673267</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

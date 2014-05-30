@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/GRH/GRH_ready.xml on ../BE_DMEL-footprint-Bigfoot/GRH/GRH_footprints.xml (flank_length=1)' size='9'>
+  <segment id='BE_DMEL.005241' length='9' chromosome='2L' location='2456664'>
+   <sequence>ttaCCTGCT</sequence>
+  </segment>
+  <segment id='BE_DMEL.005463' length='15' chromosome='2L' location='19116289'>
+   <sequence>aggaCCGGTTcaatc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006279' length='22' chromosome='3R' location='2581251'>
+   <sequence>aggggcAACAAGttgcctggcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.005549' length='18' chromosome='3R' location='2688251'>
+   <sequence>ATGATTcggtatcgaaag</sequence>
+  </segment>
+  <segment id='BE_DMEL.005550' length='17' chromosome='3R' location='2688281'>
+   <sequence>ggggagCTGTTTttcct</sequence>
+  </segment>
+  <segment id='BE_DMEL.005551' length='37' chromosome='3R' location='2688328'>
+   <sequence>atcggATGGTTttatatcctactctacacccttattg</sequence>
+  </segment>
+  <segment id='BE_DMEL.005552' length='18' chromosome='3R' location='2688373'>
+   <sequence>actgcaaAACCAGaaagg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006161' length='18' chromosome='3R' location='12560253'>
+   <sequence>cgctcaaAACCAGattgt</sequence>
+  </segment>
+  <segment id='BE_DMEL.005153' length='25' chromosome='3R' location='26677841'>
+   <sequence>tgcgttcCTTGCTcaatgaattttt</sequence>
+  </segment>
+ </group>
+</smallbismark>

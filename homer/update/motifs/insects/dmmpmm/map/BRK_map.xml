@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/BRK/BRK_ready.xml on ../BE_DMEL-footprint-Bigfoot/BRK/BRK_footprints.xml (flank_length=2)' size='10'>
+  <segment id='BE_DMEL.000446' length='21' chromosome='X' location='4231704'>
+   <sequence>aagcttggTGGCGCCtcaagt</sequence>
+  </segment>
+  <segment id='BE_DMEL.005392' length='20' chromosome='3R' location='2507227'>
+   <sequence>cgtctgtttAGCGCCAtgaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.005393' length='38' chromosome='3R' location='2507341'>
+   <sequence>ccacaagctgacgccaagttgatgggGGCGCCGcagct</sequence>
+  </segment>
+  <segment id='BE_DMEL.005394' length='22' chromosome='3R' location='2507577'>
+   <sequence>tggattgccCGGCGCCGactgt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006261' length='20' chromosome='3R' location='2580049'>
+   <sequence>tgcccgacTGGCACCtcgga</sequence>
+  </segment>
+  <segment id='BE_DMEL.006262' length='18' chromosome='3R' location='2580145'>
+   <sequence>gatcTGGCGTTgcgtgag</sequence>
+  </segment>
+  <segment id='BE_DMEL.006264' length='17' chromosome='3R' location='2580194'>
+   <sequence>cCGGAGTCtcgccaggt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006266' length='17' chromosome='3R' location='2580280'>
+   <sequence>tccggtggCGGCGCTga</sequence>
+  </segment>
+  <segment id='BE_DMEL.006271' length='20' chromosome='3R' location='2580551'>
+   <sequence>tttattacTGGCGCTatcgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006282' length='16' chromosome='3R' location='2581264'>
+   <sequence>tgcctggCGGCGCCcc</sequence>
+  </segment>
+ </group>
+</smallbismark>

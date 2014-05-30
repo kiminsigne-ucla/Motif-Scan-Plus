@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Dfd' id='DFD.MTF' length='5'>
+  <PPM length='5'>
+   <pm-column position='1'>
+    <a>0.7282207169040584</a>
+    <c>0.2481589968657206</c>
+    <g>0.013894387769149886</g>
+    <t>0.009725898461070987</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.7821774229483459</a>
+    <c>3.694127037511371E-4</c>
+    <g>2.163464538263256E-4</g>
+    <t>0.21723681789407673</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.004724184605433632</a>
+    <c>1.7688021227493122E-4</c>
+    <g>0.004091597621493652</g>
+    <t>0.9910073375607977</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.02180255118964274</a>
+    <c>0.13504975947655462</c>
+    <g>0.09005683636273264</g>
+    <t>0.75309085297107</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.9821461951730504</a>
+    <c>0.013331843316386866</c>
+    <g>0.002064116150062192</g>
+    <t>0.0024578453605009873</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

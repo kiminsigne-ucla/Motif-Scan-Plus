@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/TIN/TIN_ready.xml on ../BE_DMEL-footprint-Bigfoot/TIN/TIN_footprints.xml (flank_length=2)' size='11'>
+  <segment id='BE_DMEL.005979' length='13' chromosome='2R' location='5447127'>
+   <sequence>gtcTCAAGTGggc</sequence>
+  </segment>
+  <segment id='BE_DMEL.005980' length='13' chromosome='2R' location='5447300'>
+   <sequence>agcCACTTGAgcc</sequence>
+  </segment>
+  <segment id='BE_DMEL.002467' length='11' chromosome='2R' location='5497331'>
+   <sequence>tCACTTCAcag</sequence>
+  </segment>
+  <segment id='BE_DMEL.002469' length='11' chromosome='2R' location='5497348'>
+   <sequence>ggCACTTAAga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002471' length='11' chromosome='2R' location='5497459'>
+   <sequence>ggCCCTTGAga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002475' length='11' chromosome='2R' location='5497514'>
+   <sequence>ccCACTTGAgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.000670' length='20' chromosome='2R' location='19811987'>
+   <sequence>actgaagCACTTGAggagca</sequence>
+  </segment>
+  <segment id='BE_DMEL.000671' length='20' chromosome='2R' location='19812024'>
+   <sequence>ttcctcccCACTTAGgcctg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004400' length='22' chromosome='2R' location='19816866'>
+   <sequence>cgtcaagtTCAAGTGccaaagg</sequence>
+  </segment>
+  <segment id='BE_DMEL.000745' length='12' chromosome='3R' location='17209343'>
+   <sequence>tgTCAAGTGgca</sequence>
+  </segment>
+  <segment id='BE_DMEL.000753' length='12' chromosome='3R' location='17209534'>
+   <sequence>tcTCAAGTGgag</sequence>
+  </segment>
+ </group>
+</smallbismark>

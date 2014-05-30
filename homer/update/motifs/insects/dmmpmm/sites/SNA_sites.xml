@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/SNA/SNA_ready.xml on ../BE_DMEL-footprint-Bigfoot/SNA/SNA_footprints.xml (flank_length=4)' size='11'>
+  <segment type='site' id='PMSIT.BE_DMEL.000902.0' length='9' chromosome='3L' location='1445405' strand='revcomp'>
+   <sequence>CGCAAGTTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000903.1' length='9' chromosome='3L' location='1445475' strand='revcomp'>
+   <sequence>AGCAAGGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000904.2' length='9' chromosome='3L' location='1445497' strand='direct'>
+   <sequence>CGCAAGTGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000908.3' length='9' chromosome='3L' location='1445556' strand='revcomp'>
+   <sequence>AACATGTGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004503.4' length='9' chromosome='3R' location='8895907' strand='revcomp'>
+   <sequence>ATCAGGTGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004505.5' length='9' chromosome='3R' location='8896068' strand='revcomp'>
+   <sequence>ATCGGGGAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004506.6' length='9' chromosome='3R' location='8896318' strand='revcomp'>
+   <sequence>AACAGGTAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004507.7' length='9' chromosome='3R' location='8897891' strand='revcomp'>
+   <sequence>AACAGGTTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004508.8' length='9' chromosome='3R' location='8898054' strand='direct'>
+   <sequence>ATCAGGTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004509.9' length='9' chromosome='3R' location='8898133' strand='direct'>
+   <sequence>AACAGGTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004510.10' length='9' chromosome='3R' location='8898155' strand='direct'>
+   <sequence>AGCAAGTGC</sequence>
+  </segment>
+ </group>
+</smallbismark>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='eve' id='EVE.MTF'>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0.517934002987556</a>
+    <c>0.00251721445201503</c>
+    <g>0.0219169253321182</g>
+    <t>0.457631857228311</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0156766029625557</a>
+    <c>0.146921838774881</c>
+    <g>0.0075496828045003</g>
+    <t>0.829851875458063</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.382901868452266</a>
+    <c>0.0380350571590358</c>
+    <g>0.250728994240918</g>
+    <t>0.328334080147781</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.962959514135133</a>
+    <c>0.00430124014465862</c>
+    <g>0.00378804646598371</g>
+    <t>0.0289511992542247</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0275388624047107</a>
+    <c>0.00396174629468584</c>
+    <g>0.00537486273033828</g>
+    <t>0.963124528570265</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0297572352303412</a>
+    <c>0.00486513247705143</c>
+    <g>0.108261190565825</g>
+    <t>0.857116441726782</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.152422804974779</a>
+    <c>0.0022025564765152</c>
+    <g>0.341372106108053</g>
+    <t>0.504002532440653</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

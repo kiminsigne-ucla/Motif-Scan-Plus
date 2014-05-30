@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='tll' id='TLL.MTF'>
+  <PCM length='9'>
+   <pm-column position='1'>
+    <a>2</a>
+    <c>4</c>
+    <g>5</g>
+    <t>26</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0</a>
+    <c>7</c>
+    <g>0</g>
+    <t>30</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>18</a>
+    <c>1</c>
+    <g>17</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>28</a>
+    <c>1</c>
+    <g>6</g>
+    <t>2</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1</a>
+    <c>26</c>
+    <g>1</g>
+    <t>9</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>2</a>
+    <c>8</c>
+    <g>0</g>
+    <t>27</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1</a>
+    <c>4</c>
+    <g>4</g>
+    <t>28</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>3</a>
+    <c>5</c>
+    <g>1</g>
+    <t>28</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>3</a>
+    <c>8</c>
+    <g>7</g>
+    <t>19</t>
+   </pm-column>
+  </PCM>
+  <PPM length='9'>
+   <pm-column position='1'>
+    <a>0.0540540540540541</a>
+    <c>0.108108108108108</c>
+    <g>0.135135135135135</g>
+    <t>0.702702702702703</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0</a>
+    <c>0.189189189189189</c>
+    <g>0.0</g>
+    <t>0.810810810810811</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.486486486486487</a>
+    <c>0.027027027027027</c>
+    <g>0.459459459459459</g>
+    <t>0.027027027027027</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.756756756756757</a>
+    <c>0.027027027027027</c>
+    <g>0.162162162162162</g>
+    <t>0.0540540540540541</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.027027027027027</a>
+    <c>0.702702702702703</c>
+    <g>0.027027027027027</g>
+    <t>0.243243243243243</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0540540540540541</a>
+    <c>0.216216216216216</c>
+    <g>0.0</g>
+    <t>0.72972972972973</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.027027027027027</a>
+    <c>0.108108108108108</c>
+    <g>0.108108108108108</g>
+    <t>0.756756756756757</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0810810810810811</a>
+    <c>0.135135135135135</c>
+    <g>0.027027027027027</g>
+    <t>0.756756756756757</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.0810810810810811</a>
+    <c>0.216216216216216</c>
+    <g>0.189189189189189</g>
+    <t>0.513513513513513</t>
+   </pm-column>
+  </PPM>
+  <PWM length='9'>
+   <pm-column position='1'>
+    <a>-1.44036158239017</a>
+    <c>-0.80437281567017</c>
+    <g>-0.593063722002963</g>
+    <t>1.01637419043114</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-3.63758615972639</a>
+    <c>-0.270290329739912</c>
+    <g>-3.63758615972639</g>
+    <t>1.15820438587036</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.652873281422005</a>
+    <c>-2.02814824729229</c>
+    <g>0.596520344870874</g>
+    <t>-2.02814824729229</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.08980165898595</a>
+    <c>-2.02814824729229</c>
+    <g>-0.418710334858185</g>
+    <t>-1.44036158239017</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-2.02814824729229</a>
+    <c>1.01637419043114</c>
+    <g>-2.02814824729229</g>
+    <t>-0.0266682470821613</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>-1.44036158239017</a>
+    <c>-0.141078598259905</c>
+    <g>-3.63758615972639</g>
+    <t>1.05376172250276</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-2.02814824729229</a>
+    <c>-0.80437281567017</c>
+    <g>-0.80437281567017</g>
+    <t>1.08980165898595</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>-1.07263680226485</a>
+    <c>-0.593063722002963</c>
+    <g>-2.02814824729229</g>
+    <t>1.08980165898595</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>-1.07263680226485</a>
+    <c>-0.141078598259905</c>
+    <g>-0.270290329739912</g>
+    <t>0.706219262127298</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

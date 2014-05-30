@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Ubx' id='UBX.MTF' length='6'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.232142857142857</a>
+    <c>0.464285714285714</c>
+    <g>0.0892857142857143</g>
+    <t>0.214285714285714</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.553571428571429</a>
+    <c>0.339285714285714</c>
+    <g>0.0</g>
+    <t>0.107142857142857</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.964285714285714</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0357142857142857</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0535714285714286</a>
+    <c>0.0357142857142857</c>
+    <g>0.0</g>
+    <t>0.910714285714286</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.875</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.125</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='4.48' length='6'>
+   <pm-column position='1'>
+    <a>-0.210335311840351</a>
+    <c>0.772877244985741</c>
+    <g>-0.842328489369824</g>
+    <t>-0.288575417405539</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.646051453138057</a>
+    <c>0.462199341775182</c>
+    <g>-4.04305126783455</g>
+    <t>-0.958579752316597</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.19712424589713</a>
+    <c>-4.04305126783455</c>
+    <g>-4.04305126783455</g>
+    <t>-1.96963143369832</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-4.04305126783455</a>
+    <c>-4.04305126783455</c>
+    <g>-4.04305126783455</g>
+    <t>1.2333026104897</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-1.60698857773311</a>
+    <c>-1.69931393631592</c>
+    <g>-4.04305126783455</g>
+    <t>1.14027750857805</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.10050109890949</a>
+    <c>-4.04305126783455</c>
+    <g>-4.04305126783455</g>
+    <t>-0.810986843156629</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

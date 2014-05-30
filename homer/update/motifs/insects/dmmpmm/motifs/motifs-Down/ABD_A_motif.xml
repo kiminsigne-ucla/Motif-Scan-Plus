@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='abd-A' id='ABD_A.MTF' length='6'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.736566098628288</a>
+    <c>0.0035549922532542447</c>
+    <g>0.015439377043664848</g>
+    <t>0.24443953207479277</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.37265972567093936</a>
+    <c>7.78742263401557E-4</c>
+    <g>0.060629392006342285</g>
+    <t>0.5659321400593171</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.05369173085894317</a>
+    <c>0.004591505025565934</c>
+    <g>0.00788373788522231</g>
+    <t>0.933833026230269</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0041428398663719375</a>
+    <c>0.0021482280636724842</c>
+    <g>0.021742980481536656</g>
+    <t>0.9719659515884189</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.7725430578077438</a>
+    <c>0.006058859857433315</c>
+    <g>0.009588762772908562</g>
+    <t>0.21180931956191426</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.13446114974054682</a>
+    <c>0.022031837145027613</c>
+    <g>0.014169981021918436</g>
+    <t>0.829337032092507</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

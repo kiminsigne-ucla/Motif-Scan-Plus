@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/EN/EN_ready.xml on ../BE_DMEL-footprint-Bigfoot/EN/EN_footprints.xml (flank_length=3)' size='56'>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.0' length='8' chromosome='X' location='1980313' strand='direct'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.1' length='8' chromosome='X' location='1980315' strand='revcomp'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.2' length='8' chromosome='X' location='1980333' strand='direct'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.3' length='8' chromosome='X' location='1980335' strand='revcomp'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.4' length='8' chromosome='X' location='1980352' strand='direct'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006317.5' length='8' chromosome='X' location='1980354' strand='revcomp'>
+   <sequence>AATAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006318.6' length='8' chromosome='X' location='1980422' strand='direct'>
+   <sequence>ATTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006318.7' length='8' chromosome='X' location='1980424' strand='revcomp'>
+   <sequence>ATTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006312.8' length='8' chromosome='X' location='1981455' strand='direct'>
+   <sequence>GGTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006313.9' length='8' chromosome='X' location='1981513' strand='revcomp'>
+   <sequence>ATCTATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006314.10' length='8' chromosome='X' location='1981563' strand='direct'>
+   <sequence>AATGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006315.11' length='8' chromosome='X' location='1981646' strand='revcomp'>
+   <sequence>ATTACTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006316.12' length='8' chromosome='X' location='1981711' strand='direct'>
+   <sequence>TTTGATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006306.13' length='8' chromosome='X' location='1996430' strand='revcomp'>
+   <sequence>AGTAATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006307.14' length='8' chromosome='X' location='1996497' strand='revcomp'>
+   <sequence>GTCTATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006308.15' length='8' chromosome='X' location='1996614' strand='direct'>
+   <sequence>AGTTATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006309.16' length='8' chromosome='X' location='1996658' strand='revcomp'>
+   <sequence>AATAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006310.17' length='8' chromosome='X' location='1996748' strand='direct'>
+   <sequence>GTTGATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006311.18' length='8' chromosome='X' location='1996772' strand='direct'>
+   <sequence>GCTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006436.19' length='8' chromosome='X' location='2033463' strand='revcomp'>
+   <sequence>GTTAAGTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006437.20' length='8' chromosome='X' location='2033484' strand='direct'>
+   <sequence>ATGGATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005351.21' length='8' chromosome='X' location='12464411' strand='direct'>
+   <sequence>TCCGACTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006408.22' length='8' chromosome='2L' location='2471214' strand='direct'>
+   <sequence>GCTAATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006409.23' length='8' chromosome='2L' location='2471225' strand='direct'>
+   <sequence>TATAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006410.24' length='8' chromosome='2L' location='2471426' strand='direct'>
+   <sequence>GTTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006411.25' length='8' chromosome='2L' location='2471446' strand='direct'>
+   <sequence>ATTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006412.26' length='8' chromosome='2L' location='2471458' strand='direct'>
+   <sequence>ATTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005337.27' length='8' chromosome='2R' location='1954982' strand='direct'>
+   <sequence>GGGAAATC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005338.28' length='8' chromosome='2R' location='1955023' strand='direct'>
+   <sequence>TTCAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005364.29' length='8' chromosome='2R' location='5827248' strand='direct'>
+   <sequence>TTTCATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005365.30' length='8' chromosome='2R' location='5827276' strand='revcomp'>
+   <sequence>GATTATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005366.31' length='8' chromosome='2R' location='5827317' strand='direct'>
+   <sequence>TATCATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006388.32' length='8' chromosome='2R' location='7041395' strand='revcomp'>
+   <sequence>GCTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006390.33' length='8' chromosome='2R' location='7041422' strand='direct'>
+   <sequence>GCTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006392.34' length='8' chromosome='2R' location='7041491' strand='direct'>
+   <sequence>TTTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006376.35' length='8' chromosome='2R' location='7044522' strand='direct'>
+   <sequence>GCTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006380.36' length='8' chromosome='2R' location='7044645' strand='revcomp'>
+   <sequence>GTTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006385.37' length='8' chromosome='2R' location='7044697' strand='direct'>
+   <sequence>TTTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005349.38' length='8' chromosome='2R' location='16705730' strand='revcomp'>
+   <sequence>GGTGAGTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005350.39' length='8' chromosome='2R' location='16705761' strand='revcomp'>
+   <sequence>ATTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005359.40' length='8' chromosome='3L' location='5552752' strand='direct'>
+   <sequence>GTTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005360.41' length='8' chromosome='3L' location='5552855' strand='direct'>
+   <sequence>AGTGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005340.42' length='8' chromosome='3L' location='6331378' strand='direct'>
+   <sequence>GTTGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005341.43' length='8' chromosome='3L' location='6331447' strand='direct'>
+   <sequence>AGTCATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006435.44' length='8' chromosome='3L' location='11533295' strand='direct'>
+   <sequence>TTTCATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005108.45' length='8' chromosome='3R' location='2692106' strand='revcomp'>
+   <sequence>TTTAATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006433.46' length='8' chromosome='3R' location='7799782' strand='direct'>
+   <sequence>TCTGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006434.47' length='8' chromosome='3R' location='7799881' strand='revcomp'>
+   <sequence>TGCTATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002446.48' length='8' chromosome='3R' location='12526806' strand='revcomp'>
+   <sequence>GCTAATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002454.49' length='8' chromosome='3R' location='12526990' strand='revcomp'>
+   <sequence>GCCGATGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005378.50' length='8' chromosome='3R' location='12599168' strand='revcomp'>
+   <sequence>TTTAATGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005380.51' length='8' chromosome='3R' location='12599242' strand='direct'>
+   <sequence>GCTCATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005384.52' length='8' chromosome='3R' location='12599334' strand='direct'>
+   <sequence>TATGATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006438.53' length='8' chromosome='3R' location='13210970' strand='revcomp'>
+   <sequence>ATCGATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006438.54' length='8' chromosome='3R' location='13210972' strand='direct'>
+   <sequence>ATCGATTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006439.55' length='8' chromosome='3R' location='13211026' strand='revcomp'>
+   <sequence>ATTTATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005352.56' length='8' chromosome='3R' location='13521058' strand='direct'>
+   <sequence>TTGGATGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005353.57' length='8' chromosome='3R' location='13521096' strand='revcomp'>
+   <sequence>ATTCATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005354.58' length='8' chromosome='3R' location='21067345' strand='revcomp'>
+   <sequence>ATTGTTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005355.59' length='8' chromosome='3R' location='21067369' strand='direct'>
+   <sequence>ATTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005356.60' length='8' chromosome='3R' location='21067388' strand='direct'>
+   <sequence>GGGAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006198.61' length='8' chromosome='4' location='80109' strand='revcomp'>
+   <sequence>TGTAATTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006199.62' length='8' chromosome='4' location='80675' strand='revcomp'>
+   <sequence>ACTAATTA</sequence>
+  </segment>
+ </group>
+</smallbismark>

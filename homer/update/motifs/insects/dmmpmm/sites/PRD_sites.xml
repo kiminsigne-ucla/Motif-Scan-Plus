@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/PRD/PRD_ready.xml on ../BE_DMEL-footprint-Bigfoot/PRD/PRD_footprints.xml (flank_length=3)' size='11'>
+  <segment type='site' id='PMSIT.BE_DMEL.002760.0' length='8' chromosome='2R' location='5490944' strand='revcomp'>
+   <sequence>GCGATAAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002765.1' length='8' chromosome='2R' location='5491000' strand='revcomp'>
+   <sequence>GTGCTAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003447.2' length='8' chromosome='2R' location='20564212' strand='direct'>
+   <sequence>GTTATAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003448.3' length='8' chromosome='2R' location='20564274' strand='direct'>
+   <sequence>TTGCTAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003451.4' length='8' chromosome='2R' location='20564474' strand='direct'>
+   <sequence>GCGAAAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003452.5' length='8' chromosome='2R' location='20564508' strand='revcomp'>
+   <sequence>GCGGTAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003453.6' length='8' chromosome='2R' location='20564535' strand='direct'>
+   <sequence>GTCATAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003456.7' length='8' chromosome='2R' location='20564638' strand='revcomp'>
+   <sequence>GTGTTAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003459.8' length='8' chromosome='2R' location='20564743' strand='revcomp'>
+   <sequence>GCGACAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003462.9' length='8' chromosome='2R' location='20564844' strand='revcomp'>
+   <sequence>GCGACCAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003463.10' length='8' chromosome='2R' location='20564937' strand='revcomp'>
+   <sequence>GTGTCAAA</sequence>
+  </segment>
+ </group>
+</smallbismark>

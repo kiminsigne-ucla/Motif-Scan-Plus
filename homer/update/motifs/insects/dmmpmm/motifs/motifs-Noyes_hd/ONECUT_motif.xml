@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='onecut' id='ONECUT.MTF' length='10'>
+  <PPM length='10'>
+   <pm-column position='1'>
+    <a>0.25</a>
+    <c>0.316666666666667</c>
+    <g>0.116666666666667</g>
+    <t>0.316666666666667</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.266666666666667</a>
+    <c>0.266666666666667</c>
+    <g>0.266666666666667</g>
+    <t>0.2</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0666666666666667</a>
+    <c>0.133333333333333</c>
+    <g>0.0</g>
+    <t>0.8</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>1.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.333333333333333</a>
+    <c>0.0</c>
+    <g>0.266666666666667</g>
+    <t>0.4</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.266666666666667</a>
+    <c>0.2</c>
+    <g>0.466666666666667</g>
+    <t>0.0666666666666667</t>
+   </pm-column>
+  </PPM>
+  <PWM length='10'>
+   <pm-column position='1'>
+    <a>0.0</a>
+    <c>0.22314355131421</c>
+    <g>-0.693147180559945</g>
+    <t>0.22314355131421</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0606246218164348</a>
+    <c>0.0606246218164348</c>
+    <g>0.0606246218164348</g>
+    <t>-0.207639364778244</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-1.16315080980568</a>
+    <c>-0.575364144903562</c>
+    <g>-2.77258872223978</g>
+    <t>1.11923157587085</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-2.77258872223978</a>
+    <c>-2.77258872223978</c>
+    <g>-2.77258872223978</g>
+    <t>1.33828514193353</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-2.77258872223978</a>
+    <c>-2.77258872223978</c>
+    <g>1.33828514193353</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.33828514193353</a>
+    <c>-2.77258872223978</c>
+    <g>-2.77258872223978</g>
+    <t>-2.77258872223978</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-2.77258872223978</a>
+    <c>-2.77258872223978</c>
+    <g>-2.77258872223978</g>
+    <t>1.33828514193353</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>-2.77258872223978</a>
+    <c>-2.77258872223978</c>
+    <g>-2.77258872223978</g>
+    <t>1.33828514193353</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.271933715483642</a>
+    <c>-2.77258872223978</c>
+    <g>0.0606246218164348</g>
+    <t>0.44628710262842</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.0606246218164348</a>
+    <c>-0.207639364778244</c>
+    <g>0.594707107746693</g>
+    <t>-1.16315080980568</t>
+   </pm-column>
+  </PWM>
+  <word-list size='15'>
+   <word score='8.42698379596922'>TATTGATTAA</word>
+   <word score='7.93190652917136'>AGTTGATTGN</word>
+   <word score='8.42698379596922'>TATTGATTAA</word>
+   <word score='6.02967144361871'>NTCTGATTGA</word>
+   <word score='7.94741071570733'>CCTTGATTGC</word>
+   <word score='8.91227611773004'>NATTGATTTG</word>
+   <word score='8.96106628189947'>CGTTGATTAG</word>
+   <word score='8.91227611773004'>NGTTGATTTG</word>
+   <word score='8.54071256129756'>TCTTGATTTN</word>
+   <word score='8.91227611773004'>NCTTGATTTG</word>
+   <word score='8.91227611773004'>NATTGATTTG</word>
+   <word score='8.25834965032338'>NTTTGATTGG</word>
+   <word score='5.81571280188158'>CTATGATTAN</word>
+   <word score='8.1099296452051'>NCTTGATTTC</word>
+   <word score='6.44861990206416'>AGCTGATTAN</word>
+  </word-list>
+ </motif>
+</smallbismark>

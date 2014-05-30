@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Dfd' id='DFD.MTF' length='5'>
+  <PPM length='5'>
+   <pm-column position='1'>
+    <a>0.728220716904058</a>
+    <c>0.248158996865721</c>
+    <g>0.0138943877691499</g>
+    <t>0.00972589846107099</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.782177422948346</a>
+    <c>0.000369412703751137</c>
+    <g>0.000216346453826326</g>
+    <t>0.217236817894077</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.00472418460543363</a>
+    <c>0.000176880212274931</c>
+    <g>0.00409159762149365</g>
+    <t>0.991007337560798</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0218025511896427</a>
+    <c>0.135049759476555</c>
+    <g>0.0900568363627327</g>
+    <t>0.75309085297107</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.98214619517305</a>
+    <c>0.0133318433163869</c>
+    <g>0.00206411615006219</g>
+    <t>0.00245784536050099</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='4.09' length='5'>
+   <pm-column position='1'>
+    <a>0.892493456217599</a>
+    <c>0.147480160801986</c>
+    <g>-2.11679261261013</g>
+    <t>-2.40083803873386</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.962307275413352</a>
+    <c>-2.8057545526841</c>
+    <g>-2.81704077349846</g>
+    <t>-0.261991956475161</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-2.59993004734403</a>
+    <c>-2.81997156014333</c>
+    <g>-2.56444936443374</g>
+    <t>1.19420112675221</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-2.03906057655923</a>
+    <c>-0.419313576850155</c>
+    <g>-0.780788427388692</g>
+    <t>0.925279079397368</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.18538012666071</a>
+    <c>-2.13771934250245</c>
+    <g>-2.68863383826038</g>
+    <t>-2.7050884509696</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

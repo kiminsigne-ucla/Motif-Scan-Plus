@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='cad' id='CAD.MTF'>
+  <PCM length='9'>
+   <pm-column position='1'>
+    <a>9</a>
+    <c>0</c>
+    <g>4</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>1</a>
+    <c>2</c>
+    <g>3</g>
+    <t>7</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0</a>
+    <c>9</c>
+    <g>1</g>
+    <t>3</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>6</a>
+    <c>3</c>
+    <g>4</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>4</a>
+    <c>1</c>
+    <g>2</g>
+    <t>6</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>12</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>13</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>8</a>
+    <c>3</c>
+    <g>0</g>
+    <t>2</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>5</a>
+    <c>3</c>
+    <g>5</g>
+    <t>0</t>
+   </pm-column>
+  </PCM>
+  <PPM length='9'>
+   <pm-column position='1'>
+    <a>0.692307692307692</a>
+    <c>0.0</c>
+    <g>0.307692307692308</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0769230769230769</a>
+    <c>0.153846153846154</c>
+    <g>0.230769230769231</g>
+    <t>0.538461538461538</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0</a>
+    <c>0.692307692307692</c>
+    <g>0.0769230769230769</g>
+    <t>0.230769230769231</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.461538461538462</a>
+    <c>0.230769230769231</c>
+    <g>0.307692307692308</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.307692307692308</a>
+    <c>0.0769230769230769</c>
+    <g>0.153846153846154</g>
+    <t>0.461538461538462</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.923076923076923</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0769230769230769</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.615384615384615</a>
+    <c>0.230769230769231</c>
+    <g>0.0</g>
+    <t>0.153846153846154</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.384615384615385</a>
+    <c>0.230769230769231</c>
+    <g>0.384615384615385</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM length='9'>
+   <pm-column position='1'>
+    <a>0.971860583028966</a>
+    <c>-2.63905732961526</c>
+    <g>0.194156014440957</g>
+    <t>-2.63905732961526</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-1.02961941718116</a>
+    <c>-0.441832752279039</c>
+    <g>-0.0741079721537218</g>
+    <t>0.728238500371216</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-2.63905732961526</a>
+    <c>0.971860583028966</c>
+    <g>-1.02961941718116</g>
+    <t>-0.0741079721537218</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.579818495252942</a>
+    <c>-0.0741079721537218</c>
+    <g>0.194156014440957</g>
+    <t>-2.63905732961526</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.194156014440957</a>
+    <c>-1.02961941718116</c>
+    <g>-0.441832752279039</g>
+    <t>0.579818495252942</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.25276296849537</a>
+    <c>-2.63905732961526</c>
+    <g>-2.63905732961526</g>
+    <t>-1.02961941718116</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1.33123458393686</a>
+    <c>-2.63905732961526</c>
+    <g>-2.63905732961526</g>
+    <t>-2.63905732961526</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.857450231851222</a>
+    <c>-0.0741079721537218</c>
+    <g>-2.63905732961526</g>
+    <t>-0.441832752279039</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.405465108108164</a>
+    <c>-0.0741079721537218</c>
+    <g>0.405465108108164</g>
+    <t>-2.63905732961526</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

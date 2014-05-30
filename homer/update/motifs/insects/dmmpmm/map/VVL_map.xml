@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/VVL/VVL_ready.xml on ../BE_DMEL-footprint-Bigfoot/VVL/VVL_footprints.xml (flank_length=1)' size='11'>
+  <segment id='BE_DMEL.006301' length='24' chromosome='2R' location='8412592'>
+   <sequence>catcgTCATCAgcatgcatggcac</sequence>
+  </segment>
+  <segment id='BE_DMEL.000948' length='23' chromosome='3L' location='6758912'>
+   <sequence>gtcgctaatgaTATGCAcccctg</sequence>
+  </segment>
+  <segment id='BE_DMEL.000949' length='19' chromosome='3L' location='6759140'>
+   <sequence>gcatTATGCAaatgttcca</sequence>
+  </segment>
+  <segment id='BE_DMEL.002486' length='17' chromosome='3L' location='14043357'>
+   <sequence>TGAATAaattaaaacct</sequence>
+  </segment>
+  <segment id='BE_DMEL.002487' length='25' chromosome='3L' location='14043380'>
+   <sequence>cgtgTGCATAcatacataaatcggg</sequence>
+  </segment>
+  <segment id='BE_DMEL.002488' length='32' chromosome='3L' location='14043829'>
+   <sequence>gattatactaaaaattaattttgaaaTAATTA</sequence>
+  </segment>
+  <segment id='BE_DMEL.002489' length='14' chromosome='3L' location='14043905'>
+   <sequence>ataactTTATTAta</sequence>
+  </segment>
+  <segment id='BE_DMEL.002490' length='19' chromosome='3L' location='14043928'>
+   <sequence>tttaatTGATTAaaatgct</sequence>
+  </segment>
+  <segment id='BE_DMEL.002491' length='14' chromosome='3L' location='14043970'>
+   <sequence>tgaatgtTAATTAg</sequence>
+  </segment>
+  <segment id='BE_DMEL.002492' length='19' chromosome='3L' location='14044312'>
+   <sequence>tccagcTCATTAcgaaggc</sequence>
+  </segment>
+  <segment id='BE_DMEL.002494' length='15' chromosome='3L' location='14044372'>
+   <sequence>gattttTGCATAtcg</sequence>
+  </segment>
+ </group>
+</smallbismark>

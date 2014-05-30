@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/MED/MED_ready.xml on ../BE_DMEL-footprint-Bigfoot/MED/MED_footprints.xml (flank_length=6)' size='8'>
+  <segment type='site' id='PMSIT.BE_DMEL.002462.0' length='11' chromosome='2R' location='5497230' strand='revcomp'>
+   <sequence>GCATCCCAAGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002463.1' length='11' chromosome='2R' location='5497260' strand='direct'>
+   <sequence>GCAGCCGCAGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002464.2' length='11' chromosome='2R' location='5497286' strand='revcomp'>
+   <sequence>GCCCGCCACTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002470.3' length='11' chromosome='2R' location='5497449' strand='revcomp'>
+   <sequence>CCACCGGCAGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002472.4' length='11' chromosome='2R' location='5497474' strand='revcomp'>
+   <sequence>GCAGGCGCCAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000746.5' length='11' chromosome='3R' location='17209387' strand='direct'>
+   <sequence>CCACGCCCCGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000748.6' length='11' chromosome='3R' location='17209453' strand='revcomp'>
+   <sequence>GCCGCCGACAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000752.7' length='11' chromosome='3R' location='17209523' strand='direct'>
+   <sequence>ACCGGCGCAGC</sequence>
+  </segment>
+ </group>
+</smallbismark>

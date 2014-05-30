@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='ovo' id='OVO.MTF'>
+  <PPM length='9'>
+   <pm-column position='1'>
+    <a>0.45</a>
+    <c>0.1</c>
+    <g>0.2</g>
+    <t>0.25</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0</a>
+    <c>1.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.238095238095238</a>
+    <c>0.142857142857143</c>
+    <g>0.238095238095238</g>
+    <t>0.380952380952381</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>1.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.619047619047619</a>
+    <c>0.0952380952380952</c>
+    <g>0.0952380952380952</g>
+    <t>0.19047619047619</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0952380952380952</a>
+    <c>0.666666666666667</c>
+    <g>0.19047619047619</g>
+    <t>0.0476190476190476</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.285714285714286</a>
+    <c>0.0</c>
+    <g>0.19047619047619</g>
+    <t>0.523809523809524</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

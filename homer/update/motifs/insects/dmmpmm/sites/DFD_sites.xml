@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/DFD/DFD_ready.xml on ../BE_DMEL-footprint-Bigfoot/DFD/DFD_footprints.xml (flank_length=3)' size='16'>
+  <segment type='site' id='PMSIT.BE_DMEL.000194.0' length='8' chromosome='2R' location='2013944' strand='direct'>
+   <sequence>TTAATTTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000195.1' length='8' chromosome='2R' location='2013970' strand='revcomp'>
+   <sequence>TTAATAGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000196.2' length='8' chromosome='2R' location='2013995' strand='direct'>
+   <sequence>TTAATTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000197.3' length='8' chromosome='2R' location='2014037' strand='revcomp'>
+   <sequence>TTACTTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000975.4' length='8' chromosome='3R' location='2612818' strand='revcomp'>
+   <sequence>CTAATGAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000976.5' length='8' chromosome='3R' location='2612921' strand='revcomp'>
+   <sequence>ATAATTGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000977.6' length='8' chromosome='3R' location='2612955' strand='direct'>
+   <sequence>TTAATTAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000978.7' length='8' chromosome='3R' location='2613116' strand='revcomp'>
+   <sequence>TTAATGAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000980.8' length='8' chromosome='3R' location='2613169' strand='revcomp'>
+   <sequence>CTAATTGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000982.9' length='8' chromosome='3R' location='2613244' strand='direct'>
+   <sequence>TAAATGGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000983.10' length='8' chromosome='3R' location='2613300' strand='direct'>
+   <sequence>TTCATTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000984.11' length='8' chromosome='3R' location='2613323' strand='revcomp'>
+   <sequence>TTAATTTC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000985.12' length='8' chromosome='3R' location='2613355' strand='direct'>
+   <sequence>GTAATGGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000987.13' length='8' chromosome='3R' location='2613439' strand='direct'>
+   <sequence>GTAATTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000988.14' length='8' chromosome='3R' location='2613587' strand='direct'>
+   <sequence>TTAATTGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000989.15' length='8' chromosome='3R' location='2613659' strand='direct'>
+   <sequence>TTAATGAC</sequence>
+  </segment>
+ </group>
+</smallbismark>

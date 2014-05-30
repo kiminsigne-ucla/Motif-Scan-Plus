@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=Antp</comment>
+ <group name='bismark extracted sequences' size='12'>
+  <segment id='BE_DMEL.006339' length='17' chromosome='X' location='4134581'>
+   <sequence>CAATTTAATTGTTTATT</sequence>
+  </segment>
+  <segment id='BE_DMEL.002348' length='16' chromosome='2L' location='21840626'>
+   <sequence>AATGATAATTACAAAC</sequence>
+  </segment>
+  <segment id='BE_DMEL.002349' length='13' chromosome='2L' location='21840736'>
+   <sequence>GATAATTGACTTT</sequence>
+  </segment>
+  <segment id='BE_DMEL.002353' length='21' chromosome='2L' location='21840808'>
+   <sequence>GAAACACATAAATCTTAAGTG</sequence>
+  </segment>
+  <segment id='BE_DMEL.002355' length='20' chromosome='2L' location='21840884'>
+   <sequence>CATCATAAAAATATTAAAAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006193' length='37' chromosome='2R' location='1216998'>
+   <sequence>TTTCTTTGGCATTAATCAAAATAATTGGCGCATTTCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006194' length='17' chromosome='2R' location='1217374'>
+   <sequence>CCCATAAATAATATTAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006195' length='10' chromosome='2R' location='1217428'>
+   <sequence>CAACTCATAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006196' length='15' chromosome='2R' location='1217467'>
+   <sequence>TTAAGTTCATTTCAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006197' length='33' chromosome='2R' location='1217540'>
+   <sequence>AAAATGAATTATGATTATTGCCATGTAAAAGAG</sequence>
+  </segment>
+  <segment id='BE_DMEL.004112' length='42' chromosome='3R' location='2830986'>
+   <sequence>ATAATATAATAATAAAAATAATAATAATAATAATAATATAAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.004113' length='41' chromosome='3R' location='2831032'>
+   <sequence>ACTAATAGTATATAATAATTTTAATAGTATGTTATATAAAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

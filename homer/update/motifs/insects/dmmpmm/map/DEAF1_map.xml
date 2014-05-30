@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/DEAF1/DEAF1_ready.xml on ../BE_DMEL-footprint-Bigfoot/DEAF1/DEAF1_footprints.xml (flank_length=4)' size='10'>
+  <segment id='BE_DMEL.000186' length='18' chromosome='2R' location='2013609'>
+   <sequence>ctcaGCTCGTCGGagagc</sequence>
+  </segment>
+  <segment id='BE_DMEL.000187' length='61' chromosome='2R' location='2013631'>
+   <sequence>attaaaacgaacggcagttcgttgccttcgttcttgcttcgcGTGCTTCGTatcttgattt</sequence>
+  </segment>
+  <segment id='BE_DMEL.000188' length='18' chromosome='2R' location='2013714'>
+   <sequence>GCCATTCGGctggcactc</sequence>
+  </segment>
+  <segment id='BE_DMEL.000189' length='33' chromosome='2R' location='2013747'>
+   <sequence>ttctcgtcggctaCCTCTTCGGgtggggccgca</sequence>
+  </segment>
+  <segment id='BE_DMEL.000190' length='21' chromosome='2R' location='2013775'>
+   <sequence>CCGCAGCGCtcggtccactcc</sequence>
+  </segment>
+  <segment id='BE_DMEL.000191' length='25' chromosome='2R' location='2013807'>
+   <sequence>gccccactcgtcaGTCAGTCGGcag</sequence>
+  </segment>
+  <segment id='BE_DMEL.000192' length='20' chromosome='2R' location='2013852'>
+   <sequence>agCTTTTTCGTggggagatc</sequence>
+  </segment>
+  <segment id='BE_DMEL.000193' length='20' chromosome='2R' location='2013895'>
+   <sequence>tgGCGTTTCGGaattcttag</sequence>
+  </segment>
+  <segment id='BE_DMEL.000981' length='59' chromosome='3R' location='2613188'>
+   <sequence>ttccaaCCGACTGGCggcaaaaagcgatcgatggttcgcttttagcccgaagcttttaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.000986' length='52' chromosome='3R' location='2613403'>
+   <sequence>caaagcgatcgacttcgactcatttaaGTGATTCGTgtaattattttaagca</sequence>
+  </segment>
+ </group>
+</smallbismark>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Deaf1' id='DEAF1.MTF'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.2</a>
+    <c>0.4</c>
+    <g>0.3</g>
+    <t>0.1</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.5</a>
+    <c>0.5</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0</a>
+    <c>1.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>1.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.7</a>
+    <c>0.0</c>
+    <g>0.3</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='4.57' length='6'>
+   <pm-column position='1'>
+    <a>-0.324475438662139</a>
+    <c>0.58981564315992</c>
+    <g>0.318794890417998</g>
+    <t>-0.899168711487208</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.51336391223878</a>
+    <c>0.802827505666355</c>
+    <g>-2.39789527279837</g>
+    <t>-2.39789527279837</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-2.39789527279837</a>
+    <c>1.47539805565112</c>
+    <g>-2.39789527279837</g>
+    <t>-2.39789527279837</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-2.39789527279837</a>
+    <c>-2.39789527279837</c>
+    <g>1.47539805565112</g>
+    <t>-2.39789527279837</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.17893063566414</a>
+    <c>-2.39789527279837</c>
+    <g>-2.39789527279837</g>
+    <t>-2.39789527279837</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.834169151879551</a>
+    <c>-2.39789527279837</c>
+    <g>0.318794890417998</g>
+    <t>-2.39789527279837</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

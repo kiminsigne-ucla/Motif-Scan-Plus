@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='kni' id='KNI.MTF' length='6'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.28798637863770077</a>
+    <c>0.7040238989870363</c>
+    <g>0.00261050905208039</g>
+    <t>0.0053792133231825015</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.6685428294276435</a>
+    <c>0.03301176277320985</c>
+    <g>0.1614979220688186</g>
+    <t>0.13694748573032797</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.5919004475410332</a>
+    <c>5.279123221018623E-4</c>
+    <g>0.038235986398298845</g>
+    <t>0.36933565373856647</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.998948352040449</a>
+    <c>9.517041269403345E-5</c>
+    <g>8.574871165915368E-4</g>
+    <t>9.899043026540664E-5</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.9725402901387141</a>
+    <c>5.370854384558666E-4</c>
+    <g>0.018135887814826217</g>
+    <t>0.008786736608003665</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.9543153158168881</a>
+    <c>0.006008940798996487</c>
+    <g>0.004132792287553794</g>
+    <t>0.035542951096562116</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

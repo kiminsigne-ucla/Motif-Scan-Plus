@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=tin</comment>
+ <group name='bismark extracted sequences' size='11'>
+  <segment id='BE_DMEL.005979' length='9' chromosome='2R' location='5447129'>
+   <sequence>CTCAAGTGG</sequence>
+  </segment>
+  <segment id='BE_DMEL.005980' length='9' chromosome='2R' location='5447302'>
+   <sequence>CCACTTGAG</sequence>
+  </segment>
+  <segment id='BE_DMEL.002467' length='7' chromosome='2R' location='5497333'>
+   <sequence>ACTTCAC</sequence>
+  </segment>
+  <segment id='BE_DMEL.002469' length='7' chromosome='2R' location='5497350'>
+   <sequence>CACTTAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.002471' length='7' chromosome='2R' location='5497461'>
+   <sequence>CCCTTGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.002475' length='7' chromosome='2R' location='5497516'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.000670' length='16' chromosome='2R' location='19811989'>
+   <sequence>TGAAGCACTTGAGGAG</sequence>
+  </segment>
+  <segment id='BE_DMEL.000671' length='16' chromosome='2R' location='19812026'>
+   <sequence>CCTCCCCACTTAGGCC</sequence>
+  </segment>
+  <segment id='BE_DMEL.004400' length='18' chromosome='2R' location='19816868'>
+   <sequence>TCAAGTTCAAGTGCCAAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.000745' length='8' chromosome='3R' location='17209345'>
+   <sequence>TCAAGTGG</sequence>
+  </segment>
+  <segment id='BE_DMEL.000753' length='8' chromosome='3R' location='17209536'>
+   <sequence>TCAAGTGG</sequence>
+  </segment>
+ </group>
+</smallbismark>

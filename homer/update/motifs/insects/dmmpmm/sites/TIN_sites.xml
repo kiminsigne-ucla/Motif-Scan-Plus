@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/TIN/TIN_ready.xml on ../BE_DMEL-footprint-Bigfoot/TIN/TIN_footprints.xml (flank_length=2)' size='11'>
+  <segment type='site' id='PMSIT.BE_DMEL.005979.0' length='7' chromosome='2R' location='5447130' strand='revcomp'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005980.1' length='7' chromosome='2R' location='5447303' strand='direct'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002467.2' length='7' chromosome='2R' location='5497332' strand='direct'>
+   <sequence>CACTTCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002469.3' length='7' chromosome='2R' location='5497350' strand='direct'>
+   <sequence>CACTTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002471.4' length='7' chromosome='2R' location='5497461' strand='direct'>
+   <sequence>CCCTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002475.5' length='7' chromosome='2R' location='5497516' strand='direct'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000670.6' length='7' chromosome='2R' location='19811994' strand='direct'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000671.7' length='7' chromosome='2R' location='19812032' strand='direct'>
+   <sequence>CACTTAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004400.8' length='7' chromosome='2R' location='19816874' strand='revcomp'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000745.9' length='7' chromosome='3R' location='17209345' strand='revcomp'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000753.10' length='7' chromosome='3R' location='17209536' strand='revcomp'>
+   <sequence>CACTTGA</sequence>
+  </segment>
+ </group>
+</smallbismark>

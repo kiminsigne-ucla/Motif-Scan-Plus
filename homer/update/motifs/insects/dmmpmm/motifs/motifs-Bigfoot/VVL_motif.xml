@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='vvl' id='VVL.MTF'>
+  <comment name='discrete information content by position'>[0.0, -0.217990479345306, -0.557778626461976, -0.527190241314587, -0.753090845835441, 0.0]</comment>
+  <comment name='discrete information content'>-2.05605019295731</comment>
+  <comment name='number of sequences in the corresponding alignment'>11</comment>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.909090909090909</a>
+    <c>0.0909090909090909</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.545454545454545</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.454545454545455</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.363636363636364</g>
+    <t>0.636363636363636</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0909090909090909</a>
+    <c>0.636363636363636</c>
+    <g>0.0909090909090909</g>
+    <t>0.181818181818182</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM length='6'>
+   <pm-column position='1'>
+    <a>-2.484906649788</a>
+    <c>-2.484906649788</c>
+    <g>-2.484906649788</g>
+    <t>1.32175583998232</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>1.22866541691631</a>
+    <c>-0.8754687373539</c>
+    <g>-2.484906649788</g>
+    <t>-2.484906649788</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.733969175080201</a>
+    <c>-2.484906649788</c>
+    <g>-2.484906649788</g>
+    <t>0.559615787935423</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>-2.484906649788</a>
+    <c>-2.484906649788</c>
+    <g>0.348306694268216</g>
+    <t>0.882389180198474</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-0.8754687373539</a>
+    <c>0.882389180198474</c>
+    <g>-0.8754687373539</g>
+    <t>-0.287682072451781</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.32175583998232</a>
+    <c>-2.484906649788</c>
+    <g>-2.484906649788</g>
+    <t>-2.484906649788</t>
+   </pm-column>
+  </PWM>
+  <word-list size='13'>
+   <word score='4.26679047808789'>TCATCA</word>
+   <word score='5.66248875928306'>TATGCA</word>
+   <word score='5.66248875928306'>TATGCA</word>
+   <word score='6.19657124521332'>TATTCA</word>
+   <word score='5.66248875928306'>TATGCA</word>
+   <word score='5.20085337970784'>TAATTA</word>
+   <word score='5.20085337970784'>TAATTA</word>
+   <word score='4.61306671480572'>TAATAA</word>
+   <word score='6.37092463235809'>TAATCA</word>
+   <word score='5.20085337970784'>TAATTA</word>
+   <word score='5.20085337970784'>TAATTA</word>
+   <word score='4.61306671480572'>TAATGA</word>
+   <word score='5.66248875928306'>TATGCA</word>
+  </word-list>
+ </motif>
+</smallbismark>

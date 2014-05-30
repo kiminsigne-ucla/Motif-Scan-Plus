@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/EVE/EVE_ready.xml on ../BE_DMEL-footprint-Bigfoot/EVE/EVE_footprints.xml (flank_length=3)' size='20'>
+  <segment type='site' id='PMSIT.BE_DMEL.001787.0' length='8' chromosome='2R' location='5485766' strand='revcomp'>
+   <sequence>CACCATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001789.1' length='8' chromosome='2R' location='5485790' strand='direct'>
+   <sequence>CACAGTCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002761.2' length='8' chromosome='2R' location='5490945' strand='revcomp'>
+   <sequence>GGCGATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002764.3' length='8' chromosome='2R' location='5490996' strand='direct'>
+   <sequence>CACGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006375.4' length='8' chromosome='2R' location='7044524' strand='revcomp'>
+   <sequence>AACAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006378.5' length='8' chromosome='2R' location='7044657' strand='revcomp'>
+   <sequence>CACATTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006384.6' length='8' chromosome='2R' location='7044704' strand='direct'>
+   <sequence>GACATTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006351.7' length='8' chromosome='2R' location='15777850' strand='direct'>
+   <sequence>AACATTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006354.8' length='8' chromosome='2R' location='15777960' strand='revcomp'>
+   <sequence>AATGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006355.9' length='8' chromosome='2R' location='15778009' strand='revcomp'>
+   <sequence>AACATTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003454.10' length='8' chromosome='2R' location='20564542' strand='revcomp'>
+   <sequence>CACCGCAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003457.11' length='8' chromosome='2R' location='20564634' strand='direct'>
+   <sequence>AACCATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.003460.12' length='8' chromosome='2R' location='20564750' strand='direct'>
+   <sequence>CATGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006147.13' length='8' chromosome='3R' location='12559865' strand='revcomp'>
+   <sequence>AACAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006150.14' length='8' chromosome='3R' location='12560070' strand='direct'>
+   <sequence>AACAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000264.15' length='8' chromosome='3R' location='12636901' strand='revcomp'>
+   <sequence>AACAGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000266.16' length='8' chromosome='3R' location='12636917' strand='direct'>
+   <sequence>CAAAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000268.17' length='8' chromosome='3R' location='12636946' strand='revcomp'>
+   <sequence>CATAATAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000269.18' length='8' chromosome='3R' location='12636996' strand='revcomp'>
+   <sequence>CACAATGA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002343.19' length='8' chromosome='3R' location='17205867' strand='revcomp'>
+   <sequence>GGCAATTA</sequence>
+  </segment>
+ </group>
+</smallbismark>

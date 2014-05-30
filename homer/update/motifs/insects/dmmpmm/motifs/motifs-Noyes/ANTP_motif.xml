@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Antp' id='ANTP.MTF'>
+  <comment name='discrete information content by position'>[-0.906193710111091, -0.367057180012029, -0.154970472587707, 0.0, 0.0, -0.154970472587707, -0.601770743896974, -0.361908663783651]</comment>
+  <comment name='discrete information content'>-2.54687124297916</comment>
+  <comment name='number of sequences in the corresponding alignment'>19</comment>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.0394736842105263</a>
+    <c>0.302631578947368</c>
+    <g>0.144736842105263</g>
+    <t>0.513157894736842</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0789473684210526</a>
+    <c>0.0263157894736842</c>
+    <g>0.0263157894736842</g>
+    <t>0.868421052631579</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0526315789473684</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.947368421052632</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0526315789473684</g>
+    <t>0.947368421052632</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.473684210526316</g>
+    <t>0.526315789473684</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.842105263157895</a>
+    <c>0.0</c>
+    <g>0.157894736842105</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM length='8'>
+   <pm-column position='1'>
+    <a>-1.6094379124341</a>
+    <c>0.182321556793955</c>
+    <g>-0.510825623765991</g>
+    <t>0.693147180559945</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-1.04982212449868</a>
+    <c>-1.89711998488588</c>
+    <g>-1.89711998488588</g>
+    <t>1.20896034583698</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-1.38629436111989</a>
+    <c>-2.99573227355399</c>
+    <g>-2.99573227355399</g>
+    <t>1.2947271675944</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.34807314829969</a>
+    <c>-2.99573227355399</c>
+    <g>-2.99573227355399</g>
+    <t>-2.99573227355399</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.34807314829969</a>
+    <c>-2.99573227355399</c>
+    <g>-2.99573227355399</g>
+    <t>-2.99573227355399</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>-2.99573227355399</a>
+    <c>-2.99573227355399</c>
+    <g>-1.38629436111989</g>
+    <t>1.2947271675944</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-2.99573227355399</a>
+    <c>-2.99573227355399</c>
+    <g>0.615185639090233</g>
+    <t>0.717839793150317</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1.17865499634165</a>
+    <c>-2.99573227355399</c>
+    <g>-0.430782916092454</g>
+    <t>-2.99573227355399</t>
+   </pm-column>
+  </PWM>
+  <word-list size='19'>
+   <word score='6.96393941147698'>CTTAATTG</word>
+   <word score='9.08420294767707'>TTTAATTA</word>
+   <word score='7.18209542128015'>NNTAATTA</word>
+   <word score='9.08420294767707'>TTTAATTA</word>
+   <word score='8.98154879361699'>TTTAATGA</word>
+   <word score='7.88023014335113'>GTTAATTA</word>
+   <word score='8.57337732391108'>CTTAATTA</word>
+   <word score='8.98154879361699'>TTTAATGA</word>
+   <word score='8.470723169851'>CTTAATGA</word>
+   <word score='9.08420294767707'>TTTAATTA</word>
+   <word score='9.08420294767707'>TTTAATTA</word>
+   <word score='8.98154879361699'>TTTAATGA</word>
+   <word score='7.18209542128015'>NNTAATTA</word>
+   <word score='8.98154879361699'>TTTAATGA</word>
+   <word score='8.470723169851'>CTTAATGA</word>
+   <word score='6.8612852574169'>CTTAATGG</word>
+   <word score='8.98154879361699'>TTTAATGA</word>
+   <word score='7.77757598929105'>GTTAATGA</word>
+   <word score='-0.839207673081211'>NAAAAGTG</word>
+  </word-list>
+ </motif>
+</smallbismark>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/FTZ/FTZ_ready.xml on ../BE_DMEL-footprint-Bigfoot/FTZ/FTZ_footprints.xml (flank_length=3)' size='66'>
+  <segment id='BE_DMEL.002358' length='14' chromosome='2L' location='21840981'>
+   <sequence>cagtGCATTAGAga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002359' length='34' chromosome='2L' location='21841078'>
+   <sequence>catgtattttCATAATTTtcatatttctccgtgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.002360' length='15' chromosome='2L' location='21841129'>
+   <sequence>tgcGCTAAAGTgtct</sequence>
+  </segment>
+  <segment id='BE_DMEL.002361' length='17' chromosome='2L' location='21841170'>
+   <sequence>tctgccAAATTAGCcgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006389' length='16' chromosome='2R' location='7041390'>
+   <sequence>ctcTCTAATTAgcgac</sequence>
+  </segment>
+  <segment id='BE_DMEL.006391' length='16' chromosome='2R' location='7041419'>
+   <sequence>ccgGCTAATTGgcaac</sequence>
+  </segment>
+  <segment id='BE_DMEL.006393' length='16' chromosome='2R' location='7041488'>
+   <sequence>taaTTTAATTGaccgc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006394' length='16' chromosome='2R' location='7041521'>
+   <sequence>ttgATTAATTCctagc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006395' length='16' chromosome='2R' location='7041610'>
+   <sequence>gccgaCCATAAAAaag</sequence>
+  </segment>
+  <segment id='BE_DMEL.006396' length='16' chromosome='2R' location='7041621'>
+   <sequence>aaaagCACTTAACtcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006397' length='16' chromosome='2R' location='7041633'>
+   <sequence>ctcgtCAATTAACaca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006399' length='16' chromosome='2R' location='7041876'>
+   <sequence>ttgtcACATAAAGtgt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006400' length='16' chromosome='2R' location='7042024'>
+   <sequence>tcgCCTAATTGtggca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006402' length='17' chromosome='2R' location='7042048'>
+   <sequence>cggATTTATGAcacaaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006377' length='28' chromosome='2R' location='7044639'>
+   <sequence>ggccttCAATTAACcagttaaatgtgcc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006386' length='38' chromosome='2R' location='7044682'>
+   <sequence>cgaaattgattgataTTTAATTGacatttaatttattt</sequence>
+  </segment>
+  <segment id='BE_DMEL.003455' length='16' chromosome='2R' location='20564541'>
+   <sequence>attgcggtGTGTCTGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.003458' length='25' chromosome='2R' location='20564629'>
+   <sequence>taacaaaCCATTAACacccgaaccg</sequence>
+  </segment>
+  <segment id='BE_DMEL.003461' length='32' chromosome='2R' location='20564743'>
+   <sequence>tttgtcgcatgattaggggCCATTACAaattg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004895' length='23' chromosome='3R' location='2684544'>
+   <sequence>cagacaaaatgtCTTTTACAttc</sequence>
+  </segment>
+  <segment id='BE_DMEL.004897' length='27' chromosome='3R' location='2684590'>
+   <sequence>tgcgaaacattactgCCATTACAgttc</sequence>
+  </segment>
+  <segment id='BE_DMEL.004899' length='28' chromosome='3R' location='2684771'>
+   <sequence>gtgtctcGCATTAGActgatgttctgtt</sequence>
+  </segment>
+  <segment id='BE_DMEL.004902' length='26' chromosome='3R' location='2684877'>
+   <sequence>tctGTTTATGGatagtaaatgcaccg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004904' length='36' chromosome='3R' location='2684906'>
+   <sequence>catgggtccttaagcgtCTTAATTGcccgcgtatcc</sequence>
+  </segment>
+  <segment id='BE_DMEL.004905' length='62' chromosome='3R' location='2684952'>
+   <sequence>agcagcgcaattggtttccaaggcggaaatattattggcacaTCATAAAActataaaacagg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004908' length='34' chromosome='3R' location='2685237'>
+   <sequence>atcattGTTAATGGacgttatccttattagatgt</sequence>
+  </segment>
+  <segment id='BE_DMEL.004912' length='24' chromosome='3R' location='2685334'>
+   <sequence>atgttagGTATTAAGatctgattc</sequence>
+  </segment>
+  <segment id='BE_DMEL.004913' length='26' chromosome='3R' location='2685368'>
+   <sequence>cagctTCATTATAttatagattaaaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.004915' length='23' chromosome='3R' location='2685475'>
+   <sequence>aaatTGTTATAGtgcacggacct</sequence>
+  </segment>
+  <segment id='BE_DMEL.004917' length='21' chromosome='3R' location='2685532'>
+   <sequence>ctACACAAGGtacaaggtatt</sequence>
+  </segment>
+  <segment id='BE_DMEL.004919' length='18' chromosome='3R' location='2685570'>
+   <sequence>ttcacatgACATTATTta</sequence>
+  </segment>
+  <segment id='BE_DMEL.004920' length='19' chromosome='3R' location='2685622'>
+   <sequence>ttcaaaaagCCATCAATct</sequence>
+  </segment>
+  <segment id='BE_DMEL.004922' length='22' chromosome='3R' location='2685717'>
+   <sequence>atctaggggCCATAAGCagtac</sequence>
+  </segment>
+  <segment id='BE_DMEL.004923' length='28' chromosome='3R' location='2685774'>
+   <sequence>cttacggggtCATCATTGctaaaagcgg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004925' length='25' chromosome='3R' location='2685799'>
+   <sequence>cggcaggaCAATTCGAataagtgtg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004928' length='23' chromosome='3R' location='2685820'>
+   <sequence>tgtgacaggagCAATTACAgcct</sequence>
+  </segment>
+  <segment id='BE_DMEL.004932' length='21' chromosome='3R' location='2685885'>
+   <sequence>tcgcaggCAATTCAAggatat</sequence>
+  </segment>
+  <segment id='BE_DMEL.004938' length='22' chromosome='3R' location='2686023'>
+   <sequence>cttgacTTTGATTGgtgccgat</sequence>
+  </segment>
+  <segment id='BE_DMEL.004942' length='22' chromosome='3R' location='2686058'>
+   <sequence>gctatatccacCCATTGAGacg</sequence>
+  </segment>
+  <segment id='BE_DMEL.004944' length='23' chromosome='3R' location='2686174'>
+   <sequence>actgaagattaCTTCATTTatct</sequence>
+  </segment>
+  <segment id='BE_DMEL.006091' length='26' chromosome='3R' location='2759090'>
+   <sequence>actgtttacCTTAATTGcttatatat</sequence>
+  </segment>
+  <segment id='BE_DMEL.006330' length='21' chromosome='3R' location='2823449'>
+   <sequence>tcaaacaTTTAATGGacagct</sequence>
+  </segment>
+  <segment id='BE_DMEL.006331' length='18' chromosome='3R' location='2823465'>
+   <sequence>caGCTAATAGtaacataa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006332' length='22' chromosome='3R' location='2823478'>
+   <sequence>cataatatACTTATGTcaacca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006441' length='61' chromosome='3R' location='2824502'>
+   <sequence>tgcgattaCAATTACGattacggttacgattacggttattattataataatgggtttatga</sequence>
+  </segment>
+  <segment id='BE_DMEL.006442' length='18' chromosome='3R' location='2824585'>
+   <sequence>agtgtgcgACTGATTGcg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006444' length='44' chromosome='3R' location='2824599'>
+   <sequence>tgcggtTCTAATTTtttacgattattgttatgattatttttacg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006445' length='41' chromosome='3R' location='2824638'>
+   <sequence>ttacggcCTTTATGAtcttagcgggctgacaattgggataa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006326' length='21' chromosome='3R' location='2825816'>
+   <sequence>ttctataaaatCAATTAAAat</sequence>
+  </segment>
+  <segment id='BE_DMEL.006327' length='23' chromosome='3R' location='2825832'>
+   <sequence>aaAATAATTGtacaatttacaaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006328' length='23' chromosome='3R' location='2826052'>
+   <sequence>tgctgcttaagtacTTATAAGAg</sequence>
+  </segment>
+  <segment id='BE_DMEL.006329' length='20' chromosome='3R' location='2826120'>
+   <sequence>tagatgttctTAATTAACgc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006322' length='16' chromosome='3R' location='2827209'>
+   <sequence>atcaaagcAAATTAAG</sequence>
+  </segment>
+  <segment id='BE_DMEL.006323' length='19' chromosome='3R' location='2827237'>
+   <sequence>cgctaTTTAATAAtaatca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006324' length='14' chromosome='3R' location='2827251'>
+   <sequence>aatcACATCAGAaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.006325' length='70' chromosome='3R' location='2827311'>
+   <sequence>tattgcataattatttaataatgtgAAATTAACataatgtatttttgtataatagttaccattactcgta</sequence>
+  </segment>
+  <segment id='BE_DMEL.002447' length='56' chromosome='3R' location='12526850'>
+   <sequence>cgacgcccggcacttaacattgtactTTTTATGAcctcgtaaaaaaactgcacaca</sequence>
+  </segment>
+  <segment id='BE_DMEL.002451' length='51' chromosome='3R' location='12526953'>
+   <sequence>accgaccttgaaggcggcgtcaaaaaGTTAATGAtcaccatcggctctgga</sequence>
+  </segment>
+  <segment id='BE_DMEL.002456' length='19' chromosome='3R' location='12527013'>
+   <sequence>taatgttTCTCATGTgttg</sequence>
+  </segment>
+  <segment id='BE_DMEL.002458' length='16' chromosome='3R' location='12527035'>
+   <sequence>agccgcacACATAAAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.005376' length='25' chromosome='3R' location='12599158'>
+   <sequence>cagccgtcggCCATTAAAaaaggtg</sequence>
+  </segment>
+  <segment id='BE_DMEL.005379' length='34' chromosome='3R' location='12599228'>
+   <sequence>cgcggtaaaagatcgcTCATTAGCagcagctgca</sequence>
+  </segment>
+  <segment id='BE_DMEL.005383' length='19' chromosome='3R' location='12599310'>
+   <sequence>tTTTTATTAgccatggcaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.005385' length='20' chromosome='3R' location='12599330'>
+   <sequence>AAATTATGattgtttcatat</sequence>
+  </segment>
+  <segment id='BE_DMEL.005388' length='18' chromosome='3R' location='12599405'>
+   <sequence>cctATATTACCttgagca</sequence>
+  </segment>
+  <segment id='BE_DMEL.005389' length='23' chromosome='3R' location='12599435'>
+   <sequence>tttcaTTTAATTTgtttagaccc</sequence>
+  </segment>
+ </group>
+</smallbismark>

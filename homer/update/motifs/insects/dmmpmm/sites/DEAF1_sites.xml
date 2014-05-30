@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/DEAF1/DEAF1_ready.xml on ../BE_DMEL-footprint-Bigfoot/DEAF1/DEAF1_footprints.xml (flank_length=4)' size='10'>
+  <segment type='site' id='PMSIT.BE_DMEL.000186.0' length='9' chromosome='2R' location='2013613' strand='revcomp'>
+   <sequence>CCGACGAGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000187.1' length='9' chromosome='2R' location='2013673' strand='revcomp'>
+   <sequence>ACGAAGCAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000188.2' length='9' chromosome='2R' location='2013714' strand='revcomp'>
+   <sequence>CCGAATGGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000189.3' length='9' chromosome='2R' location='2013760' strand='revcomp'>
+   <sequence>CCGAAGAGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000190.4' length='9' chromosome='2R' location='2013775' strand='direct'>
+   <sequence>CCGCAGCGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000191.5' length='9' chromosome='2R' location='2013820' strand='revcomp'>
+   <sequence>CCGACTGAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000192.6' length='9' chromosome='2R' location='2013854' strand='revcomp'>
+   <sequence>ACGAAAAAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000193.7' length='9' chromosome='2R' location='2013897' strand='revcomp'>
+   <sequence>CCGAAACGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000981.8' length='9' chromosome='3R' location='2613194' strand='direct'>
+   <sequence>CCGACTGGC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000986.9' length='9' chromosome='3R' location='2613430' strand='revcomp'>
+   <sequence>ACGAATCAC</sequence>
+  </segment>
+ </group>
+</smallbismark>

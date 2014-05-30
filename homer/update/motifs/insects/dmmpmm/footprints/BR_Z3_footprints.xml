@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=br-Z3</comment>
+ <group name='bismark extracted sequences' size='16'>
+  <segment id='BE_DMEL.004472' length='24' chromosome='X' location='3105444'>
+   <sequence>TTATAGTAAAAGCTCCAGACCACG</sequence>
+  </segment>
+  <segment id='BE_DMEL.004476' length='19' chromosome='X' location='3105544'>
+   <sequence>AATAGAGCTGGTGATTGGT</sequence>
+  </segment>
+  <segment id='BE_DMEL.004479' length='20' chromosome='X' location='3105633'>
+   <sequence>CCTAGTTGAGTCTTGTCTAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.004482' length='20' chromosome='X' location='3105708'>
+   <sequence>AAAACTATTTGATTTGCTCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.004485' length='17' chromosome='X' location='3105730'>
+   <sequence>CAACTAGTACACGCAAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.004489' length='32' chromosome='X' location='3105784'>
+   <sequence>AATAATAAACAAAATAATAAACAAAACCACGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.004491' length='17' chromosome='X' location='3105849'>
+   <sequence>TAAACTAAAGCTGGTGC</sequence>
+  </segment>
+  <segment id='BE_DMEL.004496' length='16' chromosome='X' location='3105939'>
+   <sequence>GTGAAAGACAAGTTCG</sequence>
+  </segment>
+  <segment id='BE_DMEL.004498' length='15' chromosome='X' location='3106077'>
+   <sequence>CAACAAGTTTATCAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.004499' length='20' chromosome='X' location='3106130'>
+   <sequence>GCTTACTTTTAGTTTCTTCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.004500' length='19' chromosome='X' location='3106219'>
+   <sequence>ATGCAGTGGGTATATAAAG</sequence>
+  </segment>
+  <segment id='BE_DMEL.005450' length='15' chromosome='2L' location='19115461'>
+   <sequence>AGATAGTGCTAATCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.005459' length='17' chromosome='2L' location='19115566'>
+   <sequence>GATAATAGTTATAATAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.005461' length='13' chromosome='2L' location='19115597'>
+   <sequence>ATTAATAGTTTAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.001200' length='26' chromosome='3L' location='9354222'>
+   <sequence>TATACATTTGTATCTACATACATACA</sequence>
+  </segment>
+  <segment id='BE_DMEL.001207' length='24' chromosome='3L' location='9354463'>
+   <sequence>TATTATATTATATAGTATGTTTGT</sequence>
+  </segment>
+ </group>
+</smallbismark>

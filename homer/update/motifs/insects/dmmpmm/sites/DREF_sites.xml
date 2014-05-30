@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/DREF/DREF_ready.xml on ../BE_DMEL-footprint-Bigfoot/DREF/DREF_footprints.xml (flank_length=5)' size='9'>
+  <segment type='site' id='PMSIT.BE_DMEL.004539.0' length='10' chromosome='X' location='10590269' strand='direct'>
+   <sequence>TTATCGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006068.1' length='10' chromosome='3R' location='17458944' strand='direct'>
+   <sequence>CAAACGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006069.2' length='10' chromosome='3R' location='17458963' strand='direct'>
+   <sequence>ATTACGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005998.3' length='10' chromosome='3R' location='17497474' strand='direct'>
+   <sequence>ATATCGATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005999.4' length='10' chromosome='3R' location='17497527' strand='direct'>
+   <sequence>ATATCGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006001.5' length='10' chromosome='3R' location='17497661' strand='direct'>
+   <sequence>ATATCGATAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002339.6' length='10' chromosome='3R' location='23064795' strand='direct'>
+   <sequence>ATAACAATCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002340.7' length='10' chromosome='3R' location='23064829' strand='direct'>
+   <sequence>AGCTCGATGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002341.8' length='10' chromosome='3R' location='23064868' strand='direct'>
+   <sequence>TTATCGATAA</sequence>
+  </segment>
+ </group>
+</smallbismark>

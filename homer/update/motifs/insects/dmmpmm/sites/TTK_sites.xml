@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/TTK/TTK_ready.xml on ../BE_DMEL-footprint-Bigfoot/TTK/TTK_footprints.xml (flank_length=2)' size='8'>
+  <segment type='site' id='PMSIT.BE_DMEL.001791.0' length='7' chromosome='2R' location='5485833' strand='revcomp'>
+   <sequence>GGTCCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002756.1' length='7' chromosome='2R' location='5490859' strand='revcomp'>
+   <sequence>GGTCCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002756.2' length='7' chromosome='2R' location='5490873' strand='direct'>
+   <sequence>GGTCCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002758.3' length='7' chromosome='2R' location='5490915' strand='direct'>
+   <sequence>GGTCCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004909.4' length='7' chromosome='3R' location='2685255' strand='direct'>
+   <sequence>TATCCTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004977.5' length='7' chromosome='3R' location='2689868' strand='revcomp'>
+   <sequence>GGTCCTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004980.6' length='7' chromosome='3R' location='2689903' strand='revcomp'>
+   <sequence>TGTCCTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004981.7' length='7' chromosome='3R' location='2689959' strand='revcomp'>
+   <sequence>TATCCCT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005156.8' length='7' chromosome='3R' location='26677884' strand='revcomp'>
+   <sequence>GATCCTG</sequence>
+  </segment>
+ </group>
+</smallbismark>

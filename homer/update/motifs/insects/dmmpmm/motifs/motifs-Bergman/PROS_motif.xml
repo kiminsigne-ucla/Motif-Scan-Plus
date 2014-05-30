@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='pros' id='PROS.MTF' length='7'>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.8</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0.2</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.0666666666666667</a>
+    <c>0.333333333333333</c>
+    <g>0</g>
+    <t>0.6</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.133333333333333</a>
+    <c>0.266666666666667</c>
+    <g>0.4</g>
+    <t>0.2</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.266666666666667</a>
+    <c>0.133333333333333</c>
+    <g>0.266666666666667</g>
+    <t>0.333333333333333</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0666666666666667</a>
+    <c>0.933333333333333</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>0.2</c>
+    <g>0</g>
+    <t>0.8</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

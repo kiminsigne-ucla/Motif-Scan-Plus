@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/GRH/GRH_ready.xml on ../BE_DMEL-footprint-Bigfoot/GRH/GRH_footprints.xml (flank_length=1)' size='9'>
+  <segment type='site' id='PMSIT.BE_DMEL.005241.0' length='6' chromosome='2L' location='2456667' strand='revcomp'>
+   <sequence>AGCAGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005463.1' length='6' chromosome='2L' location='19116293' strand='revcomp'>
+   <sequence>AACCGG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006279.2' length='6' chromosome='3R' location='2581257' strand='direct'>
+   <sequence>AACAAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005549.3' length='6' chromosome='3R' location='2688251' strand='revcomp'>
+   <sequence>AATCAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005550.4' length='6' chromosome='3R' location='2688287' strand='revcomp'>
+   <sequence>AAACAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005551.5' length='6' chromosome='3R' location='2688333' strand='revcomp'>
+   <sequence>AACCAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005552.6' length='6' chromosome='3R' location='2688380' strand='direct'>
+   <sequence>AACCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006161.7' length='6' chromosome='3R' location='12560260' strand='direct'>
+   <sequence>AACCAG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005153.8' length='6' chromosome='3R' location='26677848' strand='revcomp'>
+   <sequence>AGCAAG</sequence>
+  </segment>
+ </group>
+</smallbismark>

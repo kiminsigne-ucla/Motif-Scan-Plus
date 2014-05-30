@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/CAD/CAD_ready.xml on ../BE_DMEL-footprint-Bigfoot/CAD/CAD_footprints.xml (flank_length=4)' size='13'>
+  <segment type='site' id='PMSIT.BE_DMEL.006004.0' length='9' chromosome='2L' location='11455650' strand='direct'>
+   <sequence>ATTATAATT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006005.1' length='9' chromosome='2L' location='11455704' strand='direct'>
+   <sequence>TTTGCGACA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006006.2' length='9' chromosome='2L' location='11455728' strand='revcomp'>
+   <sequence>AGTACGCAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006014.3' length='9' chromosome='2L' location='11455968' strand='direct'>
+   <sequence>TTTTCAATA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006056.4' length='9' chromosome='3L' location='20631233' strand='revcomp'>
+   <sequence>ATTTCGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006060.5' length='9' chromosome='3L' location='20631267' strand='revcomp'>
+   <sequence>TTTAGGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006061.6' length='9' chromosome='3L' location='20631301' strand='direct'>
+   <sequence>TTTGCACGT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006062.7' length='9' chromosome='3L' location='20631323' strand='revcomp'>
+   <sequence>TTTATGACT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006063.8' length='9' chromosome='3L' location='20631350' strand='revcomp'>
+   <sequence>TTTATGGTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006064.9' length='9' chromosome='3L' location='20631389' strand='revcomp'>
+   <sequence>TGTTTGGCT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006066.10' length='9' chromosome='3L' location='20631444' strand='revcomp'>
+   <sequence>TTTCCGCTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004966.11' length='9' chromosome='3R' location='2689578' strand='revcomp'>
+   <sequence>TTTATGGTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004968.12' length='9' chromosome='3R' location='2689652' strand='direct'>
+   <sequence>TTTATGATT</sequence>
+  </segment>
+ </group>
+</smallbismark>

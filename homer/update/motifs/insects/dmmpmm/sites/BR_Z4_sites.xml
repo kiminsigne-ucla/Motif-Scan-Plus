@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/BR_Z4/BR_Z4_ready.xml on ../BE_DMEL-footprint-Bigfoot/BR_Z4/BR_Z4_footprints.xml (flank_length=3)' size='8'>
+  <segment type='site' id='PMSIT.BE_DMEL.004487.0' length='8' chromosome='X' location='3105782' strand='revcomp'>
+   <sequence>ATTATTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004492.1' length='8' chromosome='X' location='3105850' strand='revcomp'>
+   <sequence>TTTAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004495.2' length='8' chromosome='X' location='3105930' strand='revcomp'>
+   <sequence>AATATTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005445.3' length='8' chromosome='2L' location='19115393' strand='direct'>
+   <sequence>AATGGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005447.4' length='8' chromosome='2L' location='19115437' strand='revcomp'>
+   <sequence>ATTAATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005452.5' length='8' chromosome='2L' location='19115470' strand='revcomp'>
+   <sequence>ACTGATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005453.6' length='8' chromosome='2L' location='19115537' strand='direct'>
+   <sequence>ACTAATTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005456.7' length='8' chromosome='2L' location='19115569' strand='direct'>
+   <sequence>AATAGTTA</sequence>
+  </segment>
+ </group>
+</smallbismark>

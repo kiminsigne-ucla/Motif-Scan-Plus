@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='bcd' id='BCD.MTF' length='9'>
+  <PCM length='9'>
+   <pm-column position='1'>
+    <a>5</a>
+    <c>12</c>
+    <g>11</g>
+    <t>6</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>6</a>
+    <c>12</c>
+    <g>5</g>
+    <t>11</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>6</a>
+    <c>0</c>
+    <g>0</g>
+    <t>28</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>33</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>34</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0</a>
+    <c>2</c>
+    <g>3</g>
+    <t>29</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>34</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1</a>
+    <c>27</c>
+    <g>2</g>
+    <t>4</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>4</a>
+    <c>12</c>
+    <g>11</g>
+    <t>7</t>
+   </pm-column>
+  </PCM>
+  <PPM length='9'>
+   <pm-column position='1'>
+    <a>0.147058823529412</a>
+    <c>0.352941176470588</c>
+    <g>0.323529411764706</g>
+    <t>0.176470588235294</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.176470588235294</a>
+    <c>0.352941176470588</c>
+    <g>0.147058823529412</g>
+    <t>0.323529411764706</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.176470588235294</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.823529411764706</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.970588235294118</a>
+    <c>0.0</c>
+    <g>0.0294117647058824</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0</a>
+    <c>0.0588235294117647</c>
+    <g>0.0882352941176471</g>
+    <t>0.852941176470588</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0</a>
+    <c>1.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0294117647058824</a>
+    <c>0.794117647058823</c>
+    <g>0.0588235294117647</g>
+    <t>0.117647058823529</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.117647058823529</a>
+    <c>0.352941176470588</c>
+    <g>0.323529411764706</g>
+    <t>0.205882352941176</t>
+   </pm-column>
+  </PPM>
+  <PWM length='9'>
+   <pm-column position='1'>
+    <a>-0.510825623765991</a>
+    <c>0.336472236621213</c>
+    <g>0.251314428280906</g>
+    <t>-0.336472236621213</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-0.336472236621213</a>
+    <c>0.336472236621213</c>
+    <g>-0.510825623765991</g>
+    <t>0.251314428280906</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-0.336472236621213</a>
+    <c>-3.55534806148941</c>
+    <g>-3.55534806148941</g>
+    <t>1.17203975722293</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.33500106673234</a>
+    <c>-3.55534806148941</c>
+    <g>-1.94591014905531</g>
+    <t>-3.55534806148941</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.36463286433871</a>
+    <c>-3.55534806148941</c>
+    <g>-3.55534806148941</g>
+    <t>-3.55534806148941</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>-3.55534806148941</a>
+    <c>-1.35812348415319</c>
+    <g>-0.990398704027877</g>
+    <t>1.20682587330834</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>-3.55534806148941</a>
+    <c>1.36463286433871</c>
+    <g>-3.55534806148941</g>
+    <t>-3.55534806148941</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>-1.94591014905531</a>
+    <c>1.13599982073973</c>
+    <g>-1.35812348415319</g>
+    <t>-0.722134717433198</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>-0.722134717433198</a>
+    <c>0.336472236621213</c>
+    <g>0.251314428280906</g>
+    <t>-0.18805223150294</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

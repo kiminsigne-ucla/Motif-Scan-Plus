@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/BRK/BRK_ready.xml on ../BE_DMEL-footprint-Bigfoot/BRK/BRK_footprints.xml (flank_length=2)' size='10'>
+  <segment type='site' id='PMSIT.BE_DMEL.000446.0' length='7' chromosome='X' location='4231712' strand='revcomp'>
+   <sequence>GGCGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005392.1' length='7' chromosome='3R' location='2507236' strand='direct'>
+   <sequence>AGCGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005393.2' length='7' chromosome='3R' location='2507367' strand='direct'>
+   <sequence>GGCGCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005394.3' length='7' chromosome='3R' location='2507586' strand='revcomp'>
+   <sequence>GGCGCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005394.4' length='7' chromosome='3R' location='2507587' strand='direct'>
+   <sequence>GGCGCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006261.5' length='7' chromosome='3R' location='2580057' strand='revcomp'>
+   <sequence>GGTGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006262.6' length='7' chromosome='3R' location='2580149' strand='revcomp'>
+   <sequence>AACGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006264.7' length='7' chromosome='3R' location='2580195' strand='revcomp'>
+   <sequence>GACTCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006266.8' length='7' chromosome='3R' location='2580288' strand='revcomp'>
+   <sequence>AGCGCCG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006271.9' length='7' chromosome='3R' location='2580559' strand='revcomp'>
+   <sequence>AGCGCCA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006282.10' length='7' chromosome='3R' location='2581271' strand='revcomp'>
+   <sequence>GGCGCCG</sequence>
+  </segment>
+ </group>
+</smallbismark>

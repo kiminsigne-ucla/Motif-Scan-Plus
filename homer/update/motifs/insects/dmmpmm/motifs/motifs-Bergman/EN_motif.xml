@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='en' id='EN.MTF' length='6'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.0388349514563107</a>
+    <c>0.029126213592233</c>
+    <g>0</g>
+    <t>0.932038834951456</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.0188679245283019</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0.981132075471698</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0288461538461538</a>
+    <c>0.0192307692307692</c>
+    <g>0.0673076923076923</g>
+    <t>0.884615384615385</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.647727272727273</a>
+    <c>0</c>
+    <g>0.238636363636364</g>
+    <t>0.113636363636364</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

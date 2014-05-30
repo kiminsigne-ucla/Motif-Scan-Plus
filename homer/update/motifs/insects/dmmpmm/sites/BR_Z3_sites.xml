@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/BR_Z3/BR_Z3_ready.xml on ../BE_DMEL-footprint-Bigfoot/BR_Z3/BR_Z3_footprints.xml (flank_length=6)' size='16'>
+  <segment type='site' id='PMSIT.BE_DMEL.004472.0' length='11' chromosome='X' location='3105442' strand='direct'>
+   <sequence>ATTTATAGTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004476.1' length='11' chromosome='X' location='3105539' strand='revcomp'>
+   <sequence>TCTATTGTTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004479.2' length='11' chromosome='X' location='3105631' strand='revcomp'>
+   <sequence>TCAACTAGGAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004482.3' length='11' chromosome='X' location='3105709' strand='revcomp'>
+   <sequence>TCAAATAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004485.4' length='11' chromosome='X' location='3105729' strand='direct'>
+   <sequence>ACAACTAGTAC</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004489.5' length='11' chromosome='X' location='3105794' strand='revcomp'>
+   <sequence>TTTATTATTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004491.6' length='11' chromosome='X' location='3105850' strand='revcomp'>
+   <sequence>AGCTTTAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004496.7' length='11' chromosome='X' location='3105933' strand='revcomp'>
+   <sequence>TTCACAAATAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004498.8' length='11' chromosome='X' location='3106076' strand='direct'>
+   <sequence>TCAACAAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004499.9' length='11' chromosome='X' location='3106134' strand='direct'>
+   <sequence>ACTTTTAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.004500.10' length='11' chromosome='X' location='3106232' strand='direct'>
+   <sequence>ATAAAGCGCAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005450.11' length='11' chromosome='2L' location='19115460' strand='revcomp'>
+   <sequence>AGCACTATCTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005459.12' length='11' chromosome='2L' location='19115567' strand='revcomp'>
+   <sequence>ATAACTATTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.005461.13' length='11' chromosome='2L' location='19115597' strand='direct'>
+   <sequence>ATTAATAGTTT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001200.14' length='11' chromosome='3L' location='9354224' strand='direct'>
+   <sequence>TACATTTGTAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001207.15' length='11' chromosome='3L' location='9354470' strand='direct'>
+   <sequence>TTATATAGTAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

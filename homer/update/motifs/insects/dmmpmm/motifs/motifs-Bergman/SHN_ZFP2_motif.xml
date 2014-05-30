@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='shn-ZFP2' id='SHN_ZFP2.MTF' length='11'>
+  <PPM length='11'>
+   <pm-column position='1'>
+    <a>0.11</a>
+    <c>0.06</c>
+    <g>0.83</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.06</a>
+    <c>0</c>
+    <g>0.94</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.89</a>
+    <c>0.11</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.56</a>
+    <c>0.33</c>
+    <g>0</g>
+    <t>0.11</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.39</a>
+    <c>0.11</c>
+    <g>0.06</g>
+    <t>0.44</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.17</a>
+    <c>0</c>
+    <g>0.06</g>
+    <t>0.77</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0</a>
+    <c>0.94</c>
+    <g>0</g>
+    <t>0.06</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0.17</a>
+    <c>0.77</c>
+    <g>0</g>
+    <t>0.06</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

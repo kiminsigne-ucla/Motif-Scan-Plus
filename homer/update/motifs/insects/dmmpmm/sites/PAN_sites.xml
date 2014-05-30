@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/PAN/PAN_ready.xml on ../BE_DMEL-footprint-Bigfoot/PAN/PAN_footprints.xml (flank_length=1)' size='25'>
+  <segment type='site' id='PMSIT.BE_DMEL.000600.0' length='6' chromosome='2L' location='3823221' strand='direct'>
+   <sequence>TTCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000601.1' length='6' chromosome='2L' location='3823276' strand='direct'>
+   <sequence>TTATAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000602.2' length='6' chromosome='2L' location='3823449' strand='revcomp'>
+   <sequence>AACTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000603.3' length='6' chromosome='2L' location='3824004' strand='revcomp'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000604.4' length='6' chromosome='2L' location='3824033' strand='direct'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000605.5' length='6' chromosome='2L' location='3824183' strand='direct'>
+   <sequence>AACAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000606.6' length='6' chromosome='2L' location='3824220' strand='direct'>
+   <sequence>ACAAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000607.7' length='6' chromosome='2L' location='3824307' strand='direct'>
+   <sequence>TTCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.000608.8' length='6' chromosome='2L' location='3824351' strand='revcomp'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002461.9' length='6' chromosome='2R' location='5497187' strand='direct'>
+   <sequence>ATCAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002465.10' length='6' chromosome='2R' location='5497302' strand='direct'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002466.11' length='6' chromosome='2R' location='5497335' strand='direct'>
+   <sequence>TTCACA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002468.12' length='6' chromosome='2R' location='5497354' strand='revcomp'>
+   <sequence>ATCTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002474.13' length='6' chromosome='2R' location='5497506' strand='revcomp'>
+   <sequence>TCCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002476.14' length='6' chromosome='2R' location='5497533' strand='revcomp'>
+   <sequence>ATTAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.002477.15' length='6' chromosome='2R' location='5497592' strand='direct'>
+   <sequence>ATCTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006471.16' length='6' chromosome='3R' location='22997073' strand='revcomp'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006475.17' length='6' chromosome='3R' location='22997252' strand='revcomp'>
+   <sequence>AACAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006476.18' length='6' chromosome='3R' location='22997277' strand='direct'>
+   <sequence>ACGAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006477.19' length='6' chromosome='3R' location='22997379' strand='revcomp'>
+   <sequence>AACTAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006478.20' length='6' chromosome='3R' location='22997407' strand='revcomp'>
+   <sequence>ACCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006482.21' length='6' chromosome='3R' location='22997592' strand='direct'>
+   <sequence>TTCAAT</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006484.22' length='6' chromosome='3R' location='22997608' strand='direct'>
+   <sequence>TTCAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006485.23' length='6' chromosome='3R' location='22997692' strand='direct'>
+   <sequence>AAAAAA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006486.24' length='6' chromosome='3R' location='22997725' strand='direct'>
+   <sequence>ATCAAA</sequence>
+  </segment>
+ </group>
+</smallbismark>

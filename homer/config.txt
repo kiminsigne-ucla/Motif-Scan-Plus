@@ -1,0 +1,14 @@
+# Homer Configuration File (automatically generated)
+#
+# This file is updated from the Homer website and contains information about data available for
+# use with the program.
+#
+# Each section has the same format, which is <tab> separated values specifying:
+# package name <tab> version <tab> description <tab> url <tab> optional parameters (, separated)
+#
+SOFTWARE
+homer	v4.6	Code/Executables, ontologies, motifs for HOMER	http://homer.salk.edu/homer/data/software/homer.v4.6.zip	./	
+ORGANISMS
+PROMOTERS
+GENOMES
+SETTINGS

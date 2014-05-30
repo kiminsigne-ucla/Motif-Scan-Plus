@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='br-Z1' id='BR_Z1.MTF'>
+  <comment name='discrete information content by position'>[-0.513551012452527, -0.713621446664492, -0.448276769810564, -0.64899719438982, -0.608223830831, -0.723286332038023, -0.166659608473895, 0.0]</comment>
+  <comment name='discrete information content'>-3.82261619466032</comment>
+  <comment name='number of sequences in the corresponding alignment'>17</comment>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.705882352941177</a>
+    <c>0.0</c>
+    <g>0.294117647058824</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.647058823529412</a>
+    <c>0.0</c>
+    <g>0.235294117647059</g>
+    <t>0.117647058823529</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.117647058823529</a>
+    <c>0.0</c>
+    <g>0.0588235294117647</g>
+    <t>0.823529411764706</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.705882352941177</a>
+    <c>0.176470588235294</c>
+    <g>0.117647058823529</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.235294117647059</a>
+    <c>0.705882352941177</c>
+    <g>0.0588235294117647</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.470588235294118</a>
+    <c>0.0588235294117647</c>
+    <g>0.0</g>
+    <t>0.470588235294118</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.941176470588235</a>
+    <c>0.0588235294117647</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='4.63953471045955' length='8'>
+   <pm-column position='1'>
+    <a>0.864104092532848</a>
+    <c>-2.89037175789617</c>
+    <g>0.310351020568561</g>
+    <t>-2.89037175789617</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.779218882661715</a>
+    <c>-2.89037175789617</c>
+    <g>0.0973391580621258</g>
+    <t>-0.816951923759933</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>-0.816951923759933</a>
+    <c>-2.89037175789617</c>
+    <g>-1.14814334053615</g>
+    <t>1.01490449226822</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.864104092532848</a>
+    <c>-0.173681594679797</c>
+    <g>-0.546634426377533</g>
+    <t>-2.89037175789617</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-0.188746003724278</a>
+    <c>1.16177214562796</c>
+    <g>-1.14814334053615</g>
+    <t>-2.89037175789617</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.470277354668219</a>
+    <c>-1.14814334053615</c>
+    <g>-2.89037175789617</g>
+    <t>0.470277354668219</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1.14591578820014</a>
+    <c>-1.14814334053615</c>
+    <g>-2.89037175789617</g>
+    <t>-2.89037175789617</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1.20550087437847</a>
+    <c>-2.89037175789617</c>
+    <g>-2.89037175789617</g>
+    <t>-2.89037175789617</t>
+   </pm-column>
+  </PWM>
+  <word-list size='18'>
+   <word score='4.99206158224269'>AGAACAAA</word>
+   <word score='3.1705761228974'>GAGACCAA</word>
+   <word score='4.65798552216984'>GATACACA</word>
+   <word score='5.47339984891859'>AGTAATAA</word>
+   <word score='6.15527957351818'>AATAATAA</word>
+   <word score='6.15527957351818'>AATAATAA</word>
+   <word score='5.19588223670631'>AATAGAAA</word>
+   <word score='4.55910876709653'>ATTAATAA</word>
+   <word score='5.41317947936045'>AGTGCTAA</word>
+   <word score='7.50579772287042'>AATACTAA</word>
+   <word score='6.15527957351818'>AATAATAA</word>
+   <word score='6.95204465090614'>GATACAAA</word>
+   <word score='6.09505920396004'>AATGCAAA</word>
+   <word score='7.50579772287042'>AATACAAA</word>
+   <word score='4.31808815727184'>GTTCCAAA</word>
+   <word score='6.46801203565778'>AATCCAAA</word>
+   <word score='5.67394130684228'>AAAACTAA</word>
+   <word score='5.2323792390939'>GGTCCTAA</word>
+  </word-list>
+ </motif>
+</smallbismark>

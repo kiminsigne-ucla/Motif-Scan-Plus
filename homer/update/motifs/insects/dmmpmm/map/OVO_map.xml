@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='mapping of ../BE_DMEL-footprint-Bigfoot/OVO/OVO_ready.xml on ../BE_DMEL-footprint-Bigfoot/OVO/OVO_footprints.xml (flank_length=1)' size='12'>
+  <segment id='BE_DMEL.001594' length='21' chromosome='X' location='4908875'>
+   <sequence>taacaacttacagTAACAGtg</sequence>
+  </segment>
+  <segment id='BE_DMEL.001595' length='31' chromosome='X' location='4909154'>
+   <sequence>agaaaaataaagCCGTTAaaattgaatttaa</sequence>
+  </segment>
+  <segment id='BE_DMEL.001596' length='25' chromosome='X' location='4909223'>
+   <sequence>cattttaaatgtaaCTGTTAatatg</sequence>
+  </segment>
+  <segment id='BE_DMEL.001597' length='27' chromosome='X' location='4909378'>
+   <sequence>cacgactaCAGTTAgaattagaatgac</sequence>
+  </segment>
+  <segment id='BE_DMEL.001598' length='25' chromosome='X' location='4909462'>
+   <sequence>tcctttttaCAGTTAcatagcaatc</sequence>
+  </segment>
+  <segment id='BE_DMEL.001599' length='21' chromosome='X' location='4909549'>
+   <sequence>tgattttCCGTTGctttttta</sequence>
+  </segment>
+  <segment id='BE_DMEL.006349' length='22' chromosome='X' location='6937187'>
+   <sequence>tgttttcCTGTTActtctcttc</sequence>
+  </segment>
+  <segment id='BE_DMEL.006350' length='23' chromosome='X' location='6937586'>
+   <sequence>gagaagttCCGTTAatcgtacca</sequence>
+  </segment>
+  <segment id='BE_DMEL.006363' length='27' chromosome='X' location='8334700'>
+   <sequence>cgcacctagcaCCGTTAcacgaagaat</sequence>
+  </segment>
+  <segment id='BE_DMEL.006364' length='27' chromosome='X' location='8334976'>
+   <sequence>ttaaaaaactcCTGTTAtcgccgtcta</sequence>
+  </segment>
+  <segment id='BE_DMEL.006365' length='27' chromosome='X' location='8335006'>
+   <sequence>atgacaccgaTAGCGGcatcatctgtt</sequence>
+  </segment>
+  <segment id='BE_DMEL.006366' length='21' chromosome='3R' location='19106285'>
+   <sequence>ccaggaaCCGTTActtctgct</sequence>
+  </segment>
+ </group>
+</smallbismark>

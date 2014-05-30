@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='usp' id='USP.MTF' length='9'>
+  <PPM length='9'>
+   <pm-column position='1'>
+    <a>0.03</a>
+    <c>0.03</c>
+    <g>0.94</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.05</a>
+    <c>0</c>
+    <g>0.95</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0</a>
+    <c>0</c>
+    <g>1</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0</a>
+    <c>0.94</c>
+    <g>0.03</g>
+    <t>0.03</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.95</a>
+    <c>0</c>
+    <g>0.05</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.11</a>
+    <c>0.68</c>
+    <g>0.05</g>
+    <t>0.16</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0.13</a>
+    <c>0.24</c>
+    <g>0.55</g>
+    <t>0.08</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

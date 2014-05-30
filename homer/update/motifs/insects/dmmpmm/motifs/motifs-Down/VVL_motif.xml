@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='vvl' id='VVL.MTF' length='8'>
+  <PPM length='8'>
+   <pm-column position='1'>
+    <a>0.2041119012688529</a>
+    <c>0.011139789800286131</c>
+    <g>0.05351619168039505</g>
+    <t>0.731232117250466</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.05509819156864982</a>
+    <c>0.06157597445007045</c>
+    <g>0.24434825471322383</g>
+    <t>0.6389775792680558</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.149867065724522</a>
+    <c>0.027663360383762787</c>
+    <g>0.01313941620405314</g>
+    <t>0.809330157687662</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.029765240594074698</a>
+    <c>0.01743135007075038</c>
+    <g>0.3096686753261099</g>
+    <t>0.6431347340090642</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.526355438881564</a>
+    <c>0.40821008020430555</c>
+    <g>0.029909409557351517</g>
+    <t>0.03552507135677877</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.9933973462791066</a>
+    <c>0.0014244445712836814</c>
+    <g>0.003784326449451979</g>
+    <t>0.0013938827001578392</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.016760123987121088</a>
+    <c>0.035060168807717125</c>
+    <g>0.009088642676300447</g>
+    <t>0.9390910645288614</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.4329382502403288</a>
+    <c>0.04129040445015285</c>
+    <g>0.1363392174626889</g>
+    <t>0.3894321278468298</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

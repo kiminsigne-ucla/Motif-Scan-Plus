@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='Dfd' id='DFD.MTF'>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0.0520833333333333</a>
+    <c>0.177083333333333</c>
+    <g>0.09375</g>
+    <t>0.677083333333333</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>1.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0416666666666667</a>
+    <c>0.0</c>
+    <g>0.791666666666667</g>
+    <t>0.166666666666667</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.875</a>
+    <c>0.0</c>
+    <g>0.125</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='2.83' length='7'>
+   <pm-column position='1'>
+    <a>-1.47309494826323</a>
+    <c>-0.169801300395585</c>
+    <g>-0.745669656415889</g>
+    <t>0.821501853688341</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-2.83321334405622</a>
+    <c>-2.83321334405622</c>
+    <g>-2.83321334405622</g>
+    <t>1.20307420204009</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.20307420204009</a>
+    <c>-2.83321334405622</c>
+    <g>-2.83321334405622</g>
+    <t>-2.83321334405622</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.20307420204009</a>
+    <c>-2.83321334405622</c>
+    <g>-2.83321334405622</g>
+    <t>-2.83321334405622</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>-2.83321334405622</a>
+    <c>-2.83321334405622</c>
+    <g>-2.83321334405622</g>
+    <t>1.20307420204009</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>-1.63405500139423</a>
+    <c>-2.83321334405622</c>
+    <g>1.27208235856398</g>
+    <t>-0.504054989425891</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1.07206290610816</a>
+    <c>-2.83321334405622</c>
+    <g>-0.489476012537584</g>
+    <t>-2.83321334405622</t>
+   </pm-column>
+  </PWM>
+  <word-list size='24'>
+   <word score='6.41077241641663'>GTAATGA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='3.5102676479169'>TTAATAG</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.20180657853099'>TTAATTA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.98664077243693'>CTAATGA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.98664077243693'>CTAATGA</word>
+   <word score='6.20180657853099'>TTAATTA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.41077241641663'>GTAATGA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.98664077243693'>CTAATGA</word>
+   <word score='6.20180657853099'>TTAATTA</word>
+   <word score='6.41640500787511'>TTAATGG</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='5.68334712456928'>ATAATGA</word>
+   <word score='6.41640500787511'>TTAATGG</word>
+   <word score='5.38030472484265'>NTAATTA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+   <word score='6.98664077243693'>CTAATGA</word>
+   <word score='7.97794392652086'>TTAATGA</word>
+  </word-list>
+ </motif>
+</smallbismark>

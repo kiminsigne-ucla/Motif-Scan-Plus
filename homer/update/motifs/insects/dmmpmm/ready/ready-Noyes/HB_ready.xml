@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='hb' id='HB.MTF' length='12'>
+  <PPM length='12'>
+   <pm-column position='1'>
+    <a>0.448529411764706</a>
+    <c>0.389705882352941</c>
+    <g>0.00735294117647059</g>
+    <t>0.154411764705882</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.272058823529412</a>
+    <c>0.419117647058824</c>
+    <g>0.213235294117647</g>
+    <t>0.0955882352941176</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.360294117647059</a>
+    <c>0.389705882352941</c>
+    <g>0.154411764705882</g>
+    <t>0.0955882352941176</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.742647058823529</a>
+    <c>0.125</c>
+    <g>0.0955882352941176</g>
+    <t>0.0367647058823529</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.889705882352941</a>
+    <c>0.00735294117647059</c>
+    <g>0.0955882352941176</g>
+    <t>0.00735294117647059</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.860294117647059</a>
+    <c>0.0367647058823529</c>
+    <g>0.0661764705882353</g>
+    <t>0.0367647058823529</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.911764705882353</a>
+    <c>0.0588235294117647</c>
+    <g>0.0</g>
+    <t>0.0294117647058824</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.911764705882353</a>
+    <c>0.0588235294117647</c>
+    <g>0.0294117647058824</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>1.0</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.823529411764706</a>
+    <c>0.0882352941176471</c>
+    <g>0.0</g>
+    <t>0.0882352941176471</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0.0294117647058824</a>
+    <c>0.764705882352941</c>
+    <g>0.0588235294117647</g>
+    <t>0.147058823529412</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.595588235294118</a>
+    <c>0.00735294117647059</c>
+    <g>0.272058823529412</g>
+    <t>0.125</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='3.53' length='12'>
+   <pm-column position='1'>
+    <a>0.440643023198595</a>
+    <c>0.602949795145934</c>
+    <g>-3.12549649046082</g>
+    <t>-0.613989383509655</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>-0.0553066869710386</a>
+    <c>0.675339853757547</c>
+    <g>0.00429859686126095</g>
+    <t>-1.08268814578135</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.223103904186501</a>
+    <c>0.602949795145934</c>
+    <g>-0.314834138960333</g>
+    <t>-1.08268814578135</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.942435706095719</a>
+    <c>-0.523048406507221</c>
+    <g>-0.786333203425799</g>
+    <t>-1.99377637017549</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.12248622077559</a>
+    <c>-3.12549649046082</c>
+    <g>-0.786333203425799</g>
+    <t>-3.35445660257255</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.08897659623187</a>
+    <c>-1.70862814027929</c>
+    <g>-1.14471995903912</g>
+    <t>-1.99377637017549</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>1.14690152383587</a>
+    <c>-1.25873419034333</c>
+    <g>-4.64439089914137</g>
+    <t>-2.19942195543982</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>1.14690152383587</a>
+    <c>-1.25873419034333</c>
+    <g>-1.91858644801631</g>
+    <t>-4.64439089914137</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>1.23900533419449</a>
+    <c>-4.64439089914137</c>
+    <g>-4.64439089914137</g>
+    <t>-4.64439089914137</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>1.04544599377218</a>
+    <c>-0.864618376488959</c>
+    <g>-4.64439089914137</g>
+    <t>-1.16036777758478</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>-2.19942195543982</a>
+    <c>1.27446529180314</c>
+    <g>-1.25873419034333</g>
+    <t>-0.661891582301312</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.722689076577773</a>
+    <c>-3.12549649046082</c>
+    <g>0.245848449465089</g>
+    <t>-0.821126674854259</t>
+   </pm-column>
+  </PWM>
+  <word-list size='34'>
+   <word score='8.58813126540269'>ACGCAAAAAACG</word>
+   <word score='5.59929089682984'>CCCAATAAATCN</word>
+   <word score='6.33268027540147'>TGAAAAAAAAGG</word>
+   <word score='10.0137616415569'>TCAAAAAAAACA</word>
+   <word score='9.12606930854953'>ACACAAAAAACG</word>
+   <word score='8.61472011428833'>AGTAAAAAAACG</word>
+   <word score='10.7771986823283'>AGCAAAAAAACA</word>
+   <word score='1.96395925848317'>NNNNNNACATCA</word>
+   <word score='7.76655029729422'>ATAAAAAAAACT</word>
+   <word score='8.10369727129577'>TCAAAAAAACCA</word>
+   <word score='3.27102400557377'>CACAACCCAACA</word>
+   <word score='8.22140095617752'>CCACAAAAAACT</word>
+   <word score='7.09559858346426'>AATAAAAAAATA</word>
+   <word score='8.84084180822385'>AGCAAAAAAATA</word>
+   <word score='5.37089064948038'>CCGTGAAAAACG</word>
+   <word score='9.69021193968568'>ATCAAAAAAACA</word>
+   <word score='2.52797125212153'>ACCGGATAAATA</word>
+   <word score='9.03457016688096'>CAACAAAAAACA</word>
+   <word score='3.15218102140767'>AAGGGAAAAAGG</word>
+   <word score='7.2579053554116'>CATAAAAAAATA</word>
+   <word score='9.86090688042388'>AAAAAAAAAACG</word>
+   <word score='10.3003580552156'>AGCAAAAAAACG</word>
+   <word score='7.39972754490686'>CACAAAAAAATT</word>
+   <word score='11.6105467111719'>CCCAAAAAAACA</word>
+   <word score='7.05656875787536'>ACGAAAAAAAAA</word>
+   <word score='11.2307008202125'>CCAAAAAAAACA</word>
+   <word score='11.6105467111719'>CCCAAAAAAACA</word>
+   <word score='8.10369727129577'>TCAAAAAAACCA</word>
+   <word score='2.58927998469719'>ATGAAGCAAACT</word>
+   <word score='9.72256627562005'>TGCAAAAAAACA</word>
+   <word score='7.71469839289923'>AGAAAAAAATCG</word>
+   <word score='4.20274738356779'>CCAGAGAGAACA</word>
+   <word score='8.9698358001822'>CACAAAAAACCA</word>
+   <word score='10.8799001704433'>CACAAAAAAACA</word>
+  </word-list>
+ </motif>
+</smallbismark>

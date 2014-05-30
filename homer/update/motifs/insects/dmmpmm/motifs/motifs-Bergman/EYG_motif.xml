@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='eyg' id='EYG.MTF' length='19'>
+  <PPM length='19'>
+   <pm-column position='1'>
+    <a>0.15</a>
+    <c>0.15</c>
+    <g>0.42</g>
+    <t>0.28</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.42</a>
+    <c>0.29</c>
+    <g>0.26</g>
+    <t>0.03</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.33</a>
+    <c>0.07</c>
+    <g>0.45</g>
+    <t>0.15</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.08</a>
+    <c>0.11</c>
+    <g>0.21</g>
+    <t>0.6</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.45</a>
+    <c>0.05</c>
+    <g>0.43</g>
+    <t>0.07</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.23</a>
+    <c>0.3</c>
+    <g>0.18</g>
+    <t>0.29</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>0.12</c>
+    <g>0.05</g>
+    <t>0.83</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0</a>
+    <c>0.87</c>
+    <g>0.03</g>
+    <t>0.1</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>1</a>
+    <c>0</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0.02</a>
+    <c>0.98</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0</a>
+    <c>0</c>
+    <g>0</g>
+    <t>1</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.01</a>
+    <c>0.26</c>
+    <g>0.73</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='13'>
+    <a>0.73</a>
+    <c>0.03</c>
+    <g>0.24</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='14'>
+    <a>0.2</a>
+    <c>0.18</c>
+    <g>0.42</g>
+    <t>0.2</t>
+   </pm-column>
+   <pm-column position='15'>
+    <a>0.14</a>
+    <c>0.15</c>
+    <g>0.16</g>
+    <t>0.55</t>
+   </pm-column>
+   <pm-column position='16'>
+    <a>0.38</a>
+    <c>0.27</c>
+    <g>0.3</g>
+    <t>0.05</t>
+   </pm-column>
+   <pm-column position='17'>
+    <a>0.21</a>
+    <c>0.37</c>
+    <g>0.15</g>
+    <t>0.27</t>
+   </pm-column>
+   <pm-column position='18'>
+    <a>0.23</a>
+    <c>0.04</c>
+    <g>0.43</g>
+    <t>0.3</t>
+   </pm-column>
+   <pm-column position='19'>
+    <a>0.16</a>
+    <c>0.37</c>
+    <g>0.18</g>
+    <t>0.29</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

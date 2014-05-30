@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='hb' id='HB.MTF'>
+  <PPM length='6'>
+   <pm-column position='1'>
+    <a>0.533980582524272</a>
+    <c>0.116504854368932</c>
+    <g>0.029126213592233</g>
+    <t>0.320388349514563</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.980582524271845</a>
+    <c>0.0</c>
+    <g>0.00970873786407767</g>
+    <t>0.00970873786407767</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.990291262135922</a>
+    <c>0.0</c>
+    <g>0.0</g>
+    <t>0.00970873786407767</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.951456310679612</a>
+    <c>0.0</c>
+    <g>0.0485436893203883</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.980582524271845</a>
+    <c>0.00970873786407767</c>
+    <g>0.00970873786407767</g>
+    <t>0.0</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.961165048543689</a>
+    <c>0.00970873786407767</c>
+    <g>0.029126213592233</g>
+    <t>0.0</t>
+   </pm-column>
+  </PPM>
+  <PWM threshold='3.08' length='6'>
+   <pm-column position='1'>
+    <a>0.614037397222785</a>
+    <c>-0.592246995617245</c>
+    <g>-1.927700735925</g>
+    <t>0.106674754821508</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>1.21945201593133</a>
+    <c>-4.64439089914137</c>
+    <g>-2.90216248178136</g>
+    <t>-3.14566433783021</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>1.22927646583347</a>
+    <c>-4.64439089914137</c>
+    <g>-4.64439089914137</g>
+    <t>-3.14566433783021</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>1.18938592217338</a>
+    <c>-4.64439089914137</c>
+    <g>-1.44366812067665</g>
+    <t>-4.64439089914137</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>1.21945201593133</a>
+    <c>-2.90216248178136</c>
+    <g>-2.90216248178136</g>
+    <t>-4.64439089914137</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>1.19950872753045</a>
+    <c>-2.90216248178136</c>
+    <g>-1.927700735925</g>
+    <t>-4.64439089914137</t>
+   </pm-column>
+  </PWM>
+ </motif>
+</smallbismark>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <comment name='bismark extraction parameters'>source_id=BE_DMEL,factor_name=ap</comment>
+ <group name='bismark extracted sequences' size='14'>
+  <segment id='BE_DMEL.006467' length='8' chromosome='3R' location='22997008'>
+   <sequence>CTAAATAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006468' length='8' chromosome='3R' location='22997018'>
+   <sequence>TACAATTG</sequence>
+  </segment>
+  <segment id='BE_DMEL.006469' length='8' chromosome='3R' location='22997027'>
+   <sequence>GATTATTA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006470' length='8' chromosome='3R' location='22997058'>
+   <sequence>CTTAATGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006472' length='15' chromosome='3R' location='22997174'>
+   <sequence>GCCACAATCAAGCGA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006473' length='13' chromosome='3R' location='22997200'>
+   <sequence>ATTTTCTGCTTCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006474' length='10' chromosome='3R' location='22997214'>
+   <sequence>TAACAACACA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006479' length='10' chromosome='3R' location='22997413'>
+   <sequence>ATTTTAATTA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006483' length='11' chromosome='3R' location='22997594'>
+   <sequence>CAATTAGCGCA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006487' length='13' chromosome='3R' location='22997731'>
+   <sequence>AGATGATTGCCAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006488' length='7' chromosome='3R' location='22997753'>
+   <sequence>ATATTAT</sequence>
+  </segment>
+  <segment id='BE_DMEL.006489' length='8' chromosome='3R' location='22997763'>
+   <sequence>GAATTATA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006490' length='7' chromosome='3R' location='22997776'>
+   <sequence>TGATTAA</sequence>
+  </segment>
+  <segment id='BE_DMEL.006491' length='8' chromosome='3R' location='22997795'>
+   <sequence>GTAATAAT</sequence>
+  </segment>
+ </group>
+</smallbismark>

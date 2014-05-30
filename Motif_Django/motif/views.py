@@ -15,8 +15,8 @@ def homepage(request):
 def scan(request):
 	return HttpResponse("Scanning for motifs...")
 
-def fail(request):
-	return HttpResponse("Form filled out incorrectly. Please try again")
+def homer(request):
+	return HttpResponse("HOMER page.")
 
 def processForm(request):
 	if request.method == 'POST': # if form has been submitted
@@ -26,7 +26,11 @@ def processForm(request):
 			motifType = form.cleaned_data['motifType']
 			analysisOptions = form.cleaned_data['analysisOptions']
 			inputFile.save()
-			return HttpResponseRedirect('/scan/')
+
+			if motifType == 'known':
+				return HttpResponseRedirect('/homer/')
+			else:
+				return HttpResponseRedirect('/scan/')
 
 	else:
 		form = InputForm() # unbound form

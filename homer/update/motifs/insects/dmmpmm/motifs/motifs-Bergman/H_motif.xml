@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='h' id='H.MTF' length='14'>
+  <PPM length='14'>
+   <pm-column position='1'>
+    <a>0.2</a>
+    <c>0.3</c>
+    <g>0.35</g>
+    <t>0.15</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.262626262626263</a>
+    <c>0.303030303030303</c>
+    <g>0.262626262626263</g>
+    <t>0.171717171717172</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.12</a>
+    <c>0.16</c>
+    <g>0.56</g>
+    <t>0.16</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.19</a>
+    <c>0.15</c>
+    <g>0.58</g>
+    <t>0.08</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0</a>
+    <c>0.96</c>
+    <g>0</g>
+    <t>0.04</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.801980198019802</a>
+    <c>0.118811881188119</c>
+    <g>0</g>
+    <t>0.0792079207920792</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0</a>
+    <c>1</c>
+    <g>0</g>
+    <t>0</t>
+   </pm-column>
+   <pm-column position='8'>
+    <a>0.0303030303030303</a>
+    <c>0</c>
+    <g>0.939393939393939</g>
+    <t>0.0303030303030303</t>
+   </pm-column>
+   <pm-column position='9'>
+    <a>0</a>
+    <c>0.83</c>
+    <g>0.07</g>
+    <t>0.1</t>
+   </pm-column>
+   <pm-column position='10'>
+    <a>0</a>
+    <c>0.12</c>
+    <g>0.71</g>
+    <t>0.17</t>
+   </pm-column>
+   <pm-column position='11'>
+    <a>0.36</a>
+    <c>0.41</c>
+    <g>0.18</g>
+    <t>0.05</t>
+   </pm-column>
+   <pm-column position='12'>
+    <a>0.0495049504950495</a>
+    <c>0.613861386138614</c>
+    <g>0.237623762376238</g>
+    <t>0.099009900990099</t>
+   </pm-column>
+   <pm-column position='13'>
+    <a>0.47</a>
+    <c>0.21</c>
+    <g>0.11</g>
+    <t>0.21</t>
+   </pm-column>
+   <pm-column position='14'>
+    <a>0.151515151515152</a>
+    <c>0.151515151515152</c>
+    <g>0.313131313131313</g>
+    <t>0.383838383838384</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>

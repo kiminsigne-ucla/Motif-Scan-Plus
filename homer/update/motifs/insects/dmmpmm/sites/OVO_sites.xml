@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <group name='best hits of ../BE_DMEL-footprint-Bigfoot/OVO/OVO_ready.xml on ../BE_DMEL-footprint-Bigfoot/OVO/OVO_footprints.xml (flank_length=1)' size='12'>
+  <segment type='site' id='PMSIT.BE_DMEL.001594.0' length='6' chromosome='X' location='4908888' strand='revcomp'>
+   <sequence>CTGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001595.1' length='6' chromosome='X' location='4909166' strand='direct'>
+   <sequence>CCGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001596.2' length='6' chromosome='X' location='4909237' strand='direct'>
+   <sequence>CTGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001597.3' length='6' chromosome='X' location='4909386' strand='direct'>
+   <sequence>CAGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001598.4' length='6' chromosome='X' location='4909471' strand='direct'>
+   <sequence>CAGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.001599.5' length='6' chromosome='X' location='4909556' strand='direct'>
+   <sequence>CCGTTG</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006349.6' length='6' chromosome='X' location='6937194' strand='direct'>
+   <sequence>CTGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006350.7' length='6' chromosome='X' location='6937594' strand='direct'>
+   <sequence>CCGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006363.8' length='6' chromosome='X' location='8334711' strand='direct'>
+   <sequence>CCGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006364.9' length='6' chromosome='X' location='8334987' strand='direct'>
+   <sequence>CTGTTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006365.10' length='6' chromosome='X' location='8335016' strand='revcomp'>
+   <sequence>CCGCTA</sequence>
+  </segment>
+  <segment type='site' id='PMSIT.BE_DMEL.006366.11' length='6' chromosome='3R' location='19106292' strand='direct'>
+   <sequence>CCGTTA</sequence>
+  </segment>
+ </group>
+</smallbismark>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<smallbismark>
+ <comment name='WARNING'>This is a draft version of small-BiSMark. Specification is the subject to change!</comment>
+ <motif name='en' id='EN.MTF'>
+  <PPM length='7'>
+   <pm-column position='1'>
+    <a>0.367210024493736</a>
+    <c>0.00870437783764334</c>
+    <g>0.190414921541663</g>
+    <t>0.433670676126958</t>
+   </pm-column>
+   <pm-column position='2'>
+    <a>0.256306133863085</a>
+    <c>0.152731555634882</c>
+    <g>0.0459113599859086</g>
+    <t>0.545050950516125</t>
+   </pm-column>
+   <pm-column position='3'>
+    <a>0.123723953286718</a>
+    <c>0.0364820393643611</c>
+    <g>0.0213282256337539</g>
+    <t>0.818465781715167</t>
+   </pm-column>
+   <pm-column position='4'>
+    <a>0.524243590918071</a>
+    <c>0.122236331818101</c>
+    <g>0.0808388326054669</g>
+    <t>0.272681244658362</t>
+   </pm-column>
+   <pm-column position='5'>
+    <a>0.946154258489668</a>
+    <c>0.0203463933642237</c>
+    <g>0.00470171466258683</g>
+    <t>0.0287976334835208</t>
+   </pm-column>
+   <pm-column position='6'>
+    <a>0.0980014004399771</a>
+    <c>0.00341451809594912</c>
+    <g>0.00533657917523872</g>
+    <t>0.893247502288835</t>
+   </pm-column>
+   <pm-column position='7'>
+    <a>0.0027478840568316</a>
+    <c>0.00393931764364802</c>
+    <g>0.00647475813128381</g>
+    <t>0.986838040168236</t>
+   </pm-column>
+  </PPM>
+ </motif>
+</smallbismark>
