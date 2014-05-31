@@ -10,6 +10,10 @@ class InputForm(forms.Form):
 		required= False,
 		label = 'Please upload your sequence in FASTA format')
 
+	background = forms.FileField(
+		required = False, 
+		label = 'If you wish to do motif discovery, please upload an appropriate background file in FASTA format')
+
 	motifType = forms.ChoiceField(
 		widget= forms.RadioSelect,
 		required = True,

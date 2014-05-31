@@ -7,7 +7,7 @@
 		<script type="text/javascript">
             window.onload = function() {
 
-            	// $('#motifOptions').hide()
+            	$('#motifOptions').hide()
 
             	var motifType = document.getElementById('id_motifType')
 
@@ -15,7 +15,7 @@
 
          		function expandOptions() {
          			if( {{motifType.value}} == 'known') {
-                    	$('#motif_options').hide();
+                    	$('#motif_options').show();
                 }
 
          	}
@@ -47,11 +47,21 @@
 
 				<br>
 
+        <label for="id_background">If you wish to do motif discovery, please upload an appropriate background file in FASTA format</label>
+        <br>
+        <br>
+        <div class = "fieldWrapper">
+          {{form.background}}
+        </div>
+
+        <br>
+
 				<h4> Step 2. Please select a motif type to scan for </h4>
 				<div class="fieldWrapper">
 					{{form.motifType}}
 				</div>
 
+        <p> If you selected known motif discovery, please choose either DNA or protein motif. If you selected de novo, you may skip this part.</p>
 				<div id = "motifOptions">
 
 					<label for="id_dnaMotifUpload">Your DNA motif file:</label>
@@ -67,14 +77,17 @@
 
 				<br>
 
+        <p> Further options for analysis: </p>
+
 				<div class="fieldWrapper">
    					{{form.analysisOptions}}
    				</div>
 
+
 				<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
         					<button class="btn btn-default">Cancel</button>
-        					<button type="submit" class="btn btn-primary">Start the scan!</button>
+        					<button type="submit" class="btn btn-primary">Submit</button>
      					</div>
    				</div>
 

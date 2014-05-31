@@ -4,7 +4,7 @@ from django.template import RequestContext
 from django.core.urlresolvers import reverse
 from django.core.files.uploadedfile import SimpleUploadedFile
 
-from motif.models import Sequence_File
+from motif.models import seqFile, motifFile, backgroundFile
 from motif.forms import InputForm
 
 
@@ -18,19 +18,36 @@ def scan(request):
 def homer(request):
 	return HttpResponse("HOMER page.")
 
+def motif(request):
+	return HttpResponse("Motif only stuff.")
+
 def processForm(request):
 	if request.method == 'POST': # if form has been submitted
 		form = InputForm(request.POST, request.FILES) # A form bound to the POST data
 		if form.is_valid(): 
-			inputFile = Sequence_File(inputFile = request.FILES['inputFile'])
-			motifType = form.cleaned_data['motifType']
-			analysisOptions = form.cleaned_data['analysisOptions']
-			inputFile.save()
+			if 'inputFile' in request.FILES:
+				seq = seqFile(inputFile = request.FILES['inputFile'])
+				bg = backgroundFile(inputFile = request.FILES['background'])
+				seq.save()
+				bg.save()
 
+			motifType = form.cleaned_data['motifType']
+	
 			if motifType == 'known':
-				return HttpResponseRedirect('/homer/')
+				if 'dnaMotifUpload' in request.FILES:
+					newMotifFile = motifFile(inputFile = request.FILES['dnaMotifUpload'])
+					newMotifFile.save()
+				if 'proteinMotifUpload' in request.FILES:
+					newMotifFile = motifFile(inputFile = request.FILES['proteinMotifUpload'])
+					newMotifFile.save()
+				if 'inputFile' in request.FILES:
+					return HttpResponseRedirect('/homer/')
+				else:
+					return HttpResponseRedirect('/motif/')
 			else:
 				return HttpResponseRedirect('/scan/')
+
+			analysisOptions = form.cleaned_data['analysisOptions']
 
 	else:
 		form = InputForm() # unbound form

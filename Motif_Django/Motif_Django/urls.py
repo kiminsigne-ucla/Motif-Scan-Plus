@@ -13,6 +13,8 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include('motif.urls')),
     url(r'^scan/', views.scan),
-    url(r'^homer/$', views.homer, name='homer')
+    url(r'^homer/$', views.homer, name='homer'),
+    url(r'^motif/$', views.motif)
+
     )
 
