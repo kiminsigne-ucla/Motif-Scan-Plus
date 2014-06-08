@@ -26,9 +26,19 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 # Application definition
 
+TEMPLATE_DIRS = [
+    # os.path.join(PROJECT_ROOT, "templates"),
+    '/home/kimberly/Motif-Scan-Plus/homer/bin',
+    ]
+
+STATICFILES_DIRS = (
+    '/home/kimberly/Motif-Scan-Plus/homer/bin/output',
+)
+    
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',

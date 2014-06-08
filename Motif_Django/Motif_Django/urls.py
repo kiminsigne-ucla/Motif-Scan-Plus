@@ -14,7 +14,9 @@ urlpatterns = patterns('',
     url(r'^$', include('motif.urls')),
     url(r'^scan/', views.scan),
     url(r'^homer/$', views.homer, name='homer'),
-    url(r'^motif/$', views.motif)
-
+    url(r'^knownMotif/$', views.knownMotif),
+    url(r'^denovoMotif/$', views.denovoMotif),
+    url(r'^noMotifType/$', views.noMotifType),
+    url(r'^prosite/$', views.prosite),
     )
 

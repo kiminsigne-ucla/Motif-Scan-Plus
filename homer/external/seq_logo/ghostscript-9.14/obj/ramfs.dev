@@ -1,0 +1,3 @@
+-obj ./obj/gsioram.o ./obj/ramfs.o
+-iodev ram
+-obj ./obj/ramfs.o

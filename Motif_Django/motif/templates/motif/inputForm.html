@@ -40,14 +40,19 @@
 			<form class="form-horizontal" method="POST" enctype="multipart/form-data">
 				{% csrf_token %}
 				<!-- {{ form.as_p}} -->
-				<h4>Step 1. Please upload your sequence in FASTA format. Protein or DNA accepted</h4>
+				<h4>Step 1. Please upload your sequence in FASTA format.</h4>
+        <label for="id_seqType">Please choose either DNA or protein</label>
+        <br>
+        {{form.seqType}}
+        <br>
 				<div class="fieldWrapper">
+          <label for="id_inputFile">FASTA file:</label>
 					{{form.inputFile}}
 				</div>
 
 				<br>
 
-        <label for="id_background">If you wish to do motif discovery, please upload an appropriate background file in FASTA format</label>
+        <label for="id_background">Please upload a background file (highly recommended). If not, your input sequences will be randomized to serve as a background. </label>
         <br>
         <br>
         <div class = "fieldWrapper">
@@ -61,7 +66,10 @@
 					{{form.motifType}}
 				</div>
 
-        <p> If you selected known motif discovery, please choose either DNA or protein motif. If you selected de novo, you may skip this part.</p>
+        <br>
+        <br>
+
+        <h4> If you already have a motif file that you want analyzed, upload it here.</h4>
 				<div id = "motifOptions">
 
 					<label for="id_dnaMotifUpload">Your DNA motif file:</label>
@@ -77,7 +85,7 @@
 
 				<br>
 
-        <p> Further options for analysis: </p>
+        <h4> Further options for analysis: </h4>
 
 				<div class="fieldWrapper">
    					{{form.analysisOptions}}

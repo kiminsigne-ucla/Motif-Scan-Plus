@@ -9,6 +9,8 @@
 SOFTWARE
 homer	v4.6	Code/Executables, ontologies, motifs for HOMER	http://homer.salk.edu/homer/data/software/homer.v4.6.zip	./	
 ORGANISMS
+human	v1.2	Homo sapiens (human) accession and ontology information	http://homer.salk.edu/homer/data/organisms/human.v1.2.zip	data/accession/	9606,NCBI Gene
 PROMOTERS
 GENOMES
+hg19	v5.2	human genome and annotation for UCSC hg19	http://homer.salk.edu/homer/data/genomes/hg19.v5.2.zip	data/genomes/hg19/	human,default
 SETTINGS

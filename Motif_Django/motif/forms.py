@@ -14,6 +14,11 @@ class InputForm(forms.Form):
 		required = False, 
 		label = 'If you wish to do motif discovery, please upload an appropriate background file in FASTA format')
 
+	seqType = forms.ChoiceField(
+		required = True,
+		choices = ([('dna', 'DNA'), ('protein', 'protein')])
+		)
+			
 	motifType = forms.ChoiceField(
 		widget= forms.RadioSelect,
 		required = True,
@@ -21,13 +26,6 @@ class InputForm(forms.Form):
 		choices = ([('known', 'known motif'), ('denovo', 'de novo motif')])
 		)
 
-	# denovoMotif = forms.BooleanField(
-	# 	widget = forms.RadioSelect
-	# 	)
-	# knownMotif = forms.ChoiceField(
-	# 	widget = forms.RadioSelect,
-	# 	choices = ([('dna', 'DNA'), ('protein', 'protein')])
-		# )
 	dnaMotifUpload = forms.FileField(
 		required = False,
 		label ='Your motif file:'
