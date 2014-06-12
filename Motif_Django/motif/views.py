@@ -3,28 +3,35 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext
 from django.core.urlresolvers import reverse
 from django.core.files.uploadedfile import SimpleUploadedFile
-# from django.views.generic.simple import direct_to_template
+import os.path
 
 from motif.models import seqFile,  backgroundFile
 from motif.forms import InputForm
+from motif.tasks import runHomer
 
 import subprocess
-import os
+import os.path
 
 
 # a view that displays the home page 
 def homepage(request):
 	return render(request, 'motif/homepage.html')
 
-def scan(request):
-	return HttpResponse("Scanning for motifs...")
+def fail(request):
+	return HttpResponse("The form was not filled out correctly. Please go back and try again.")
+
+def checkHomerStatus(job):
+	if job.ready() == True:
+		return HttpResponseRedirect('/knownMotif/')
+	else:
+		return HttpResponse("HOMER is running (this will take a few minutes...)")
 
 def homer(request):
-	return HttpResponse("HOMER is running (this may take a few minutes...)")
+	return HttpResponse("HOMER is running (this will take a few minutes...)")
 
 def knownMotif(request):
 	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html')
-
+	
 def denovoMotif(request):
 	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/homerResults.html')
 
@@ -53,38 +60,38 @@ def processForm(request):
 			if 'inputFile' in request.FILES:
 				seq = seqFile(inputFile = request.FILES['inputFile'], seq_type = seqType)
 				seq.save()
-				if seqType == 'dna':
-					if 'background' in request.FILES:
-						bg = backgroundFile(inputFile = request.FILES['background'])
-						bg.save()
-						processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
-					else:
-						processHomer(request.FILES['inputFile'].name, '', motifType)
-						# return HttpResponseRedirect('/homer/')
-					if motifType == 'known':
-						return HttpResponseRedirect('/knownMotif/')
-					elif motifType == 'denovo':
-						return HttpResponseRedirect('/denovoMotif/')
-					else:
-						return HttpResponseRedirect('/noMotifType/')
+				# if seqType == 'dna':
 
-				if seqType == 'protein':
-					if motifType == 'known':
-						return HttpResponseRedirect('/prosite/')
-					if motifType == 'denovo':
-						if 'background' in request.FILES:
-							processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
-						else:
-							processHomer(request.FILES['inputFile'].name, '', motifType)
-						
-			
-			
+				if 'background' in request.FILES:
+					bg = backgroundFile(inputFile = request.FILES['background'])
+					bg.save()
+					processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
+					return HttpResponseRedirect('/homer/')
+				else:
+					processHomer(request.FILES['inputFile'].name, '', motifType)
+					return HttpResponseRedirect('/homer/')
+					# return HttpResponseRedirect('/homer/')
+					# if motifType == 'known':
+					# 	return HttpResponseRedirect('/knownMotif/')
+					# 	# return HttpResponseRedirect('/homer')
+					# elif motifType == 'denovo':
+					# 	return HttpResponseRedirect('/denovoMotif/')
+					# else:
+					# 	return HttpResponseRedirect('/noMotifType/')
 
-			
-
+			# 	if seqType == 'protein':
+			# 		if motifType == 'known':
+			# 			return HttpResponseRedirect('/prosite/')
+			# 		if motifType == 'denovo':
+			# 			if 'background' in request.FILES:
+			# 				processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
+			# 			else:
+			# 				processHomer(request.FILES['inputFile'].name, '', motifType)
+		else:
+			return HttpResponseRedirect('/fail/')
 	else:
 		form = InputForm() # unbound form
-		# return HttpResponseRedirect('/fail')
+		
 
 	return render(request, 'motif/inputForm.html', {'form': form,})
 
@@ -93,23 +100,27 @@ def processHomer(sequence, background, motifType):
 	path = "/home/kimberly/Motif-Scan-Plus/Motif_Django/media/"
 	# output = open('/home/kimberly/Motif-Scan-Plus/homer/output.txt', 'w')
 	inputFile = path + "sequences/" + sequence
-	
-	os.chdir("/home/kimberly/Motif-Scan-Plus/homer/bin")
 
 	if background != '':
 		bgFile = path + "background/" + background
-		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output2/', '-fasta', bgFile])
 	else:
-		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output2/', '-fasta'])
+		bgFile = ''
+
+	result = runHomer.delay(inputFile, bgFile)
+
+	
+# 	os.chdir("/home/kimberly/Motif-Scan-Plus/homer/bin")
+
+# 	if background != '':
+# 		bgFile = path + "background/" + background
+# 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta', bgFile])
+# 	else:
+# 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta'])
 	
 
-	if motifType == 'known':
-		return HttpResponseRedirect('/knownMotif/')
-	elif motifType == 'denovo':
-		return HttpResponseRedirect('/denovoMotif/')
-	# else:
+
 	
-	return HttpResponseRedirect('/homer/')
+
 
 	
 	

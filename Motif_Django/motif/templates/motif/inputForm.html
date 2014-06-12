@@ -1,8 +1,10 @@
 <html>
     <head>
+
+      {% load staticfiles %}
     	<meta charset="utf-8">
 		<title>Motif Scan Plus</title>
-		<link rel="stylesheet" type="text/css" href="./bootstrap/css/cerulean.css">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/cerulean.css' %}">
 
 		<script type="text/javascript">
             window.onload = function() {
@@ -26,12 +28,12 @@
 
      <body>
       	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    	<script src="./bootstrap/js/bootstrap.js"></script>
+    	<script src="{% static 'js/bootstrap.js' %}"></script>
 
     	<div class="container">
 
-    		<h3><i><img src="http://i59.tinypic.com/2e53wd0.jpg" 
-    			width="200", height="100">
+    		<h3><i>
+        <img src="http://i59.tinypic.com/2e53wd0.jpg" width="200", height="100">
     			&nbsp; &nbsp; &nbsp;
     			Your one stop for motif analysis!</i></a></h3>
 			
@@ -52,7 +54,8 @@
 
 				<br>
 
-        <label for="id_background">Please upload a background file (highly recommended). If not, your input sequences will be randomized to serve as a background. </label>
+        <label for="id_background">Please upload a background file (highly recommended). If not, your input sequences will be randomized<br> to serve as a background. 
+        </label>
         <br>
         <br>
         <div class = "fieldWrapper">

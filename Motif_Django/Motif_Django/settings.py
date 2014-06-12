@@ -31,14 +31,15 @@ ALLOWED_HOSTS = []
 # Application definition
 
 TEMPLATE_DIRS = [
-    # os.path.join(PROJECT_ROOT, "templates"),
+    os.path.join(BASE_DIR, "templates"),
     '/home/kimberly/Motif-Scan-Plus/homer/bin',
     ]
-
-STATICFILES_DIRS = (
-    '/home/kimberly/Motif-Scan-Plus/homer/bin/output',
-)
     
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.core.context_processors.static',
+    'django.contrib.auth.context_processors.auth',
+    )
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,7 +47,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'motif'
+    'motif', 
+    'djcelery'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -69,13 +71,15 @@ WSGI_APPLICATION = 'Motif_Django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': '/home/kimberly/Motif-Scan-Plus/Motif_Django/db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'NAME': '/home/kimberly/Motif-Scan-Plus/Motif_Django/db.sqlite3',
     }
 }
 
-MEDIA_ROOT = '/home/kimberly/Motif-Scan-Plus/Motif_Django/media/'
-MEDIA_URL = '/media/'
+# MEDIA_ROOT = '/home/kimberly/Motif-Scan-Plus/Motif_Django/media/'
+# MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = 'http://127.0.0.1:8000/media/'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
@@ -95,3 +99,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/kimberly/Motif-Scan-Plus/Motif_Django/static/'
+
+STATICFILES_DIRS = (
+    '/home/kimberly/Motif-Scan-Plus/Motif_Django/motif/static/motif/',
+    '/home/kimberly/Motif-Scan-Plus/homer/bin/output',
+)
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',)
