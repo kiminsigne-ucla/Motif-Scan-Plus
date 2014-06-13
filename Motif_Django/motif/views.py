@@ -12,6 +12,7 @@ from motif.tasks import runHomer
 import subprocess
 import os.path
 
+result = ''
 
 # a view that displays the home page 
 def homepage(request):
@@ -20,18 +21,23 @@ def homepage(request):
 def fail(request):
 	return HttpResponse("The form was not filled out correctly. Please go back and try again.")
 
-def checkHomerStatus(job):
-	if job.ready() == True:
-		return HttpResponseRedirect('/knownMotif/')
-	else:
-		return HttpResponse("HOMER is running (this will take a few minutes...)")
+# def checkHomerStatus(request):
+# 	if result.ready() == True:
+# 		return HttpResponseRedirect('/knownMotif/')
+# 	else:
+# 		return render('motif/processRunning.html')
+def checkHomerStatus(request):
+	return render(request, 'motif/processRunning.html')
 
 def homer(request):
 	return HttpResponse("HOMER is running (this will take a few minutes...)")
 
-def knownMotif(request):
-	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html')
-	
+# def knownMotif(request):
+# 	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html')
+
+def knownMotif(TemplateView):
+	template_name = '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html'
+
 def denovoMotif(request):
 	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/homerResults.html')
 
@@ -66,10 +72,11 @@ def processForm(request):
 					bg = backgroundFile(inputFile = request.FILES['background'])
 					bg.save()
 					processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
-					return HttpResponseRedirect('/homer/')
+					
 				else:
 					processHomer(request.FILES['inputFile'].name, '', motifType)
-					return HttpResponseRedirect('/homer/')
+					return HttpResponseRedirect('/knownMotif/')
+					# return HttpResponseRedirect('/checkHomerStatus/')
 					# return HttpResponseRedirect('/homer/')
 					# if motifType == 'known':
 					# 	return HttpResponseRedirect('/knownMotif/')
@@ -108,14 +115,15 @@ def processHomer(sequence, background, motifType):
 
 	result = runHomer.delay(inputFile, bgFile)
 
-	
-# 	os.chdir("/home/kimberly/Motif-Scan-Plus/homer/bin")
+	while result.ready() == False:
+		continue
 
-# 	if background != '':
-# 		bgFile = path + "background/" + background
-# 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta', bgFile])
-# 	else:
-# 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta'])
+	# if result.ready() == True:
+
+
+
+	# checkHomerStatus(result)
+
 	
 
 

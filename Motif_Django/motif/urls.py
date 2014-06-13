@@ -5,8 +5,5 @@ from django.conf.urls.static import static
 from motif import views
 
 urlpatterns = patterns('',
-
-	# url(r'^$', views.homepage, name='home'),
 	url(r'^$', views.processForm, name='process')
-
-) + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+)

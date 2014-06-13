@@ -6,24 +6,7 @@
 		<title>Motif Scan Plus</title>
 		<link rel="stylesheet" type="text/css" href="{% static 'css/cerulean.css' %}">
 
-		<script type="text/javascript">
-            window.onload = function() {
 
-            	$('#motifOptions').hide()
-
-            	var motifType = document.getElementById('id_motifType')
-
-         		motifType.onclick = expandOptions
-
-         		function expandOptions() {
-         			if( {{motifType.value}} == 'known') {
-                    	$('#motif_options').show();
-                }
-
-         	}
-
-
-        </script>
     </head>
 
      <body>
@@ -94,6 +77,8 @@
    					{{form.analysisOptions}}
    				</div>
 
+        <h4>Note: Once you press submit, this page will be loading until the motif scan
+          is done, so please be patient and do not hit refresh</h4>
 
 				<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
