@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+      {% load staticfiles %}
+    	<meta charset="utf-8">
+		<title>Motif Scan Plus</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/cerulean.css' %}">
+	
+	<script type="text/Javascript">
+		function timedRefresh(timeoutPeriod) {
+			setTimeout("location.reload(true);", timeoutPeriod);
+		}
+	</script>
+
+	</head>
+
+	<body onload="Javascript:timedRefresh(20000);">
+
+	<h4> HOMER is running...(this will take a few minutes)</h4>
+
+	</body>
+
+</html>
