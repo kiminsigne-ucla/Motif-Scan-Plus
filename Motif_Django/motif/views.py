@@ -67,30 +67,30 @@ def processForm(request):
 		form = InputForm(request.POST, request.FILES) # A form bound to the POST data
 		if form.is_valid(): 
 
-			seqType = form.cleaned_data['seqType']
+			# seqType = form.cleaned_data['seqType']
 			motifType = form.cleaned_data['motifType']
 			analysisOptions = form.cleaned_data['analysisOptions']
 			tomtom = form.cleaned_data['tomtom']
 
 			if 'inputFile' in request.FILES:
-				seq = seqFile(inputFile = request.FILES['inputFile'], seq_type = seqType)
+				seq = seqFile(inputFile = request.FILES['inputFile'])
 				seq.save()
-				if seqType == 'dna':
+				# if seqType == 'dna':
 
-					if 'background' in request.FILES:
-						bg = backgroundFile(inputFile = request.FILES['background'])
-						bg.save()
-						processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
-		
-					else:
-						processHomer(request.FILES['inputFile'].name, '', motifType)
+				if 'background' in request.FILES:
+					bg = backgroundFile(inputFile = request.FILES['background'])
+					bg.save()
+					processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
+	
+				else:
+					processHomer(request.FILES['inputFile'].name, '', motifType)
 
-					
-					
-					if motifType == 'known':
-						return HttpResponseRedirect('/checkHomerStatusKnown/')
-					if motifType == 'denovo':
-						return HttpResponseRedirect('/checkHomerStatusDenovo/')
+				
+				
+				if motifType == 'known':
+					return HttpResponseRedirect('/checkHomerStatusKnown/')
+				if motifType == 'denovo':
+					return HttpResponseRedirect('/checkHomerStatusDenovo/')
 
 			if 'dnaMotifUpload' in request.FILES:
 				motifs = motifFile(inputFile = request.FILES['dnaMotifUpload'])

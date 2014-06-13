@@ -16,7 +16,7 @@ class InputForm(forms.Form):
 
 	seqType = forms.ChoiceField(
 		required = False,
-		choices = ([('dna', 'DNA'), ('protein', 'protein')])
+		choices = ([('dna', 'DNA')])
 		)
 			
 	motifType = forms.ChoiceField(

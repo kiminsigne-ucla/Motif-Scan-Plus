@@ -1,1 +1,0 @@
-cmd = /home/kimberly/Motif-Scan-Plus/crp0.fasta fasta output/ -fasta

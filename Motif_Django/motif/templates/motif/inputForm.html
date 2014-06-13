@@ -26,10 +26,10 @@
 				{% csrf_token %}
 				<!-- {{ form.as_p}} -->
 				<h4>Step 1. Please upload your sequence in FASTA format.</h4>
-        <label for="id_seqType">Please choose either DNA or protein</label>
+        <!-- <label for="id_seqType">Please choose either DNA or protein</label>
         <br>
         {{form.seqType}}
-        <br>
+        <br> -->
 				<div class="fieldWrapper">
           <label for="id_inputFile">FASTA file:</label>
 					{{form.inputFile}}
@@ -37,7 +37,7 @@
 
 				<br>
 
-        <label for="id_background">If you have DNA sequences, please upload a background file in FASTA format (highly recommended). If not, your input sequences will be randomized to serve as a background. 
+        <label for="id_background">Please upload a background file in FASTA format (highly recommended). If not, your input sequences will be randomized to serve as a background. 
         </label>
         <br>
         <br>
