@@ -30,10 +30,11 @@ def checkHomerStatusKnown(request):
 		return HttpResponseRedirect('/knownMotif/')
 
 def checkHomerStatusDenovo(request):
-	os.mkdir('/home/kimberly/Motif-Scan-Plus/homer/bin/output/')
+	# os.mkdir('/home/kimberly/Motif-Scan-Plus/homer/bin/output/')
 	os.chdir('/home/kimberly/Motif-Scan-Plus/homer/bin/output/')
-	tmpFiles = glob.glob("*.tmp")
-	if len(tmpFiles) != 0:
+	# tmpFiles = glob.glob("*.tmp")
+	# if len(tmpFiles) != 0:
+	if os.path.isfile('/home/kimberly/Motif-Scan-Plus/homer/bin/output/group.ug.txt') == True:
 		return render(request, 'motif/runDenovo.html')
 	else:
 		return HttpResponseRedirect('/denovoMotif/')

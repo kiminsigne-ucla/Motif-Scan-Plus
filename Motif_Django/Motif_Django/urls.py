@@ -20,7 +20,7 @@ urlpatterns = patterns('',
     url(r'^fail/$', views.fail),
     url(r'^checkHomerStatusKnown/$', views.checkHomerStatusKnown),
     url(r'^checkHomerStatusDenovo/$', views.checkHomerStatusDenovo),
-    url(r'^checkTomtom/$', views.checkTomtom)
+    url(r'^checkTomtom/$', views.checkTomtom),
     ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
