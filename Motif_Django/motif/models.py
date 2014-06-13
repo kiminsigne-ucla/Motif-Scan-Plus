@@ -6,10 +6,8 @@ class seqFile(models.Model):
 	# protein or DNA
 	seq_type = models.CharField(max_length = 200)
 
-# class motifFile(models.Model):
-# 	inputFile = models.FileField(upload_to='motifs/')
-	# # either de novo or known 
-	# motif_type = models.CharField(max_length = 200)
+class motifFile(models.Model):
+	inputFile = models.FileField(upload_to='motifs/')
 
 class backgroundFile(models.Model):
 	inputFile = models.FileField(upload_to='background/')

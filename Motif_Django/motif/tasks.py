@@ -27,3 +27,8 @@ def runHomer(self, inputFile, bgFile):
 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta', bgFile])
 	else:
 		subprocess.check_call(['./findMotifs.pl', inputFile,'fasta', 'output/', '-fasta'])
+
+@app.task(bind=True)
+def runTomtom(self, inputFile):
+	os.chdir("/home/kimberly/Motif-Scan-Plus/Motif_Django/motif/static/motif")
+	subprocess.check_call(['python', 'tomtom.py', inputFile])

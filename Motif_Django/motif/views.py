@@ -5,12 +5,13 @@ from django.core.urlresolvers import reverse
 from django.core.files.uploadedfile import SimpleUploadedFile
 import os.path
 
-from motif.models import seqFile,  backgroundFile
+from motif.models import seqFile,  backgroundFile, motifFile
 from motif.forms import InputForm
-from motif.tasks import runHomer
+from motif.tasks import runHomer, runTomtom
 
 import subprocess
 import os.path
+import glob 
 
 result = ''
 
@@ -21,25 +22,38 @@ def homepage(request):
 def fail(request):
 	return HttpResponse("The form was not filled out correctly. Please go back and try again.")
 
-# def checkHomerStatus(request):
-# 	if result.ready() == True:
-# 		return HttpResponseRedirect('/knownMotif/')
-# 	else:
-# 		return render('motif/processRunning.html')
-def checkHomerStatus(request):
-	return render(request, 'motif/processRunning.html')
+
+def checkHomerStatusKnown(request):
+	if os.path.isfile('/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html') == False:
+		return render(request, 'motif/runKnown.html')
+	else:
+		return HttpResponseRedirect('/knownMotif/')
+
+def checkHomerStatusDenovo(request):
+	os.mkdir('/home/kimberly/Motif-Scan-Plus/homer/bin/output/')
+	os.chdir('/home/kimberly/Motif-Scan-Plus/homer/bin/output/')
+	tmpFiles = glob.glob("*.tmp")
+	if len(tmpFiles) != 0:
+		return render(request, 'motif/runDenovo.html')
+	else:
+		return HttpResponseRedirect('/denovoMotif/')
+
+def checkTomtom(request):
+	if os.path.isfile('/home/kimberly/Motif-Scan-Plus/Motif_Django/motif/static/motif/done.txt') == False:
+		return render(request, 'motif/runningTomtom.html')
+	else:
+		processTomtom()
+		return HttpResponseRedirect('/static/TomTom_final_output.txt')
+
 
 def homer(request):
 	return HttpResponse("HOMER is running (this will take a few minutes...)")
 
-# def knownMotif(request):
-# 	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html')
-
-def knownMotif(TemplateView):
-	template_name = '/home/kimberly/Motif-Scan-Plus/homer/bin/output/knownResults.html'
+def knownMotif(request):
+	return HttpResponseRedirect('/static/knownResults.html')
 
 def denovoMotif(request):
-	return render(request, '/home/kimberly/Motif-Scan-Plus/homer/bin/output/homerResults.html')
+	return HttpResponseRedirect('/static/homerResults.html')
 
 def noMotifType(request):
 	return HttpResponse("Please go back and pick a motif type.")
@@ -55,45 +69,36 @@ def processForm(request):
 			seqType = form.cleaned_data['seqType']
 			motifType = form.cleaned_data['motifType']
 			analysisOptions = form.cleaned_data['analysisOptions']
-
-			# if 'inputFile' in request.FILES:
-			# 	seq = seqFile(inputFile = request.FILES['inputFile'], seq_type = seqType)
-			# 	seq.save()
-			# if 'background' in request.FILES:
-			# 	bg = backgroundFile(inputFile = request.FILES['background'])
-			# 	bg.save()
+			tomtom = form.cleaned_data['tomtom']
 
 			if 'inputFile' in request.FILES:
 				seq = seqFile(inputFile = request.FILES['inputFile'], seq_type = seqType)
 				seq.save()
-				# if seqType == 'dna':
+				if seqType == 'dna':
 
-				if 'background' in request.FILES:
-					bg = backgroundFile(inputFile = request.FILES['background'])
-					bg.save()
-					processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
+					if 'background' in request.FILES:
+						bg = backgroundFile(inputFile = request.FILES['background'])
+						bg.save()
+						processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
+		
+					else:
+						processHomer(request.FILES['inputFile'].name, '', motifType)
+
 					
-				else:
-					processHomer(request.FILES['inputFile'].name, '', motifType)
-					return HttpResponseRedirect('/knownMotif/')
-					# return HttpResponseRedirect('/checkHomerStatus/')
-					# return HttpResponseRedirect('/homer/')
-					# if motifType == 'known':
-					# 	return HttpResponseRedirect('/knownMotif/')
-					# 	# return HttpResponseRedirect('/homer')
-					# elif motifType == 'denovo':
-					# 	return HttpResponseRedirect('/denovoMotif/')
-					# else:
-					# 	return HttpResponseRedirect('/noMotifType/')
+					
+					if motifType == 'known':
+						return HttpResponseRedirect('/checkHomerStatusKnown/')
+					if motifType == 'denovo':
+						return HttpResponseRedirect('/checkHomerStatusDenovo/')
 
-			# 	if seqType == 'protein':
-			# 		if motifType == 'known':
-			# 			return HttpResponseRedirect('/prosite/')
-			# 		if motifType == 'denovo':
-			# 			if 'background' in request.FILES:
-			# 				processHomer(request.FILES['inputFile'].name, request.FILES['background'].name, motifType)
-			# 			else:
-			# 				processHomer(request.FILES['inputFile'].name, '', motifType)
+			if 'dnaMotifUpload' in request.FILES:
+				motifs = motifFile(inputFile = request.FILES['dnaMotifUpload'])
+				motifs.save()
+				inputFile = '/home/kimberly/Motif-Scan-Plus/Motif_Django/media/motifs/' + request.FILES['dnaMotifUpload'].name
+				runTomtom(inputFile)
+				return HttpResponseRedirect('/checkTomtom/')
+
+
 		else:
 			return HttpResponseRedirect('/fail/')
 	else:
@@ -105,7 +110,6 @@ def processForm(request):
 def processHomer(sequence, background, motifType):
 
 	path = "/home/kimberly/Motif-Scan-Plus/Motif_Django/media/"
-	# output = open('/home/kimberly/Motif-Scan-Plus/homer/output.txt', 'w')
 	inputFile = path + "sequences/" + sequence
 
 	if background != '':
@@ -115,14 +119,24 @@ def processHomer(sequence, background, motifType):
 
 	result = runHomer.delay(inputFile, bgFile)
 
-	while result.ready() == False:
-		continue
+def processTomtom():
+	os.chdir('/home/kimberly/Motif-Scan-Plus/Motif_Django/motif/static/motif')
+	output = open('TomTom_final_output.txt', 'w')
+	for tomtomFile in glob.glob("tomtom_*"):
+		inputFile = open(tomtomFile, 'r')
+		for line in inputFile.readlines():
+			output.write(line)
+		
+		os.remove(tomtomFile)
 
-	# if result.ready() == True:
+	output.close()
+
+	
 
 
 
-	# checkHomerStatus(result)
+
+
 
 	
 

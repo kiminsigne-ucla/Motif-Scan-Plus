@@ -9,8 +9,6 @@ admin.autodiscover()
 from motif import views
 
 urlpatterns = patterns('',
-	# url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root':
-	# 	settings.MEDIA_ROOT}),
     url(r'^home/', include('motif.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include('motif.urls')),
@@ -20,12 +18,10 @@ urlpatterns = patterns('',
     url(r'^noMotifType/$', views.noMotifType),
     url(r'^prosite/$', views.prosite),
     url(r'^fail/$', views.fail),
-    url(r'^checkHomerStatus/$', views.checkHomerStatus),
-    url(r'^static/(?P<path>.*)$', 'django.views.static.serve',
-    	{'document_root': STATICFILES_DIRS}),
-    )
-    # ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    url(r'^checkHomerStatusKnown/$', views.checkHomerStatusKnown),
+    url(r'^checkHomerStatusDenovo/$', views.checkHomerStatusDenovo),
+    url(r'^checkTomtom/$', views.checkTomtom)
+    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
-# static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

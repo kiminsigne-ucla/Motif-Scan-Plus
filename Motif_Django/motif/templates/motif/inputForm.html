@@ -37,7 +37,7 @@
 
 				<br>
 
-        <label for="id_background">Please upload a background file (highly recommended). If not, your input sequences will be randomized<br> to serve as a background. 
+        <label for="id_background">If you have DNA sequences, please upload a background file in FASTA format (highly recommended). If not, your input sequences will be randomized to serve as a background. 
         </label>
         <br>
         <br>
@@ -55,7 +55,7 @@
         <br>
         <br>
 
-        <h4> If you already have a motif file that you want analyzed, upload it here.</h4>
+        <h4>OR If you already have a motif file that you want analyzed, upload it here.</h4>
 				<div id = "motifOptions">
 
 					<label for="id_dnaMotifUpload">Your DNA motif file:</label>
@@ -64,21 +64,24 @@
 					<br>
 					<a href="http://meme.nbcr.net/meme/examples/sample-dna-motif.meme-io"><b>Sample</b></a> DNA minimal motif format file.<br />
 					<br>
-					<label for="id_proteinMotifUpload">Protein motif:</label>
+					<!-- <label for="id_proteinMotifUpload">Protein motif:</label>
 					<br>
-					{{form.proteinMotifUpload}}
+					{{form.proteinMotifUpload}} -->
 				</div>
+
+        <h5>Options for motif file analysis:</h5>
+        {{form.tomtom}}
 
 				<br>
 
-        <h4> Further options for analysis: </h4>
+        <h4> Further options for analysis (Under construction...)</h4>
 
 				<div class="fieldWrapper">
    					{{form.analysisOptions}}
    				</div>
 
         <h4>Note: Once you press submit, this page will be loading until the motif scan
-          is done, so please be patient and do not hit refresh</h4>
+          is done (at least five minutes), so please be patient and do not hit refresh</h4>
 
 				<div class="form-group">
       					<div class="col-lg-10 col-lg-offset-2">
